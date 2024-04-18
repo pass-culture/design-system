@@ -1,0 +1,7 @@
+{
+  "name": "design-system",
+  "version": "0.0.1",
+  "main": "design-tokens.json",
+  "repository": "git@github.com:pass-culture/design-system.git",
+  "private": true
+}
