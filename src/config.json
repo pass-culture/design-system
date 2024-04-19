@@ -5,9 +5,29 @@
         "transformGroup": "css",
         "buildPath": "build/css/",
         "files": [{
-          "destination": "_variables.css",
+          "destination": "variables.css",
           "format": "css/variables"
         }]
+      },
+      "js": {
+        "transformGroup": "js",
+        "buildPath": "build/js/",
+        "files": [
+          {
+            "destination": "index.js",
+            "format": "javascript/es6"
+          }
+        ]
+      },
+      "ts": {
+        "transformGroup": "js",
+        "buildPath": "build/ts/",
+        "files": [
+          {
+            "destination": "index.d.ts",
+            "format": "typings/es6"
+          }
+        ]
       }
     }
   }
