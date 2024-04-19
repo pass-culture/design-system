@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "main": "design-tokens.json",
   "repository": "git@github.com:pass-culture/design-system.git",
+  "scripts": {
+    "build": "node build.js design-tokens.json ./"
+  },
   "private": true
 }

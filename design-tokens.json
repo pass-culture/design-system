@@ -1,5 +1,7 @@
 {
-    "colors": {
-        "primary": "#eb0055"
+    "color": {
+        "primary": "#eb0055",
+        "secondary": "#320096",
+        "secondaryLight": "#6123df"
     }
 }
