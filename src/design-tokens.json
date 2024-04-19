@@ -1,0 +1,10 @@
+{
+    "color": {
+        "primary": {"value": "#eb0055", "comment": "Lorem ipsum"},
+        "secondary": {"value": "#320096"},
+        "secondaryLight": {"value": "#6123df"},
+        "button": {
+            "primary": {"value": "{color.primary}"}
+        }
+    }
+}
