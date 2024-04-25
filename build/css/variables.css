@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Apr 2024 14:27:46 GMT
+ * Generated on Thu, 25 Apr 2024 09:47:07 GMT
  */
 
 :root {
-  --color-primary: #eb0055; /* Lorem ipsum */
-  --color-secondary: #320096;
-  --color-secondary-light: #6123df;
-  --color-button-primary: #eb0055;
+  --font-size-3: 1.3125rem;
+  --color-primary: #222222;
+  --font-family-montserrat: Montserrat;
+  --color-secondary: var(--color-primary);
 }

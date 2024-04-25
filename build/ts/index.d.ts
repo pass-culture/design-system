@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Apr 2024 14:27:46 GMT
+ * Generated on Thu, 25 Apr 2024 09:47:07 GMT
  */
 
 declare module 'design-tokens' {
-  export const ColorPrimary: string;
+  export const FontFamilyMontserrat: string;
   export const ColorSecondary: string;
-  export const ColorSecondaryLight: string;
-  export const ColorButtonPrimary: string;
+  export const ColorPrimary: string;
+  export const FontSize3: string;
 
 }

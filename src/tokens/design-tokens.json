@@ -1,0 +1,20 @@
+{
+    "fontFamily": {
+        "montserrat": {
+          "value": "Montserrat"
+        }
+      },
+      "color": {
+        "secondary": {
+            "value": "{color.primary}"
+        }
+      },
+      "fontSize": {
+        "3": {
+          "value": 21,
+          "attributes": {
+            "category": "size"
+          }
+        }
+      }
+}

@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Apr 2024 14:27:46 GMT
+ * Generated on Thu, 25 Apr 2024 09:47:07 GMT
  */
 
-export const ColorPrimary = "#eb0055"; // Lorem ipsum
-export const ColorSecondary = "#320096";
-export const ColorSecondaryLight = "#6123df";
-export const ColorButtonPrimary = "#eb0055";
+export const FontFamilyMontserrat = "Montserrat";
+export const ColorSecondary = "#333333";
+export const ColorPrimary = "#333333";
+export const FontSize3 = "21rem";
