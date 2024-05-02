@@ -6,7 +6,7 @@ const StyleDictionaryPro = sd.extend('src/configs/config-pro.json')
 
 const sdJeuneFormatter: Formatter = ({ dictionary, file }) => {
   const tokens = JSON.stringify(formatHelpers.minifyDictionary(dictionary.tokens), null, 2)
-  return `${formatHelpers.fileHeader({ file })}const theme = ${tokens} as const;\n`
+  return `${formatHelpers.fileHeader({ file })}export const theme = ${tokens} as const;\n`
 }
 
 StyleDictionaryJeune.registerFormat({

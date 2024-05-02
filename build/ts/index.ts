@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 May 2024 13:30:07 GMT
+ * Generated on Thu, 02 May 2024 15:10:44 GMT
  */
 
-const theme = {
+export const theme = {
   "fontFamily": "Montserrat",
   "lineHeight": {
     "xs": "1.2rem",
