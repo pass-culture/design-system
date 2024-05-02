@@ -1,0 +1,15 @@
+{
+  "source": ["src/tokens/design-tokens.json", "src/tokens/design-tokens-theme-jeunes.json"],
+  "platforms": {
+    "ts": {
+      "transforms": ["attribute/cti", "name/cti/pascal", "size/pxToRem", "color/hex" ],
+      "buildPath": "build/ts/",
+      "files": [
+        {
+          "destination": "index.d.ts",
+          "format": "typings/es6"
+        }
+      ]
+    }
+  }
+}
