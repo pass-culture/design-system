@@ -1,13 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 May 2024 13:03:32 GMT
+ * Generated on Thu, 02 May 2024 13:30:07 GMT
  */
 
 :root {
-  --color-primary: #222222;
   --text-decoration-underline: underline;
   --text-case-uppercase: uppercase;
-  --paragraph-spacing-0: 0;
   --font-size-xl: 1.75rem;
   --font-size-l: 1.3125rem;
   --font-size-m: 1.1875rem;
@@ -17,13 +15,13 @@
   --font-weight-semi-bold: 600;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
-  --line-height-xxxl: 44.8;
-  --line-height-xxl: 33.6;
-  --line-height-xl: 30.4;
-  --line-height-l: 27.2;
-  --line-height-m: 25.6;
-  --line-height-s: 22.4;
-  --line-height-xs: 19.2;
+  --line-height-xxxl: 2.8rem;
+  --line-height-xxl: 2.1rem;
+  --line-height-xl: 1.9rem;
+  --line-height-l: 1.7rem;
+  --line-height-m: 1.6rem;
+  --line-height-s: 1.4rem;
+  --line-height-xs: 1.2rem;
   --font-family: Montserrat;
   --typography-button-text-case: var(--text-case-uppercase);
   --typography-button-font-size: var(--font-size-m);

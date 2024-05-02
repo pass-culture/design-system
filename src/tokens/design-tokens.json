@@ -1,100 +1,98 @@
 {
   "fontFamily": {
-    "value": "Montserrat",
-    "type": "fontFamilies"
+    "value": "Montserrat"
   },
   "lineHeight": {
     "xs": {
       "value": "19.2",
-      "type": "lineHeights"
+      "attributes": {
+        "category": "size"
+      }
     },
     "s": {
       "value": "22.4",
-      "type": "lineHeights"
+      "attributes": {
+        "category": "size"
+      }
     },
     "m": {
       "value": "25.6",
-      "type": "lineHeights"
+      "attributes": {
+        "category": "size"
+      }
     },
     "l": {
       "value": "27.2",
-      "type": "lineHeights"
+      "attributes": {
+        "category": "size"
+      }
     },
     "xl": {
       "value": "30.4",
-      "type": "lineHeights"
+      "attributes": {
+        "category": "size"
+      }
     },
     "xxl": {
       "value": "33.6",
-      "type": "lineHeights"
+      "attributes": {
+        "category": "size"
+      }
     },
     "xxxl": {
       "value": "44.8",
-      "type": "lineHeights"
+      "attributes": {
+        "category": "size"
+      }
     }
   },
   "fontWeight": {
     "bold": {
-      "value": "700",
-      "type": "fontWeights"
+      "value": "700"
     },
     "medium": {
-      "value": "500",
-      "type": "fontWeights"
+      "value": "500"
     },
     "semiBold": {
-      "value": "600",
-      "type": "fontWeights"
+      "value": "600"
     }
   },
   "fontSize": {
     "xxs": {
       "value": "12",
-      "type": "fontSizes",
       "attributes": {
         "category": "size"
       }
     },
     "xs": {
       "value": "14",
-      "type": "fontSizes",
       "attributes": {
         "category": "size"
       }
     },
     "s": {
       "value": "16",
-      "type": "fontSizes",
       "attributes": {
         "category": "size"
       }
     },
     "m": {
       "value": "19",
-      "type": "fontSizes",
       "attributes": {
         "category": "size"
       }
     },
     "l": {
       "value": "21",
-      "type": "fontSizes",
       "attributes": {
         "category": "size"
       }
     },
     "xl": {
       "value": "28",
-      "type": "fontSizes",
       "attributes": {
         "category": "size"
       }
-    }
-  },
-  "paragraphSpacing": {
-    "0": {
-      "value": "0",
-      "type": "paragraphSpacing"
     }
   },
   "typography": {
@@ -273,14 +271,12 @@
   },
   "textCase": {
     "uppercase": {
-      "value": "uppercase",
-      "type": "textCase"
+      "value": "uppercase"
     }
   },
   "textDecoration": {
     "underline": {
-      "value": "underline",
-      "type": "textDecoration"
+      "value": "underline"
     }
   }
 }

@@ -1,18 +1,18 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 May 2024 13:03:32 GMT
+ * Generated on Thu, 02 May 2024 13:30:07 GMT
  */
 
 const theme = {
   "fontFamily": "Montserrat",
   "lineHeight": {
-    "xs": "19.2",
-    "s": "22.4",
-    "m": "25.6",
-    "l": "27.2",
-    "xl": "30.4",
-    "xxl": "33.6",
-    "xxxl": "44.8"
+    "xs": "1.2rem",
+    "s": "1.4rem",
+    "m": "1.6rem",
+    "l": "1.7rem",
+    "xl": "1.9rem",
+    "xxl": "2.1rem",
+    "xxxl": "2.8rem"
   },
   "fontWeight": {
     "bold": "700",
@@ -26,9 +26,6 @@ const theme = {
     "m": "1.1875rem",
     "l": "1.3125rem",
     "xl": "1.75rem"
-  },
-  "paragraphSpacing": {
-    "0": "0"
   },
   "typography": {
     "title1": {
@@ -60,13 +57,13 @@ const theme = {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
       "fontSize": "1rem",
-      "lineHeight": "22.4"
+      "lineHeight": "1.4rem"
     },
     "bodyXs": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
       "fontSize": "0.75rem",
-      "lineHeight": "19.2"
+      "lineHeight": "1.2rem"
     },
     "bodySemiBold": {
       "fontFamily": "Montserrat",
@@ -77,7 +74,7 @@ const theme = {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
       "fontSize": "0.875rem",
-      "lineHeight": "22.4"
+      "lineHeight": "1.4rem"
     },
     "bodyItalic": {
       "fontFamily": "Montserrat",
@@ -93,7 +90,7 @@ const theme = {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
       "fontSize": "0.75rem",
-      "lineHeight": "19.2"
+      "lineHeight": "1.2rem"
     },
     "link": {
       "fontFamily": "Montserrat",
@@ -113,8 +110,5 @@ const theme = {
   },
   "textDecoration": {
     "underline": "underline"
-  },
-  "color": {
-    "primary": "#333333"
   }
 } as const;
