@@ -5,9 +5,12 @@
   "repository": "git@github.com:pass-culture/design-system.git",
   "private": true,
   "scripts": {
-    "build": "node src/build.js"
+    "build": "ts-node src/build.ts"
   },
   "devDependencies": {
-    "style-dictionary": "^3.9.2"
+    "@types/node": "^20.12.7",
+    "style-dictionary": "^3.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9"
   }
 }

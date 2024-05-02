@@ -1,18 +1,8 @@
 {
   "source": ["src/tokens/design-tokens.json", "src/tokens/design-tokens-theme-jeunes.json"],
   "platforms": {
-    "js": {
-      "transformGroup": "js",
-      "buildPath": "build/js/",
-      "files": [
-        {
-          "destination": "index.js",
-          "format": "javascript/es6"
-        }
-      ]
-    },
     "ts": {
-      "transformGroup": "js",
+      "transforms": ["attribute/cti", "name/cti/pascal", "size/pxToRem", "color/hex" ],
       "buildPath": "build/ts/",
       "files": [
         {
