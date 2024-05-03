@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 May 2024 15:10:44 GMT
+ * Generated on Fri, 03 May 2024 14:07:44 GMT
  */
 
 :root {
-  --text-decoration-underline: underline;
-  --text-case-uppercase: uppercase;
+  --typography-button-text-transform: uppercase;
+  --typography-link-text-decoration: underline;
   --font-size-xl: 1.75rem;
   --font-size-l: 1.3125rem;
   --font-size-m: 1.1875rem;
@@ -23,11 +23,9 @@
   --line-height-s: 1.4rem;
   --line-height-xs: 1.2rem;
   --font-family: Montserrat;
-  --typography-button-text-case: var(--text-case-uppercase);
   --typography-button-font-size: var(--font-size-m);
   --typography-button-font-weight: var(--font-weight-bold);
   --typography-button-font-family: var(--font-family);
-  --typography-link-text-decoration: var(--text-decoration-underline);
   --typography-link-font-size: var(--font-size-m);
   --typography-link-font-weight: var(--font-weight-bold);
   --typography-link-font-family: var(--font-family);

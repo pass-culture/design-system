@@ -251,7 +251,7 @@
         "value": "{fontSize.m}"
       },
       "textDecoration": {
-        "value": "{textDecoration.underline}"
+        "value": "underline"
       }
     },
     "button": {
@@ -264,19 +264,9 @@
       "fontSize": {
         "value": "{fontSize.m}"
       },
-      "textCase": {
-        "value": "{textCase.uppercase}"
+      "textTransform": {
+        "value": "uppercase"
       }
-    }
-  },
-  "textCase": {
-    "uppercase": {
-      "value": "uppercase"
-    }
-  },
-  "textDecoration": {
-    "underline": {
-      "value": "underline"
     }
   }
 }

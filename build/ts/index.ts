@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 May 2024 15:10:44 GMT
+ * Generated on Fri, 03 May 2024 14:07:44 GMT
  */
 
 export const theme = {
@@ -102,13 +102,7 @@ export const theme = {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
       "fontSize": "1.1875rem",
-      "textCase": "uppercase"
+      "textTransform": "uppercase"
     }
-  },
-  "textCase": {
-    "uppercase": "uppercase"
-  },
-  "textDecoration": {
-    "underline": "underline"
   }
 } as const;
