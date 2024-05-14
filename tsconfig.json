@@ -1,11 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "target": "es5",
+    "allowJs": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "skipLibCheck": true,
-  }
+    "noImplicitOverride": true,
+    "module": "CommonJS",
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "lib": ["es2022"],
+  },
+  "include": [
+    "build/ts/*"
+  ]
 }
