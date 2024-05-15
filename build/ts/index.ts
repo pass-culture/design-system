@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 15 May 2024 13:05:24 GMT
+ * Generated on Wed, 15 May 2024 13:49:27 GMT
  */
 
 export const theme = {
@@ -35,30 +35,35 @@ export const theme = {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
       "fontSize": "1.75rem",
+      "lineHeight": "2.8rem",
       "color": "#161617"
     },
     "title2": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
       "fontSize": "1.3125rem",
+      "lineHeight": "2.1rem",
       "color": "#161617"
     },
     "title3": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
       "fontSize": "1.75rem",
+      "lineHeight": "1.9rem",
       "color": "#161617"
     },
     "title4": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
       "fontSize": "1.3125rem",
+      "lineHeight": "1.7rem",
       "color": "#161617"
     },
     "body": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
       "fontSize": "1.1875rem",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodyS": {
@@ -79,6 +84,7 @@ export const theme = {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
       "fontSize": "1.1875rem",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodySemiBoldS": {
@@ -92,12 +98,14 @@ export const theme = {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
       "fontSize": "1.1875rem",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodyItalicSemiBold": {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
       "fontSize": "1.1875rem",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodySemiboldXs": {
@@ -112,6 +120,7 @@ export const theme = {
       "fontWeight": "700",
       "fontSize": "1.1875rem",
       "textDecoration": "underline",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "button": {
@@ -119,6 +128,7 @@ export const theme = {
       "fontWeight": "700",
       "fontSize": "1.1875rem",
       "textTransform": "uppercase",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     }
   }
