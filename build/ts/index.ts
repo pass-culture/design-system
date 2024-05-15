@@ -1,9 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 May 2024 14:07:44 GMT
+ * Generated on Wed, 15 May 2024 13:05:24 GMT
  */
 
 export const theme = {
+  "color": {
+    "black": "#161617"
+  },
   "fontFamily": "Montserrat",
   "lineHeight": {
     "xs": "1.2rem",
@@ -31,78 +34,92 @@ export const theme = {
     "title1": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
-      "fontSize": "1.75rem"
+      "fontSize": "1.75rem",
+      "color": "#161617"
     },
     "title2": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
-      "fontSize": "1.3125rem"
+      "fontSize": "1.3125rem",
+      "color": "#161617"
     },
     "title3": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
-      "fontSize": "1.75rem"
+      "fontSize": "1.75rem",
+      "color": "#161617"
     },
     "title4": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
-      "fontSize": "1.3125rem"
+      "fontSize": "1.3125rem",
+      "color": "#161617"
     },
     "body": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
-      "fontSize": "1.1875rem"
+      "fontSize": "1.1875rem",
+      "color": "#161617"
     },
     "bodyS": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
       "fontSize": "1rem",
-      "lineHeight": "1.4rem"
+      "lineHeight": "1.4rem",
+      "color": "#161617"
     },
     "bodyXs": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
       "fontSize": "0.75rem",
-      "lineHeight": "1.2rem"
+      "lineHeight": "1.2rem",
+      "color": "#161617"
     },
     "bodySemiBold": {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
-      "fontSize": "1.1875rem"
+      "fontSize": "1.1875rem",
+      "color": "#161617"
     },
     "bodySemiBoldS": {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
       "fontSize": "0.875rem",
-      "lineHeight": "1.4rem"
+      "lineHeight": "1.4rem",
+      "color": "#161617"
     },
     "bodyItalic": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
-      "fontSize": "1.1875rem"
+      "fontSize": "1.1875rem",
+      "color": "#161617"
     },
     "bodyItalicSemiBold": {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
-      "fontSize": "1.1875rem"
+      "fontSize": "1.1875rem",
+      "color": "#161617"
     },
     "bodySemiboldXs": {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
       "fontSize": "0.75rem",
-      "lineHeight": "1.2rem"
+      "lineHeight": "1.2rem",
+      "color": "#161617"
     },
     "link": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
       "fontSize": "1.1875rem",
-      "textDecoration": "underline"
+      "textDecoration": "underline",
+      "color": "#161617"
     },
     "button": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
       "fontSize": "1.1875rem",
-      "textTransform": "uppercase"
+      "textTransform": "uppercase",
+      "color": "#161617"
     }
   }
 } as const;

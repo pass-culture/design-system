@@ -1,4 +1,9 @@
 {
+  "color": {
+    "black": {
+      "value": "#161617"
+    }
+  },
   "fontFamily": {
     "value": "Montserrat"
   },
@@ -105,6 +110,9 @@
       },
       "fontSize": {
         "value": "{fontSize.xl}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "title2": {
@@ -116,6 +124,9 @@
       },
       "fontSize": {
         "value": "{fontSize.l}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "title3": {
@@ -127,6 +138,9 @@
       },
       "fontSize": {
         "value": "{fontSize.xl}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "title4": {
@@ -138,6 +152,9 @@
       },
       "fontSize": {
         "value": "{fontSize.l}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "body": {
@@ -149,6 +166,9 @@
       },
       "fontSize": {
         "value": "{fontSize.m}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "bodyS": {
@@ -163,6 +183,9 @@
       },
       "lineHeight": {
         "value": "{lineHeight.s}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "bodyXs": {
@@ -177,6 +200,9 @@
       },
       "lineHeight": {
         "value": "{lineHeight.xs}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "bodySemiBold": {
@@ -188,6 +214,9 @@
       },
       "fontSize": {
         "value": "{fontSize.m}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "bodySemiBoldS": {
@@ -202,6 +231,9 @@
       },
       "lineHeight": {
         "value": "{lineHeight.s}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "bodyItalic": {
@@ -213,6 +245,9 @@
       },
       "fontSize": {
         "value": "{fontSize.m}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "bodyItalicSemiBold": {
@@ -224,6 +259,9 @@
       },
       "fontSize": {
         "value": "{fontSize.m}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "bodySemiboldXs": {
@@ -238,6 +276,9 @@
       },
       "lineHeight": {
         "value": "{lineHeight.xs}"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "link": {
@@ -252,6 +293,9 @@
       },
       "textDecoration": {
         "value": "underline"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     },
     "button": {
@@ -266,6 +310,9 @@
       },
       "textTransform": {
         "value": "uppercase"
+      },
+      "color": {
+        "value": "{color.black}"
       }
     }
   }
