@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 15 May 2024 13:49:27 GMT
+ * Generated on Wed, 15 May 2024 15:03:35 GMT
  */
 
 export const theme = {
@@ -48,28 +48,28 @@ export const theme = {
     "title3": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
-      "fontSize": "1.75rem",
+      "fontSize": "1.1875rem",
       "lineHeight": "1.9rem",
       "color": "#161617"
     },
     "title4": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
-      "fontSize": "1.3125rem",
+      "fontSize": "1rem",
       "lineHeight": "1.7rem",
       "color": "#161617"
     },
     "body": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
-      "fontSize": "1.1875rem",
+      "fontSize": "1rem",
       "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodyS": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
-      "fontSize": "1rem",
+      "fontSize": "0.875rem",
       "lineHeight": "1.4rem",
       "color": "#161617"
     },
@@ -83,7 +83,7 @@ export const theme = {
     "bodySemiBold": {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
-      "fontSize": "1.1875rem",
+      "fontSize": "1rem",
       "lineHeight": "1.6rem",
       "color": "#161617"
     },
@@ -97,14 +97,14 @@ export const theme = {
     "bodyItalic": {
       "fontFamily": "Montserrat",
       "fontWeight": "500",
-      "fontSize": "1.1875rem",
+      "fontSize": "1rem",
       "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodyItalicSemiBold": {
       "fontFamily": "Montserrat",
       "fontWeight": "600",
-      "fontSize": "1.1875rem",
+      "fontSize": "1rem",
       "lineHeight": "1.6rem",
       "color": "#161617"
     },
@@ -118,7 +118,7 @@ export const theme = {
     "link": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
-      "fontSize": "1.1875rem",
+      "fontSize": "1rem",
       "textDecoration": "underline",
       "lineHeight": "1.6rem",
       "color": "#161617"
@@ -126,7 +126,7 @@ export const theme = {
     "button": {
       "fontFamily": "Montserrat",
       "fontWeight": "700",
-      "fontSize": "1.1875rem",
+      "fontSize": "1rem",
       "textTransform": "uppercase",
       "lineHeight": "1.6rem",
       "color": "#161617"
