@@ -111,6 +111,9 @@
       "fontSize": {
         "value": "{fontSize.xl}"
       },
+      "lineHeight": {
+        "value": "{lineHeight.xxxl}"
+      },
       "color": {
         "value": "{color.black}"
       }
@@ -124,6 +127,9 @@
       },
       "fontSize": {
         "value": "{fontSize.l}"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.xxl}"
       },
       "color": {
         "value": "{color.black}"
@@ -139,6 +145,9 @@
       "fontSize": {
         "value": "{fontSize.xl}"
       },
+      "lineHeight": {
+        "value": "{lineHeight.xl}"
+      },
       "color": {
         "value": "{color.black}"
       }
@@ -153,6 +162,9 @@
       "fontSize": {
         "value": "{fontSize.l}"
       },
+      "lineHeight": {
+        "value": "{lineHeight.l}"
+      },
       "color": {
         "value": "{color.black}"
       }
@@ -166,6 +178,9 @@
       },
       "fontSize": {
         "value": "{fontSize.m}"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.m}"
       },
       "color": {
         "value": "{color.black}"
@@ -215,6 +230,9 @@
       "fontSize": {
         "value": "{fontSize.m}"
       },
+      "lineHeight": {
+        "value": "{lineHeight.m}"
+      },
       "color": {
         "value": "{color.black}"
       }
@@ -246,6 +264,9 @@
       "fontSize": {
         "value": "{fontSize.m}"
       },
+      "lineHeight": {
+        "value": "{lineHeight.m}"
+      },
       "color": {
         "value": "{color.black}"
       }
@@ -259,6 +280,9 @@
       },
       "fontSize": {
         "value": "{fontSize.m}"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.m}"
       },
       "color": {
         "value": "{color.black}"
@@ -294,6 +318,9 @@
       "textDecoration": {
         "value": "underline"
       },
+      "lineHeight": {
+        "value": "{lineHeight.m}"
+      },
       "color": {
         "value": "{color.black}"
       }
@@ -310,6 +337,9 @@
       },
       "textTransform": {
         "value": "uppercase"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.m}"
       },
       "color": {
         "value": "{color.black}"
