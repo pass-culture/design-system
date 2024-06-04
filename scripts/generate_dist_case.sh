@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -o errexit -o nounset -o pipefail
+
 latest_tag=$(curl -sL "https://api.github.com/repos/pass-culture/design-system/tags" | jq -r '.[0].name')
 version=${latest_tag#v}  
 
@@ -13,7 +15,14 @@ git switch --create generate-dist-case
 yarn tsc
 git add dist/
 git commit --message "$next_tag"
-git tag "$next_tag"
-git push origin "$next_tag"
-git switch -
-git branch -D generate-dist-case
+
+
+read -p "Are you sure? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    git tag "$next_tag"
+    git push origin "$next_tag"
+    git switch -
+    git branch -D generate-dist-case
+fi
