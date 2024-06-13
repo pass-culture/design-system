@@ -19,7 +19,7 @@ const sdFontFacesFormatter: Formatter = ({ dictionary, file }) => {
       ` font-family: "${token.family}";`,
       token.style ? ` font-style: "${token.style}";` : '',
       token.weight ? ` font-weight: "${token.weight}";` : '',
-      ` src: "${token.src}";`,
+      ` src: ${token.src};`,
       ` unicode-range: "${token['unicode-range']}";`,
       '}',
     ]
