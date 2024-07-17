@@ -12,6 +12,9 @@
       "weight": {
         "value": "{fontWeight.bold}"
       },
+      "display":{
+        "value":"swap"
+      },
       "style": {
         "value": "normal"
       },
@@ -28,6 +31,9 @@
       },
       "weight": {
         "value": "{fontWeight.semiBold}"
+      },
+      "display":{
+        "value":"swap"
       },
       "style": {
         "value": "normal"
@@ -46,6 +52,9 @@
       "weight": {
         "value": "{fontWeight.semiBold}"
       },
+      "display":{
+        "value":"swap"
+      },
       "style": {
         "value": "italic"
       },
@@ -63,6 +72,9 @@
       "weight": {
         "value": "{fontWeight.medium}"
       },
+      "display":{
+        "value":"swap"
+      },
       "style": {
         "value": "normal"
       },
@@ -77,11 +89,14 @@
       "family": {
         "value": "Montserrat-MediumItalic"
       },
+      "weight": {
+        "value": "{fontWeight.medium}"
+      },
       "style": {
         "value": "italic"
       },
-      "weight": {
-        "value": "{fontWeight.medium}"
+      "display":{
+        "value":"swap"
       },
       "src": {
         "value": "url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0oJC8MLnbtg.woff) format('woff2')"

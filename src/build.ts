@@ -1,7 +1,8 @@
 import { formatHelpers, Formatter, TransformedToken, TransformedTokens } from 'style-dictionary'
 
 const sd = require('style-dictionary')
-const StyleDictionaryJeune = sd.extend('src/configs/config-jeunes.json')
+const StyleDictionaryJeuneNative = sd.extend('src/configs/config-jeunes.json')
+const StyleDictionaryJeuneWeb = sd.extend('src/configs/config-jeunes-web.json')
 const StyleDictionaryPro = sd.extend('src/configs/config-pro.json')
 
 const sdJeuneFormatter: Formatter = ({ dictionary, file }) => {
@@ -20,6 +21,7 @@ const sdFontFacesFormatter: Formatter = ({ dictionary, file }) => {
       token.style ? ` font-style: "${token.style}";` : '',
       token.weight ? ` font-weight: "${token.weight}";` : '',
       ` src: ${token.src};`,
+      ` font-display: "swap";`,
       ` unicode-range: "${token['unicode-range']}";`,
       '}',
     ]
@@ -30,7 +32,12 @@ const sdFontFacesFormatter: Formatter = ({ dictionary, file }) => {
   return Object.values(fontFacesTokens).map(createFontFace).join('\n\n')
 }
 
-StyleDictionaryJeune.registerFormat({
+StyleDictionaryJeuneNative.registerFormat({
+  name: 'typings/es6',
+  formatter: sdJeuneFormatter,
+})
+
+StyleDictionaryJeuneWeb.registerFormat({
   name: 'typings/es6',
   formatter: sdJeuneFormatter,
 })
@@ -40,5 +47,6 @@ StyleDictionaryPro.registerFormat({
   formatter: sdFontFacesFormatter,
 })
 
+StyleDictionaryJeuneNative.buildAllPlatforms()
+StyleDictionaryJeuneWeb.buildAllPlatforms()
 StyleDictionaryPro.buildAllPlatforms()
-StyleDictionaryJeune.buildAllPlatforms()
