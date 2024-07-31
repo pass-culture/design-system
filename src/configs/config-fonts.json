@@ -1,0 +1,25 @@
+{
+  "source": ["src/tokens/design-tokens.json"],
+  "platforms": {
+    "css": {
+      "transforms": ["name/cti/kebab"],
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "font-faces.css",
+          "format": "css/font-faces"
+        }
+      ]
+    },
+    "js": {
+      "transforms": ["name/cti/kebab"],
+      "buildPath": "build/ts/",
+      "files": [
+        {
+          "destination": "font-preloads.ts",
+          "format": "ts/font-preloads"
+        }
+      ]
+    }
+  }
+}
