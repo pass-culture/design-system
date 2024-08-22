@@ -2,6 +2,9 @@
   "color": {
     "black": {
       "value": "#161617"
+    },
+    "primary": {
+      "value": "#EB0055"
     }
   },
   "font": {

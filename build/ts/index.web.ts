@@ -1,11 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Thu, 01 Aug 2024 12:31:10 GMT
+ * Generated on Thu, 29 Aug 2024 12:08:02 GMT
  */
 
 export const theme = {
   "color": {
-    "black": "#161617"
+    "black": "#161617",
+    "primary": "#eb0055"
   },
   "font": {
     "bold": {

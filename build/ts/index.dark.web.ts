@@ -6,7 +6,7 @@
 export const theme = {
   "color": {
     "black": "#161617",
-    "primary": "#eb0055"
+    "primary": "#f2497c"
   },
   "font": {
     "bold": {
@@ -51,13 +51,13 @@ export const theme = {
     }
   },
   "lineHeight": {
-    "xs": "19.2px",
-    "s": "22.4px",
-    "m": "25.6px",
-    "l": "27.2px",
-    "xl": "30.4px",
-    "xxl": "33.6px",
-    "xxxl": "44.8px"
+    "xs": "1.2rem",
+    "s": "1.4rem",
+    "m": "1.6rem",
+    "l": "1.7rem",
+    "xl": "1.9rem",
+    "xxl": "2.1rem",
+    "xxxl": "2.8rem"
   },
   "fontWeight": {
     "bold": "700",
@@ -65,98 +65,98 @@ export const theme = {
     "semiBold": "600"
   },
   "fontSize": {
-    "xxs": "12px",
-    "xs": "14px",
-    "s": "16px",
-    "m": "19px",
-    "l": "21px",
-    "xl": "28px"
+    "xxs": "0.75rem",
+    "xs": "0.875rem",
+    "s": "1rem",
+    "m": "1.1875rem",
+    "l": "1.3125rem",
+    "xl": "1.75rem"
   },
   "typography": {
     "title1": {
       "fontFamily": "Montserrat-Bold",
-      "fontSize": "28px",
-      "lineHeight": "44.8px",
+      "fontSize": "1.75rem",
+      "lineHeight": "2.8rem",
       "color": "#161617"
     },
     "title2": {
       "fontFamily": "Montserrat-Bold",
-      "fontSize": "21px",
-      "lineHeight": "33.6px",
+      "fontSize": "1.3125rem",
+      "lineHeight": "2.1rem",
       "color": "#161617"
     },
     "title3": {
       "fontFamily": "Montserrat-Bold",
-      "fontSize": "19px",
-      "lineHeight": "30.4px",
+      "fontSize": "1.1875rem",
+      "lineHeight": "1.9rem",
       "color": "#161617"
     },
     "title4": {
       "fontFamily": "Montserrat-Bold",
-      "fontSize": "16px",
-      "lineHeight": "27.2px",
+      "fontSize": "1rem",
+      "lineHeight": "1.7rem",
       "color": "#161617"
     },
     "body": {
       "fontFamily": "Montserrat-Medium",
-      "fontSize": "16px",
-      "lineHeight": "25.6px",
+      "fontSize": "1rem",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodyS": {
       "fontFamily": "Montserrat-Medium",
-      "fontSize": "14px",
-      "lineHeight": "22.4px",
+      "fontSize": "0.875rem",
+      "lineHeight": "1.4rem",
       "color": "#161617"
     },
     "bodyXs": {
       "fontFamily": "Montserrat-Medium",
-      "fontSize": "12px",
-      "lineHeight": "19.2px",
+      "fontSize": "0.75rem",
+      "lineHeight": "1.2rem",
       "color": "#161617"
     },
     "bodySemiBold": {
       "fontFamily": "Montserrat-SemiBold",
-      "fontSize": "16px",
-      "lineHeight": "25.6px",
+      "fontSize": "1rem",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodySemiBoldS": {
       "fontFamily": "Montserrat-SemiBold",
-      "fontSize": "14px",
-      "lineHeight": "22.4px",
+      "fontSize": "0.875rem",
+      "lineHeight": "1.4rem",
       "color": "#161617"
     },
     "bodyItalic": {
       "fontFamily": "Montserrat-MediumItalic",
-      "fontSize": "16px",
-      "lineHeight": "25.6px",
+      "fontSize": "1rem",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodyItalicSemiBold": {
       "fontFamily": "Montserrat-SemiBoldItalic",
-      "fontSize": "16px",
-      "lineHeight": "25.6px",
+      "fontSize": "1rem",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "bodySemiboldXs": {
       "fontFamily": "Montserrat-SemiBold",
-      "fontSize": "12px",
-      "lineHeight": "19.2px",
+      "fontSize": "0.75rem",
+      "lineHeight": "1.2rem",
       "color": "#161617"
     },
     "link": {
       "fontFamily": "Montserrat-Bold",
-      "fontSize": "16px",
+      "fontSize": "1rem",
       "textDecoration": "underline",
-      "lineHeight": "25.6px",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     },
     "button": {
       "fontFamily": "Montserrat-Bold",
-      "fontSize": "16px",
+      "fontSize": "1rem",
       "textTransform": "uppercase",
-      "lineHeight": "25.6px",
+      "lineHeight": "1.6rem",
       "color": "#161617"
     }
   }

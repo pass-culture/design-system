@@ -1,15 +1,12 @@
 import { formatHelpers, Formatter, TransformedToken, TransformedTokens } from 'style-dictionary'
+import { getProConfig } from './configs/getProConfig'
+import { getJeuneConfig } from './configs/getJeuneConfig'
+
+const THEMES = ['', 'dark'] //  '' being the default theme (light)
+const JEUNE_PLATFORMS = ['', 'web'] //  '' being the default jeune platform (mobile)
 
 const sd = require('style-dictionary')
-const StyleDictionaryJeuneNative = sd.extend('src/configs/config-jeunes.json')
-const StyleDictionaryJeuneWeb = sd.extend('src/configs/config-jeunes-web.json')
-const StyleDictionaryPro = sd.extend('src/configs/config-pro.json')
 const StyleDictionaryFonts = sd.extend('src/configs/config-fonts.json')
-
-const sdJeuneFormatter: Formatter = ({ dictionary, file }) => {
-  const tokens = JSON.stringify(formatHelpers.minifyDictionary(dictionary.tokens), null, 2)
-  return `${formatHelpers.fileHeader({ file })}export const theme = ${tokens} as const;\n`
-}
 
 const sdFontFacesFormatter: Formatter = ({ dictionary }) => {
   const fontFacesTokens =
@@ -46,16 +43,6 @@ const sdFontPreloadsFormatter: Formatter = ({ dictionary }) => {
     .join('\n')}\``
 }
 
-StyleDictionaryJeuneNative.registerFormat({
-  name: 'typings/es6',
-  formatter: sdJeuneFormatter,
-})
-
-StyleDictionaryJeuneWeb.registerFormat({
-  name: 'typings/es6',
-  formatter: sdJeuneFormatter,
-})
-
 StyleDictionaryFonts.registerFormat({
   name: 'css/font-faces',
   formatter: sdFontFacesFormatter,
@@ -66,7 +53,29 @@ StyleDictionaryFonts.registerFormat({
   formatter: sdFontPreloadsFormatter,
 })
 
-StyleDictionaryJeuneNative.buildAllPlatforms()
-StyleDictionaryJeuneWeb.buildAllPlatforms()
-StyleDictionaryPro.buildAllPlatforms()
 StyleDictionaryFonts.buildAllPlatforms()
+
+const sdJeuneFormatter: Formatter = ({ dictionary, file }) => {
+  const tokens = JSON.stringify(formatHelpers.minifyDictionary(dictionary.tokens), null, 2)
+  return `${formatHelpers.fileHeader({ file })}export const theme = ${tokens} as const;\n`
+}
+
+//  Generate jeune variables for all platforms and all themes
+JEUNE_PLATFORMS.map((platform) => {
+  THEMES.map((theme) => {
+    const StyleDictionaryJeunes = sd.extend(getJeuneConfig(platform, theme))
+
+    StyleDictionaryJeunes.registerFormat({
+      name: 'typings/es6',
+      formatter: sdJeuneFormatter,
+    })
+
+    StyleDictionaryJeunes.buildAllPlatforms()
+  })
+})
+
+//  Generate pro variables for all themes
+THEMES.map((theme) => {
+  const StyleDictionaryPro = sd.extend(getProConfig(theme))
+  StyleDictionaryPro.buildAllPlatforms()
+})

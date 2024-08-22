@@ -6,7 +6,7 @@
 export const theme = {
   "color": {
     "black": "#161617",
-    "primary": "#eb0055"
+    "primary": "#f2497c"
   },
   "font": {
     "bold": {
