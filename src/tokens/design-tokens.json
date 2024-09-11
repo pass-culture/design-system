@@ -354,7 +354,7 @@
         "value": "{color.black}"
       }
     },
-    "bodySemiboldXs": {
+    "bodySemiBoldXs": {
       "fontFamily": {
         "value": "{font.semiBold.family}"
       },
