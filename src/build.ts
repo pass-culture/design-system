@@ -1,15 +1,9 @@
 import { formatHelpers, Formatter, TransformedToken, TransformedTokens } from 'style-dictionary'
+import { getNativeConfig } from './configs/getNativeConfig'
 
 const sd = require('style-dictionary')
-const StyleDictionaryJeuneNative = sd.extend('src/configs/config-jeunes.json')
-const StyleDictionaryJeuneWeb = sd.extend('src/configs/config-jeunes-web.json')
 const StyleDictionaryPro = sd.extend('src/configs/config-pro.json')
 const StyleDictionaryFonts = sd.extend('src/configs/config-fonts.json')
-
-const sdJeuneFormatter: Formatter = ({ dictionary, file }) => {
-  const tokens = JSON.stringify(formatHelpers.minifyDictionary(dictionary.tokens), null, 2)
-  return `${formatHelpers.fileHeader({ file })}export const theme = ${tokens} as const;\n`
-}
 
 const sdFontFacesFormatter: Formatter = ({ dictionary }) => {
   const fontFacesTokens =
@@ -46,16 +40,6 @@ const sdFontPreloadsFormatter: Formatter = ({ dictionary }) => {
     .join('\n')}\``
 }
 
-StyleDictionaryJeuneNative.registerFormat({
-  name: 'typings/es6',
-  formatter: sdJeuneFormatter,
-})
-
-StyleDictionaryJeuneWeb.registerFormat({
-  name: 'typings/es6',
-  formatter: sdJeuneFormatter,
-})
-
 StyleDictionaryFonts.registerFormat({
   name: 'css/font-faces',
   formatter: sdFontFacesFormatter,
@@ -66,7 +50,21 @@ StyleDictionaryFonts.registerFormat({
   formatter: sdFontPreloadsFormatter,
 })
 
-StyleDictionaryJeuneNative.buildAllPlatforms()
-StyleDictionaryJeuneWeb.buildAllPlatforms()
+//  Generate native variables for all platforms
+const sdNativeFormatter: Formatter = ({ dictionary, file }) => {
+  const tokens = JSON.stringify(formatHelpers.minifyDictionary(dictionary.tokens), null, 2)
+  return `${formatHelpers.fileHeader({ file })}export const theme = ${tokens} as const;\n`
+}
+;(['web', 'mobile'] as const).map((platform) => {
+  const StyleDictionaryNative = sd.extend(getNativeConfig(platform))
+
+  StyleDictionaryNative.registerFormat({
+    name: 'typings/es6',
+    formatter: sdNativeFormatter,
+  })
+
+  StyleDictionaryNative.buildAllPlatforms()
+})
+
 StyleDictionaryPro.buildAllPlatforms()
 StyleDictionaryFonts.buildAllPlatforms()
