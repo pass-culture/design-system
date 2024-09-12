@@ -1,6 +1,6 @@
 # pass Culture Design System
 
-Bienvenue dans le dépôt GitHub du **Design System de pass Culture**. Ce projet regroupe les ressources essentielles pour maintenir une cohérence visuelle sur toutes les plateformes liées à pass Culture, incluant l'application mobile/site web pour les jeunes et le site web pour les professionnels.
+Bienvenue dans le dépôt GitHub du **Design System de pass Culture**. Ce projet regroupe les ressources essentielles pour maintenir une cohérence visuelle sur toutes les plateformes liées à pass Culture, incluant l'application native mobile/site web pour les jeunes bénéficiaires du pass, et le site web pour les professionnels.
 
 ## Introduction
 
@@ -221,15 +221,15 @@ Ce qui donne :
 --line-height-s: 1.3125rem;
 ```
 
-#### Thème pro vs thème jeunes
+#### Thème pro vs thème app native
 
-Pour avoir des fichiers générés qui soient différentes sur l’app jeune et sur l’app pro (dans le cas de la couleur primaire par exemple qui n’est pas la même), on peut surcharger certains tokens.
+Pour avoir des fichiers générés qui soient différentes sur l’app native et sur l’app pro (dans le cas de la couleur primaire par exemple qui n’est pas la même), on peut surcharger certains tokens.
 
 La lib style-dictionary permet de générer les fichiers css/js/ts à partir de plusieurs fichiers JSON. On doit donc avoir 3 fichiers JSON :
 
-- Le fichier design-tokens.json qui contient les tokens qui ont des valeurs communes à jeune et pro (on peut donc omettre le token color.primary)
+- Le fichier design-tokens.json qui contient les tokens qui ont des valeurs communes à l'app native et à pro (on peut donc omettre le token color.primary)
 - Le fichier design-tokens-pro.json qui continent uniquement les tokens qui sont spécifiques à pro
-- Le fichier design-tokens-jeunes.json qui continent uniquement les tokens qui sont spécifiques à jeunes
+- Le fichier design-tokens-native.json qui continent uniquement les tokens qui sont spécifiques à l'app native
 
 ## Documentation
 
@@ -271,7 +271,7 @@ brew install jq
 chmod +x ./scripts/generate_dist_case.sh
 ```
 
-## Intégration dans PC Jeunes
+## Intégration dans PC App Native
 
 TODO
 
