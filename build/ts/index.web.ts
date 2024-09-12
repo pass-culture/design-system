@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 01 Aug 2024 12:31:10 GMT
+ * Generated on Wed, 11 Sep 2024 15:29:51 GMT
  */
 
 export const theme = {
@@ -138,7 +138,7 @@ export const theme = {
       "lineHeight": "1.6rem",
       "color": "#161617"
     },
-    "bodySemiboldXs": {
+    "bodySemiBoldXs": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "0.75rem",
       "lineHeight": "1.2rem",
