@@ -368,32 +368,12 @@
         "value": "{color.black}"
       }
     },
-    "link": {
-      "fontFamily": {
-        "value": "{font.bold.family}"
-      },
-      "fontSize": {
-        "value": "{fontSize.s}"
-      },
-      "textDecoration": {
-        "value": "underline"
-      },
-      "lineHeight": {
-        "value": "{lineHeight.m}"
-      },
-      "color": {
-        "value": "{color.black}"
-      }
-    },
     "button": {
       "fontFamily": {
         "value": "{font.bold.family}"
       },
       "fontSize": {
         "value": "{fontSize.s}"
-      },
-      "textTransform": {
-        "value": "uppercase"
       },
       "lineHeight": {
         "value": "{lineHeight.m}"

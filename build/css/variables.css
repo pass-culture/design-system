@@ -1,11 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 11 Sep 2024 15:29:51 GMT
+ * Generated on Wed, 18 Sep 2024 08:20:02 GMT
  */
 
 :root {
-  --typography-button-text-transform: uppercase;
-  --typography-link-text-decoration: underline;
   --font-size-xl: 1.75rem;
   --font-size-l: 1.3125rem;
   --font-size-m: 1.1875rem;
@@ -52,10 +50,6 @@
   --typography-button-line-height: var(--line-height-m);
   --typography-button-font-size: var(--font-size-s);
   --typography-button-font-family: var(--font-bold-family);
-  --typography-link-color: var(--color-black);
-  --typography-link-line-height: var(--line-height-m);
-  --typography-link-font-size: var(--font-size-s);
-  --typography-link-font-family: var(--font-bold-family);
   --typography-body-semi-bold-xs-color: var(--color-black);
   --typography-body-semi-bold-xs-line-height: var(--line-height-xs);
   --typography-body-semi-bold-xs-font-size: var(--font-size-xxs);
