@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 11 Sep 2024 15:29:51 GMT
+ * Generated on Wed, 18 Sep 2024 08:20:02 GMT
  */
 
 export const theme = {
@@ -144,17 +144,9 @@ export const theme = {
       "lineHeight": "1.2rem",
       "color": "#161617"
     },
-    "link": {
-      "fontFamily": "Montserrat-Bold",
-      "fontSize": "1rem",
-      "textDecoration": "underline",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
-    },
     "button": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1rem",
-      "textTransform": "uppercase",
       "lineHeight": "1.6rem",
       "color": "#161617"
     }
