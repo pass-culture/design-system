@@ -298,7 +298,7 @@
         "value": "{color.black}"
       }
     },
-    "bodySemiBold": {
+    "bodyAccent": {
       "fontFamily": {
         "value": "{font.semiBold.family}"
       },
@@ -312,7 +312,7 @@
         "value": "{color.black}"
       }
     },
-    "bodySemiBoldS": {
+    "bodyAccentS": {
       "fontFamily": {
         "value": "{font.semiBold.family}"
       },
@@ -321,6 +321,20 @@
       },
       "lineHeight": {
         "value": "{lineHeight.s}"
+      },
+      "color": {
+        "value": "{color.black}"
+      }
+    },
+    "bodyAccentXs": {
+      "fontFamily": {
+        "value": "{font.semiBold.family}"
+      },
+      "fontSize": {
+        "value": "{fontSize.xxs}"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.xs}"
       },
       "color": {
         "value": "{color.black}"
@@ -340,7 +354,7 @@
         "value": "{color.black}"
       }
     },
-    "bodyItalicSemiBold": {
+    "bodyItalicAccent": {
       "fontFamily": {
         "value": "{font.semiBoldItalic.family}"
       },
@@ -349,20 +363,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.m}"
-      },
-      "color": {
-        "value": "{color.black}"
-      }
-    },
-    "bodySemiBoldXs": {
-      "fontFamily": {
-        "value": "{font.semiBold.family}"
-      },
-      "fontSize": {
-        "value": "{fontSize.xxs}"
-      },
-      "lineHeight": {
-        "value": "{lineHeight.xs}"
       },
       "color": {
         "value": "{color.black}"

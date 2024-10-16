@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Sep 2024 08:20:02 GMT
+ * Generated on Wed, 16 Oct 2024 14:03:27 GMT
  */
 
 export const theme = {
@@ -114,16 +114,22 @@ export const theme = {
       "lineHeight": "1.2rem",
       "color": "#161617"
     },
-    "bodySemiBold": {
+    "bodyAccent": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "1rem",
       "lineHeight": "1.6rem",
       "color": "#161617"
     },
-    "bodySemiBoldS": {
+    "bodyAccentS": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "0.875rem",
       "lineHeight": "1.4rem",
+      "color": "#161617"
+    },
+    "bodyAccentXs": {
+      "fontFamily": "Montserrat-SemiBold",
+      "fontSize": "0.75rem",
+      "lineHeight": "1.2rem",
       "color": "#161617"
     },
     "bodyItalic": {
@@ -132,16 +138,10 @@ export const theme = {
       "lineHeight": "1.6rem",
       "color": "#161617"
     },
-    "bodyItalicSemiBold": {
+    "bodyItalicAccent": {
       "fontFamily": "Montserrat-SemiBoldItalic",
       "fontSize": "1rem",
       "lineHeight": "1.6rem",
-      "color": "#161617"
-    },
-    "bodySemiBoldXs": {
-      "fontFamily": "Montserrat-SemiBold",
-      "fontSize": "0.75rem",
-      "lineHeight": "1.2rem",
       "color": "#161617"
     },
     "button": {
