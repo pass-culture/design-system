@@ -273,7 +273,32 @@ chmod +x ./scripts/generate_dist_case.sh
 
 ## Intégration dans PC App Native
 
-TODO
+### Installation
+
+Pour intégrer le Design System dans le projet `app-native`, il est nécessaire d'ajouter le package npm correspondant dans le projet :
+
+```json
+"design-system": "https://github.com/pass-culture/design-system.git#[TAG_VERSION]"
+```
+
+Puis lancez la commande `yarn install` pour installer le package.
+
+### Application des Styles Typographiques
+
+L'intégration des styles typographiques peut se faire directement dans un composant react étant donné que nous utilisons `styled-component`.
+
+Pour l'utiliser il suffit de récupérer ce dont on a besoin via la theme ex : `theme.designSystem.typographie.NOM_DE_LA_TYPO` ou `theme.designSystem.colors.NOM_DE_LA_COULEUR`
+
+Pour la typographie vous avez une autre solution qui s'offre à vous :
+Utiliser notre composant custom Text => `TypoDS.NOM_DE_LA_TYPO`
+
+#### Pourquoi utiliser le thème du design system ?
+
+**Uniformité** : En appliquant les mêmes styles sur l'ensemble de l'application, vous assurez une cohérence visuelle qui renforce l'identité de pass Culture.
+
+**Simplicité d'implémentation** : Les développeurs peuvent rapidement et facilement appliquer les styles standards, évitant ainsi de recréer manuellement les propriétés CSS à chaque fois.
+
+**Maintenance simplifiée** : Toute mise à jour du Design System est automatiquement propagée à l'ensemble du projet, garantissant une mise à jour rapide et homogène des styles sur l'application.
 
 ## Intégration dans PC Pro
 
@@ -294,5 +319,7 @@ L'intégration des styles typographiques ne se fait pas via un composant React d
 #### Avantages de l'Utilisation des Classes Typographiques
 
 **Cohérence** : Tous les textes du site suivent les mêmes directives de style, ce qui renforce l'identité visuelle de pass Culture.
+
 **Simplicité** : Les développeurs peuvent appliquer des styles de manière uniforme sans avoir à redéfinir manuellement les propriétés CSS.
+
 **Facilité de Mise à Jour** : Toute modification des styles dans le Design System se répercute automatiquement sur l'ensemble du site.
