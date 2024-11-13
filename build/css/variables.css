@@ -1,15 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Oct 2024 14:03:27 GMT
+ * Generated on Wed, 13 Nov 2024 14:03:45 GMT
  */
 
 :root {
-  --font-size-xl: 1.75rem;
-  --font-size-l: 1.3125rem;
-  --font-size-m: 1.1875rem;
-  --font-size-s: 1rem;
-  --font-size-xs: 0.875rem;
-  --font-size-xxs: 0.75rem;
+  --font-size-xxl: 1.75rem;
+  --font-size-xl: 1.3125rem;
+  --font-size-l: 1.1875rem;
+  --font-size-m: 1rem;
+  --font-size-s: 0.875rem;
+  --font-size-xs: 0.75rem;
   --font-weight-semi-bold: 600;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
@@ -48,55 +48,55 @@
   --color-black: #161617;
   --typography-button-color: var(--color-black);
   --typography-button-line-height: var(--line-height-m);
-  --typography-button-font-size: var(--font-size-s);
+  --typography-button-font-size: var(--font-size-m);
   --typography-button-font-family: var(--font-bold-family);
   --typography-body-italic-accent-color: var(--color-black);
   --typography-body-italic-accent-line-height: var(--line-height-m);
-  --typography-body-italic-accent-font-size: var(--font-size-s);
+  --typography-body-italic-accent-font-size: var(--font-size-m);
   --typography-body-italic-accent-font-family: var(--font-semi-bold-italic-family);
   --typography-body-italic-color: var(--color-black);
   --typography-body-italic-line-height: var(--line-height-m);
-  --typography-body-italic-font-size: var(--font-size-s);
+  --typography-body-italic-font-size: var(--font-size-m);
   --typography-body-italic-font-family: var(--font-medium-italic-family);
   --typography-body-accent-xs-color: var(--color-black);
   --typography-body-accent-xs-line-height: var(--line-height-xs);
-  --typography-body-accent-xs-font-size: var(--font-size-xxs);
+  --typography-body-accent-xs-font-size: var(--font-size-xs);
   --typography-body-accent-xs-font-family: var(--font-semi-bold-family);
   --typography-body-accent-s-color: var(--color-black);
   --typography-body-accent-s-line-height: var(--line-height-s);
-  --typography-body-accent-s-font-size: var(--font-size-xs);
+  --typography-body-accent-s-font-size: var(--font-size-s);
   --typography-body-accent-s-font-family: var(--font-semi-bold-family);
   --typography-body-accent-color: var(--color-black);
   --typography-body-accent-line-height: var(--line-height-m);
-  --typography-body-accent-font-size: var(--font-size-s);
+  --typography-body-accent-font-size: var(--font-size-m);
   --typography-body-accent-font-family: var(--font-semi-bold-family);
   --typography-body-xs-color: var(--color-black);
   --typography-body-xs-line-height: var(--line-height-xs);
-  --typography-body-xs-font-size: var(--font-size-xxs);
+  --typography-body-xs-font-size: var(--font-size-xs);
   --typography-body-xs-font-family: var(--font-medium-family);
   --typography-body-s-color: var(--color-black);
   --typography-body-s-line-height: var(--line-height-s);
-  --typography-body-s-font-size: var(--font-size-xs);
+  --typography-body-s-font-size: var(--font-size-s);
   --typography-body-s-font-family: var(--font-medium-family);
   --typography-body-color: var(--color-black);
   --typography-body-line-height: var(--line-height-m);
-  --typography-body-font-size: var(--font-size-s);
+  --typography-body-font-size: var(--font-size-m);
   --typography-body-font-family: var(--font-medium-family);
   --typography-title4-color: var(--color-black);
   --typography-title4-line-height: var(--line-height-l);
-  --typography-title4-font-size: var(--font-size-s);
+  --typography-title4-font-size: var(--font-size-m);
   --typography-title4-font-family: var(--font-bold-family);
   --typography-title3-color: var(--color-black);
   --typography-title3-line-height: var(--line-height-xl);
-  --typography-title3-font-size: var(--font-size-m);
+  --typography-title3-font-size: var(--font-size-l);
   --typography-title3-font-family: var(--font-bold-family);
   --typography-title2-color: var(--color-black);
   --typography-title2-line-height: var(--line-height-xxl);
-  --typography-title2-font-size: var(--font-size-l);
+  --typography-title2-font-size: var(--font-size-xl);
   --typography-title2-font-family: var(--font-bold-family);
   --typography-title1-color: var(--color-black);
   --typography-title1-line-height: var(--line-height-xxxl);
-  --typography-title1-font-size: var(--font-size-xl);
+  --typography-title1-font-size: var(--font-size-xxl);
   --typography-title1-font-family: var(--font-bold-family);
   --font-medium-italic-weight: var(--font-weight-medium);
   --font-medium-weight: var(--font-weight-medium);
