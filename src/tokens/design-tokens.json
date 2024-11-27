@@ -181,18 +181,24 @@
       }
     },
     "l": {
-      "value": "19",
+      "value": "17",
       "attributes": {
         "category": "size"
       }
     },
     "xl": {
-      "value": "21",
+      "value": "19",
       "attributes": {
         "category": "size"
       }
     },
     "xxl": {
+      "value": "21",
+      "attributes": {
+        "category": "size"
+      }
+    },
+    "xxxl": {
       "value": "28",
       "attributes": {
         "category": "size"
@@ -205,7 +211,7 @@
         "value": "{font.bold.family}"
       },
       "fontSize": {
-        "value": "{fontSize.xxl}"
+        "value": "{fontSize.xxxl}"
       },
       "lineHeight": {
         "value": "{lineHeight.xxxl}"
@@ -219,7 +225,7 @@
         "value": "{font.bold.family}"
       },
       "fontSize": {
-        "value": "{fontSize.xl}"
+        "value": "{fontSize.xxl}"
       },
       "lineHeight": {
         "value": "{lineHeight.xxl}"
@@ -233,7 +239,7 @@
         "value": "{font.bold.family}"
       },
       "fontSize": {
-        "value": "{fontSize.l}"
+        "value": "{fontSize.xl}"
       },
       "lineHeight": {
         "value": "{lineHeight.xl}"
@@ -247,7 +253,7 @@
         "value": "{font.bold.family}"
       },
       "fontSize": {
-        "value": "{fontSize.m}"
+        "value": "{fontSize.l}"
       },
       "lineHeight": {
         "value": "{lineHeight.l}"

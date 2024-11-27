@@ -1,12 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Nov 2024 14:03:45 GMT
+ * Generated on Wed, 27 Nov 2024 12:32:08 GMT
  */
 
 :root {
-  --font-size-xxl: 1.75rem;
-  --font-size-xl: 1.3125rem;
-  --font-size-l: 1.1875rem;
+  --font-size-xxxl: 1.75rem;
+  --font-size-xxl: 1.3125rem;
+  --font-size-xl: 1.1875rem;
+  --font-size-l: 1.0625rem;
   --font-size-m: 1rem;
   --font-size-s: 0.875rem;
   --font-size-xs: 0.75rem;
@@ -84,19 +85,19 @@
   --typography-body-font-family: var(--font-medium-family);
   --typography-title4-color: var(--color-black);
   --typography-title4-line-height: var(--line-height-l);
-  --typography-title4-font-size: var(--font-size-m);
+  --typography-title4-font-size: var(--font-size-l);
   --typography-title4-font-family: var(--font-bold-family);
   --typography-title3-color: var(--color-black);
   --typography-title3-line-height: var(--line-height-xl);
-  --typography-title3-font-size: var(--font-size-l);
+  --typography-title3-font-size: var(--font-size-xl);
   --typography-title3-font-family: var(--font-bold-family);
   --typography-title2-color: var(--color-black);
   --typography-title2-line-height: var(--line-height-xxl);
-  --typography-title2-font-size: var(--font-size-xl);
+  --typography-title2-font-size: var(--font-size-xxl);
   --typography-title2-font-family: var(--font-bold-family);
   --typography-title1-color: var(--color-black);
   --typography-title1-line-height: var(--line-height-xxxl);
-  --typography-title1-font-size: var(--font-size-xxl);
+  --typography-title1-font-size: var(--font-size-xxxl);
   --typography-title1-font-family: var(--font-bold-family);
   --font-medium-italic-weight: var(--font-weight-medium);
   --font-medium-weight: var(--font-weight-medium);

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Nov 2024 14:03:45 GMT
+ * Generated on Wed, 27 Nov 2024 12:32:08 GMT
  */
 
 export const theme = {
@@ -67,9 +67,10 @@ export const theme = {
     "xs": "12px",
     "s": "14px",
     "m": "16px",
-    "l": "19px",
-    "xl": "21px",
-    "xxl": "28px"
+    "l": "17px",
+    "xl": "19px",
+    "xxl": "21px",
+    "xxxl": "28px"
   },
   "typography": {
     "title1": {
@@ -92,7 +93,7 @@ export const theme = {
     },
     "title4": {
       "fontFamily": "Montserrat-Bold",
-      "fontSize": "16px",
+      "fontSize": "17px",
       "lineHeight": "27.2px",
       "color": "#161617"
     },
