@@ -1,12 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Nov 2024 12:32:08 GMT
+ * Generated on Wed, 08 Jan 2025 17:07:00 GMT
  */
 
 export const theme = {
-  "color": {
-    "black": "#161617"
-  },
   "font": {
     "bold": {
       "family": "Montserrat-Bold",
@@ -76,80 +73,67 @@ export const theme = {
     "title1": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1.75rem",
-      "lineHeight": "2.8rem",
-      "color": "#161617"
+      "lineHeight": "2.8rem"
     },
     "title2": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1.3125rem",
-      "lineHeight": "2.1rem",
-      "color": "#161617"
+      "lineHeight": "2.1rem"
     },
     "title3": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1.1875rem",
-      "lineHeight": "1.9rem",
-      "color": "#161617"
+      "lineHeight": "1.9rem"
     },
     "title4": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1.0625rem",
-      "lineHeight": "1.7rem",
-      "color": "#161617"
+      "lineHeight": "1.7rem"
     },
     "body": {
       "fontFamily": "Montserrat-Medium",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     },
     "bodyS": {
       "fontFamily": "Montserrat-Medium",
       "fontSize": "0.875rem",
-      "lineHeight": "1.4rem",
-      "color": "#161617"
+      "lineHeight": "1.4rem"
     },
     "bodyXs": {
       "fontFamily": "Montserrat-Medium",
       "fontSize": "0.75rem",
-      "lineHeight": "1.2rem",
-      "color": "#161617"
+      "lineHeight": "1.2rem"
     },
     "bodyAccent": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     },
     "bodyAccentS": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "0.875rem",
-      "lineHeight": "1.4rem",
-      "color": "#161617"
+      "lineHeight": "1.4rem"
     },
     "bodyAccentXs": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "0.75rem",
-      "lineHeight": "1.2rem",
-      "color": "#161617"
+      "lineHeight": "1.2rem"
     },
     "bodyItalic": {
       "fontFamily": "Montserrat-MediumItalic",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     },
     "bodyItalicAccent": {
       "fontFamily": "Montserrat-SemiBoldItalic",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     },
     "button": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     }
   }
 } as const;
