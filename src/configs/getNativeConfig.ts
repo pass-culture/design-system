@@ -3,7 +3,7 @@ export function getNativeConfig(platform: 'web' | 'mobile') {
   const sizeTransform = platform === 'web' ? 'size/pxToRem' : 'size/px'
 
   return {
-    source: ['src/tokens/design-tokens.json'],
+    source: ['src/tokens/**/*.json'],
     platforms: {
       ts: {
         transforms: ['attribute/cti', 'name/cti/pascal', sizeTransform, 'color/hex'],

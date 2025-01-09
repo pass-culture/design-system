@@ -1,5 +1,5 @@
 {
-  "source": ["src/tokens/design-tokens.json", "src/tokens/design-tokens-theme-pro.json"],
+  "source": ["src/tokens/**/*.json"],
   "platforms": {
     "css": {
       "transforms": [
@@ -14,10 +14,7 @@
       "files": [
         {
           "destination": "variables.css",
-          "format": "css/variables",
-          "options": {
-            "outputReferences": true
-          }
+          "format": "css/variables"
         }
       ]
     }

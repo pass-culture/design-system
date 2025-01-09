@@ -1,5 +1,5 @@
 {
-  "source": ["src/tokens/design-tokens.json"],
+  "source": ["src/tokens/typography/**/*.json"],
   "platforms": {
     "css": {
       "transforms": ["name/cti/kebab"],

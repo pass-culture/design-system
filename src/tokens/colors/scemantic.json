@@ -1,0 +1,111 @@
+{
+  "color": {
+    "text": {
+      "default": {
+        "value": "{color.grey.500}"
+      },
+      "subtle": {
+        "value": "{color.grey.400}"
+      },
+      "error": {
+        "value": "{color.red.500}"
+      },
+      "disabled": {
+        "value": "{color.grey.400}"
+      },
+      "success": {
+        "value": "{color.green.500}"
+      },
+      "highlighted": {
+        "value": "{color.pink.400}"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{color.grey.300}"
+      },
+      "disabled": {
+        "value": "{color.grey.100}"
+      },
+      "focused": {
+        "value": "{color.grey.500}"
+      },
+      "error": {
+        "value": "{color.red.500}"
+      }
+    },
+    "outline-default": {
+      "value": "{color.grey.500}"
+    },
+    "interactive-border-default": {
+      "value": "{color.grey.400}"
+    },
+    "background": {
+      "default": {
+        "value": "{color.grey.0}"
+      },
+      "disabled": {
+        "value": "{color.grey.100}"
+      },
+      "subtle": {
+        "value": "{color.grey.100}"
+      },
+      "error": {
+        "value": "{color.red.300}"
+      },
+      "success": {
+        "value": "{color.green.300}"
+      },
+      "info": {
+        "value": "{color.purple.200}"
+      }
+    }
+  },
+  "separator-color-default": {
+    "value": "{color.grey.300}"
+  },
+  "button-color": {
+    "text": {
+      "default": {
+        "value": "{color.grey.0}"
+      },
+      "subtle": {
+        "value": "{color.pink.500}"
+      },
+      "nonessential": {
+        "value": "{color.grey.500}"
+      },
+      "default-hovered": {
+        "value": "{color.grey.0}"
+      },
+      "disabled": {
+        "value": "{color.grey.400}"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{color.pink.500}"
+      },
+      "default-hovered": {
+        "value": "{color.pink.600}"
+      },
+      "disabled": {
+        "value": "{color.grey.100}"
+      }
+    },
+    "background": {
+      "default": {
+        "value": "{color.pink.500}"
+      },
+      "subtle": {
+        "value": "{color.grey.0}"
+      },
+      "default-hovered": {
+        "value": "{color.pink.600}"
+      },
+      "disabled": {
+        "value": "{color.grey.100}"
+      }
+    }
+  }
+}

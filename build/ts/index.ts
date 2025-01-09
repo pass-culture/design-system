@@ -1,9 +1,140 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Jan 2025 17:07:00 GMT
+ * Generated on Thu, 09 Jan 2025 16:00:38 GMT
  */
 
 export const theme = {
+  "color": {
+    "grey": {
+      "0": "#ffffff",
+      "100": "#f1f1f4",
+      "200": "#cbcdd2",
+      "300": "#90949d",
+      "400": "#696a6f",
+      "500": "#161617"
+    },
+    "pink": {
+      "200": "#ffe0ea",
+      "300": "#ffa5c0",
+      "400": "#f2497c",
+      "500": "#eb0055",
+      "600": "#cb0659"
+    },
+    "purple": {
+      "200": "#f3edff",
+      "300": "#c1a3ff",
+      "400": "#6123df",
+      "500": "#320096",
+      "600": "#25026c"
+    },
+    "green": {
+      "200": "#eaf8f0",
+      "300": "#91e1b5",
+      "400": "#2cbe6e",
+      "500": "#15884f",
+      "600": "#096437"
+    },
+    "red": {
+      "200": "#fdf4f6",
+      "300": "#f8b2c0",
+      "400": "#de1e45",
+      "500": "#b60025",
+      "600": "#8e001d"
+    },
+    "yellow": {
+      "200": "#fff8df",
+      "300": "#ffef63",
+      "400": "#fedb5e",
+      "500": "#f9c030",
+      "600": "#d59800"
+    },
+    "blue": {
+      "300": "#dcf3f8",
+      "400": "#9be3f3",
+      "500": "#20c5e9",
+      "600": "#0e78b7"
+    },
+    "orange": {
+      "300": "#ffeae2",
+      "400": "#ffa079",
+      "500": "#f8733d",
+      "600": "#d63d00"
+    },
+    "mintgreen": {
+      "300": "#dbffea",
+      "400": "#94f0d6",
+      "500": "#27dca8",
+      "600": "#0e8474"
+    },
+    "text": {
+      "default": "#161617",
+      "subtle": "#696a6f",
+      "error": "#b60025",
+      "disabled": "#696a6f",
+      "success": "#15884f",
+      "highlighted": "#f2497c"
+    },
+    "border": {
+      "default": "#90949d",
+      "disabled": "#f1f1f4",
+      "focused": "#161617",
+      "error": "#b60025"
+    },
+    "outline-default": "#161617",
+    "interactive-border-default": "#696a6f",
+    "background": {
+      "default": "#ffffff",
+      "disabled": "#f1f1f4",
+      "subtle": "#f1f1f4",
+      "error": "#f8b2c0",
+      "success": "#91e1b5",
+      "info": "#f3edff"
+    }
+  },
+  "separator-color-default": "#90949d",
+  "button-color": {
+    "text": {
+      "default": "#ffffff",
+      "subtle": "#eb0055",
+      "nonessential": "#161617",
+      "default-hovered": "#ffffff",
+      "disabled": "#696a6f"
+    },
+    "border": {
+      "default": "#eb0055",
+      "default-hovered": "#cb0659",
+      "disabled": "#f1f1f4"
+    },
+    "background": {
+      "default": "#320096",
+      "subtle": "#ffffff",
+      "default-hovered": "#cb0659",
+      "disabled": "#f1f1f4"
+    }
+  },
+  "lineHeight": {
+    "xs": "19.2px",
+    "s": "22.4px",
+    "m": "25.6px",
+    "l": "27.2px",
+    "xl": "30.4px",
+    "xxl": "33.6px",
+    "xxxl": "44.8px"
+  },
+  "fontWeight": {
+    "bold": "700",
+    "medium": "500",
+    "semiBold": "600"
+  },
+  "fontSize": {
+    "xs": "12px",
+    "s": "14px",
+    "m": "16px",
+    "l": "17px",
+    "xl": "19px",
+    "xxl": "21px",
+    "xxxl": "28px"
+  },
   "font": {
     "bold": {
       "family": "Montserrat-Bold",
@@ -45,29 +176,6 @@ export const theme = {
       "src": "https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0oJC8MLnbtg.woff",
       "unicode-range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;"
     }
-  },
-  "lineHeight": {
-    "xs": "19.2px",
-    "s": "22.4px",
-    "m": "25.6px",
-    "l": "27.2px",
-    "xl": "30.4px",
-    "xxl": "33.6px",
-    "xxxl": "44.8px"
-  },
-  "fontWeight": {
-    "bold": "700",
-    "medium": "500",
-    "semiBold": "600"
-  },
-  "fontSize": {
-    "xs": "12px",
-    "s": "14px",
-    "m": "16px",
-    "l": "17px",
-    "xl": "19px",
-    "xxl": "21px",
-    "xxxl": "28px"
   },
   "typography": {
     "title1": {
