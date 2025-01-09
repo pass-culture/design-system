@@ -1,0 +1,106 @@
+{
+  "color": {
+    "text": {
+      "default": {
+        "value": "{color.grey.500}",
+        "comment": "Couleur des titres & du corps de texte"
+      },
+      "subtle": {
+        "value": "{color.grey.400}",
+        "comment": "Couleur des textes moins importants (ex : indivation sur un champ de formulaire)"
+      },
+      "error": {
+        "value": "{color.red.500}",
+        "comment": "Couleur des textes messages d'erreur"
+      },
+      "disabled": {
+        "value": "{color.grey.400}",
+        "comment": "Couleur des textes des éléments disabled"
+      },
+      "success": {
+        "value": "{color.green.600}",
+        "comment": "Couleur des textes de succès"
+      },
+      "brand": {
+        "value": "{color.pink.500}",
+        "comment": "Couleur des textes de brand (ex : texte des boutons moins imprtants)"
+      },
+      "info": {
+        "value": "{color.blue.600}",
+        "comment": "Couleur d'information (ex : 'accent' sur pro, càd texte mis en avant dans un corps de texte / icon de la bannière type info)"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{color.grey.300}",
+        "comment": "Couleur des bordures par défaut (ex : séparateurs)"
+      },
+      "subtle": {
+        "value": "{color.grey.200}",
+        "comment": "Couleur des bordures moins importantes (ex : bordures des tables)"
+      },
+      "disabled": {
+        "value": "{color.grey.100}",
+        "comment": "Couleur des bordures des éléments disabled"
+      },
+      "focused": {
+        "value": "{color.grey.500}",
+        "comment": "Couleur des bordures des éléments focused (utile ?)"
+      },
+      "error": {
+        "value": "{color.red.500}",
+        "comment": "Couleur des bordures des éléments en erreur"
+      },
+      "brand": {
+        "value": "{color.pink.500}",
+        "comment": "Couleur des éléments de brand (ex : bordure des boutons moins importants)"
+      }
+    },
+    "outline": {
+      "default": {
+        "value": "{color.grey.500}",
+        "comment": "Couleur de l'outline de focus"
+      }
+    },
+    "interactive-border": {
+      "default": {
+        "value": "{color.grey.400}",
+        "comment": "Couleur des bordures des éléments interactifs (ex : bordure de l'input texte)"
+      }
+    },
+    "background": {
+      "default": {
+        "value": "{color.grey.0}",
+        "comment": "Couleur d'arrière-plan principale"
+      },
+      "disabled": {
+        "value": "{color.grey.100}",
+        "comment": "Couleur d'arrière-plan des éléments disabled (ex : bouton disabled)"
+      },
+      "subtle": {
+        "value": "{color.grey.100}",
+        "comment": "Couleur d'arrière-plan alternative"
+      },
+      "error": {
+        "value": "{color.red.200}",
+        "comment": "Couleur d'arrière-plan des éléments d'erreur (ex : callout/banner d'erreur)"
+      },
+      "success": {
+        "value": "{color.green.200}",
+        "comment": "Couleur d'arrière-plan des éléments de succès (ex : callout/banner de succès)"
+      },
+      "info": {
+        "value": "{color.blue.300}",
+        "comment": "Couleur d'arrière-plan des éléments d'info (ex : callout/banner d'info)"
+      },
+      "brand": {
+        "value": "{color.pink.500}",
+        "comment": "Couleur d'arrière-plan des éléments de brand (ex : arrière-plan du bouton principal)"
+      },
+      "brand-hover": {
+        "value": "{color.pink.600}",
+        "comment": "Couleur d'arrière-plan des éléments de brand en hover (ex : arrière plan du bouton pricipal quand il est hover)"
+      }
+    }
+  }
+}

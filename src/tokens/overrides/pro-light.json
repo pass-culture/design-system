@@ -1,0 +1,14 @@
+{
+  "color": {
+    "text": {
+      "brand": { "value": "{color.purple.500}" }
+    },
+    "border": {
+      "brand": { "value": "{color.purple.500}" }
+    },
+    "background": {
+      "brand": { "value": "{color.purple.500}" },
+      "brand-hover": { "value": "{color.purple.600}" }
+    }
+  }
+}

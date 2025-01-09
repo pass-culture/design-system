@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Jan 2025 16:00:38 GMT
+ * Generated on Wed, 29 Jan 2025 14:08:09 GMT
  */
 
 :root {
@@ -47,37 +47,29 @@
   --color-mintgreen-400: #94f0d6;
   --color-mintgreen-500: #27dca8;
   --color-mintgreen-600: #0e8474;
-  --color-text-default: #161617;
-  --color-text-subtle: #696a6f;
-  --color-text-error: #b60025;
-  --color-text-disabled: #696a6f;
-  --color-text-success: #15884f;
-  --color-text-highlighted: #f2497c;
-  --color-border-default: #90949d;
-  --color-border-disabled: #f1f1f4;
-  --color-border-focused: #161617;
-  --color-border-error: #b60025;
-  --color-outline-default: #161617;
-  --color-interactive-border-default: #696a6f;
-  --color-background-default: #ffffff;
-  --color-background-disabled: #f1f1f4;
-  --color-background-subtle: #f1f1f4;
-  --color-background-error: #f8b2c0;
-  --color-background-success: #91e1b5;
-  --color-background-info: #f3edff;
-  --separator-color-default: #90949d;
-  --button-color-text-default: #ffffff;
-  --button-color-text-subtle: #eb0055;
-  --button-color-text-nonessential: #161617;
-  --button-color-text-default-hovered: #ffffff;
-  --button-color-text-disabled: #696a6f;
-  --button-color-border-default: #eb0055;
-  --button-color-border-default-hovered: #cb0659;
-  --button-color-border-disabled: #f1f1f4;
-  --button-color-background-default: #320096;
-  --button-color-background-subtle: #ffffff;
-  --button-color-background-default-hovered: #cb0659;
-  --button-color-background-disabled: #f1f1f4;
+  --color-text-default: #161617; /* Couleur des titres & du corps de texte */
+  --color-text-subtle: #696a6f; /* Couleur des textes moins importants (ex : indivation sur un champ de formulaire) */
+  --color-text-error: #b60025; /* Couleur des textes messages d'erreur */
+  --color-text-disabled: #696a6f; /* Couleur des textes des éléments disabled */
+  --color-text-success: #096437; /* Couleur des textes de succès */
+  --color-text-brand: #320096; /* Couleur des textes de brand (ex : texte des boutons moins imprtants) */
+  --color-text-info: #0e78b7; /* Couleur d'information (ex : 'accent' sur pro, càd texte mis en avant dans un corps de texte / icon de la bannière type info) */
+  --color-border-default: #90949d; /* Couleur des bordures par défaut (ex : séparateurs) */
+  --color-border-subtle: #cbcdd2; /* Couleur des bordures moins importantes (ex : bordures des tables) */
+  --color-border-disabled: #f1f1f4; /* Couleur des bordures des éléments disabled */
+  --color-border-focused: #161617; /* Couleur des bordures des éléments focused (utile ?) */
+  --color-border-error: #b60025; /* Couleur des bordures des éléments en erreur */
+  --color-border-brand: #320096; /* Couleur des éléments de brand (ex : bordure des boutons moins importants) */
+  --color-outline-default: #161617; /* Couleur de l'outline de focus */
+  --color-interactive-border-default: #696a6f; /* Couleur des bordures des éléments interactifs (ex : bordure de l'input texte) */
+  --color-background-default: #ffffff; /* Couleur d'arrière-plan principale */
+  --color-background-disabled: #f1f1f4; /* Couleur d'arrière-plan des éléments disabled (ex : bouton disabled) */
+  --color-background-subtle: #f1f1f4; /* Couleur d'arrière-plan alternative */
+  --color-background-error: #fdf4f6; /* Couleur d'arrière-plan des éléments d'erreur (ex : callout/banner d'erreur) */
+  --color-background-success: #eaf8f0; /* Couleur d'arrière-plan des éléments de succès (ex : callout/banner de succès) */
+  --color-background-info: #dcf3f8; /* Couleur d'arrière-plan des éléments d'info (ex : callout/banner d'info) */
+  --color-background-brand: #320096; /* Couleur d'arrière-plan des éléments de brand (ex : arrière-plan du bouton principal) */
+  --color-background-brand-hover: #25026c; /* Couleur d'arrière-plan des éléments de brand en hover (ex : arrière plan du bouton pricipal quand il est hover) */
   --line-height-xs: 1.2rem;
   --line-height-s: 1.4rem;
   --line-height-m: 1.6rem;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Jan 2025 16:00:38 GMT
+ * Generated on Wed, 29 Jan 2025 14:08:09 GMT
  */
 
 export const theme = {
@@ -71,45 +71,33 @@ export const theme = {
       "subtle": "#696a6f",
       "error": "#b60025",
       "disabled": "#696a6f",
-      "success": "#15884f",
-      "highlighted": "#f2497c"
+      "success": "#096437",
+      "brand": "#eb0055",
+      "info": "#0e78b7"
     },
     "border": {
       "default": "#90949d",
+      "subtle": "#cbcdd2",
       "disabled": "#f1f1f4",
       "focused": "#161617",
-      "error": "#b60025"
+      "error": "#b60025",
+      "brand": "#eb0055"
     },
-    "outline-default": "#161617",
-    "interactive-border-default": "#696a6f",
+    "outline": {
+      "default": "#161617"
+    },
+    "interactive-border": {
+      "default": "#696a6f"
+    },
     "background": {
       "default": "#ffffff",
       "disabled": "#f1f1f4",
       "subtle": "#f1f1f4",
-      "error": "#f8b2c0",
-      "success": "#91e1b5",
-      "info": "#f3edff"
-    }
-  },
-  "separator-color-default": "#90949d",
-  "button-color": {
-    "text": {
-      "default": "#ffffff",
-      "subtle": "#eb0055",
-      "nonessential": "#161617",
-      "default-hovered": "#ffffff",
-      "disabled": "#696a6f"
-    },
-    "border": {
-      "default": "#eb0055",
-      "default-hovered": "#cb0659",
-      "disabled": "#f1f1f4"
-    },
-    "background": {
-      "default": "#320096",
-      "subtle": "#ffffff",
-      "default-hovered": "#cb0659",
-      "disabled": "#f1f1f4"
+      "error": "#fdf4f6",
+      "success": "#eaf8f0",
+      "info": "#dcf3f8",
+      "brand": "#eb0055",
+      "brand-hover": "#cb0659"
     }
   },
   "lineHeight": {
