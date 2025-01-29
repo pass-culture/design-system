@@ -1,52 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 29 Jan 2025 14:08:09 GMT
+ * Generated on Thu, 06 Feb 2025 16:21:07 GMT
  */
 
 :root {
-  --color-grey-0: #ffffff;
-  --color-grey-100: #f1f1f4;
-  --color-grey-200: #cbcdd2;
-  --color-grey-300: #90949d;
-  --color-grey-400: #696a6f;
-  --color-grey-500: #161617;
-  --color-pink-200: #ffe0ea;
-  --color-pink-300: #ffa5c0;
-  --color-pink-400: #f2497c;
-  --color-pink-500: #eb0055;
-  --color-pink-600: #cb0659;
-  --color-purple-200: #f3edff;
-  --color-purple-300: #c1a3ff;
-  --color-purple-400: #6123df;
-  --color-purple-500: #320096;
-  --color-purple-600: #25026c;
-  --color-green-200: #eaf8f0;
-  --color-green-300: #91e1b5;
-  --color-green-400: #2cbe6e;
-  --color-green-500: #15884f;
-  --color-green-600: #096437;
-  --color-red-200: #fdf4f6;
-  --color-red-300: #f8b2c0;
-  --color-red-400: #de1e45;
-  --color-red-500: #b60025;
-  --color-red-600: #8e001d;
-  --color-yellow-200: #fff8df;
-  --color-yellow-300: #ffef63;
-  --color-yellow-400: #fedb5e;
-  --color-yellow-500: #f9c030;
-  --color-yellow-600: #d59800;
-  --color-blue-300: #dcf3f8;
-  --color-blue-400: #9be3f3;
-  --color-blue-500: #20c5e9;
-  --color-blue-600: #0e78b7;
-  --color-orange-300: #ffeae2;
-  --color-orange-400: #ffa079;
-  --color-orange-500: #f8733d;
-  --color-orange-600: #d63d00;
-  --color-mintgreen-300: #dbffea;
-  --color-mintgreen-400: #94f0d6;
-  --color-mintgreen-500: #27dca8;
-  --color-mintgreen-600: #0e8474;
   --color-text-default: #161617; /* Couleur des titres & du corps de texte */
   --color-text-subtle: #696a6f; /* Couleur des textes moins importants (ex : indivation sur un champ de formulaire) */
   --color-text-error: #b60025; /* Couleur des textes messages d'erreur */
@@ -70,23 +27,6 @@
   --color-background-info: #dcf3f8; /* Couleur d'arrière-plan des éléments d'info (ex : callout/banner d'info) */
   --color-background-brand: #320096; /* Couleur d'arrière-plan des éléments de brand (ex : arrière-plan du bouton principal) */
   --color-background-brand-hover: #25026c; /* Couleur d'arrière-plan des éléments de brand en hover (ex : arrière plan du bouton pricipal quand il est hover) */
-  --line-height-xs: 1.2rem;
-  --line-height-s: 1.4rem;
-  --line-height-m: 1.6rem;
-  --line-height-l: 1.7rem;
-  --line-height-xl: 1.9rem;
-  --line-height-xxl: 2.1rem;
-  --line-height-xxxl: 2.8rem;
-  --font-weight-bold: 700;
-  --font-weight-medium: 500;
-  --font-weight-semi-bold: 600;
-  --font-size-xs: 0.75rem;
-  --font-size-s: 0.875rem;
-  --font-size-m: 1rem;
-  --font-size-l: 1.0625rem;
-  --font-size-xl: 1.1875rem;
-  --font-size-xxl: 1.3125rem;
-  --font-size-xxxl: 1.75rem;
   --font-bold-family: Montserrat-Bold;
   --font-bold-weight: 700;
   --font-bold-display: swap;

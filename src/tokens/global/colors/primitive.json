@@ -2,149 +2,278 @@
   "color": {
     "grey": {
       "0": {
-        "value": "#fff"
+        "value": "#fff",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "100": {
-        "value": "#f1f1f4"
+        "value": "#f1f1f4",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "200": {
-        "value": "#cbcdd2"
+        "value": "#cbcdd2",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "300": {
-        "value": "#90949d"
+        "value": "#90949d",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#696a6f"
+        "value": "#696a6f",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#161617"
+        "value": "#161617",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     },
     "pink": {
       "200": {
-        "value": "#ffe0ea"
+        "value": "#ffe0ea",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "300": {
-        "value": "#ffa5c0"
+        "value": "#ffa5c0",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#f2497c"
+        "value": "#f2497c",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#eb0055"
+        "value": "#eb0055",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "600": {
-        "value": "#cb0659"
+        "value": "#cb0659",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     },
     "purple": {
       "200": {
-        "value": "#f3edff"
+        "value": "#f3edff",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "300": {
-        "value": "#c1a3ff"
+        "value": "#c1a3ff",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#6123df"
+        "value": "#6123df",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#320096"
+        "value": "#320096",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "600": {
-        "value": "#25026c"
+        "value": "#25026c",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     },
     "green": {
       "200": {
-        "value": "#eaf8f0"
+        "value": "#eaf8f0",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "300": {
-        "value": "#91e1b5"
+        "value": "#91e1b5",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#2cbe6e"
+        "value": "#2cbe6e",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#15884f"
+        "value": "#15884f",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "600": {
-        "value": "#096437"
+        "value": "#096437",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     },
     "red": {
       "200": {
-        "value": "#fdf4f6"
+        "value": "#fdf4f6",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "300": {
-        "value": "#f8b2c0"
+        "value": "#f8b2c0",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#de1e45"
+        "value": "#de1e45",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#b60025"
+        "value": "#b60025",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "600": {
-        "value": "#8e001d"
+        "value": "#8e001d",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     },
     "yellow": {
       "200": {
-        "value": "#fff8df"
+        "value": "#fff8df",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "300": {
-        "value": "#ffef63"
+        "value": "#ffef63",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#fedb5e"
+        "value": "#fedb5e",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#f9c030"
+        "value": "#f9c030",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "600": {
-        "value": "#d59800"
+        "value": "#d59800",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     },
     "blue": {
       "300": {
-        "value": "#dcf3f8"
+        "value": "#dcf3f8",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#9be3f3"
+        "value": "#9be3f3",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#20c5e9"
+        "value": "#20c5e9",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "600": {
-        "value": "#0e78b7"
+        "value": "#0e78b7",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     },
     "orange": {
       "300": {
-        "value": "#ffeae2"
+        "value": "#ffeae2",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#ffa079"
+        "value": "#ffa079",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#f8733d"
+        "value": "#f8733d",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "600": {
-        "value": "#d63d00"
+        "value": "#d63d00",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     },
     "mintgreen": {
       "300": {
-        "value": "#dbffea"
+        "value": "#dbffea",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "400": {
-        "value": "#94f0d6"
+        "value": "#94f0d6",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "500": {
-        "value": "#27dca8"
+        "value": "#27dca8",
+        "attributes": {
+          "type": "primitive"
+        }
       },
       "600": {
-        "value": "#0e8474"
+        "value": "#0e8474",
+        "attributes": {
+          "type": "primitive"
+        }
       }
     }
   }

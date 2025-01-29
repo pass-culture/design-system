@@ -1,20 +1,20 @@
 import StyleDictionary from 'style-dictionary'
-import { BrandsConfig, FormatterConfig } from '../types'
+import { BrandsConfig, Platform, PlatformConfigs, Theme } from '../types'
 import { getWebCssConfig } from './formatters/getWebCssConfig'
 import { getMobileTsConfig, getWebTsConfig } from './formatters/getTsConfig'
 
 export const brandsConfig: BrandsConfig = {
   pro: {
-    platforms: ['web.css', 'web.ts'],
-    themes: ['light', 'dark'],
+    platforms: [Platform.WEB_CSS, Platform.WEB_TS],
+    themes: [Theme.LIGHT, Theme.DARK],
   },
   jeune: {
-    platforms: ['web.ts', 'mobile.ts'],
-    themes: ['light', 'dark'],
+    platforms: [Platform.WEB_TS, Platform.MOBILE_TS],
+    themes: [Theme.LIGHT, Theme.DARK],
   },
 }
 
-export const platformFormatter: FormatterConfig = {
+export const platformFormatter: PlatformConfigs = {
   ['web.css']: getWebCssConfig,
   ['web.ts']: getWebTsConfig,
   ['mobile.ts']: getMobileTsConfig,

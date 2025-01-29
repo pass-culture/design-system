@@ -25,10 +25,10 @@ Dans ce cas, les variables CSS sont directement déclarées à la racine de l'ar
 Ou bien via un fichier typescript depuis lequel on importe l'objet contenant les _design tokens_ :
 
 ```js
-import * as tokens from 'design-system/dist/build/jeune/index.web.light.ts'
+import * as tokens from 'design-system/dist/build/jeune/index.light.web.ts'
 ```
 
-## Création d'un nouveau _tag_
+## Création d'un nouveau tag
 
 A chaque nouvelle version des _design tokens_, un nouveau tag est généré. La création du nouveau tag se fait de la manière suivante :
 
@@ -65,11 +65,11 @@ yarn build
 > chmod  +x  ./scripts/generate_dist_case.sh
 > ```
 
-## Fonctionnement du _build_
+## Fonctionnement du build
 
-Le but du _build_ est de transformer l'objet JSON contenant les _design tokens_ exportés depuis Figma en des fichiers exploitables par les applications du pass Culture (les fichiers `variables.light.css` ou `index.web.dark.ts` donnés en exemple plus haut).
+Le but du _build_ est de transformer l'objet JSON contenant les _design tokens_ exportés depuis Figma en des fichiers exploitables par les applications du pass Culture (les fichiers `variables.light.web.css` ou `index.dark.web.ts` donnés en exemple plus haut).
 
-### Transformation des _design tokens_
+### Transformation des design tokens
 
 On utilise la librairie [style-dictionary](https://github.com/amzn/style-dictionary) qui nous permet de configurer des _pipelines_ qui appliquent des transformations spécifiques pour chaque environnement de destination.
 
@@ -82,34 +82,35 @@ On génère aussi deux autres fichiers :
 - Le fichier `font-faces.css` contenant les définitions des typographies utilisées dans les _design tokens_
 - Le fichier `font-preloads.ts` contenant la liste des _preloads_ à injecter dans le HTML des applications pour que les glyphes des typographies soient téléchargés en premier
 
-## Structure des _design tokens_
+## Structure des design tokens
 
-Les _design tokens_ sont séparés en deux catégories :
+Les _design tokens_ sont séparés en trois catégories :
 
 - Les _global tokens_, c'est à dire les valeurs par défaut des tokens
 - Les _tokens_ de thèmes qui surchargent les valeurs par défaut au moment du _build_
+- Les _brand tokens_ qui surchargent les _tokens_ pour une _brand_ et un thème donnés
 
-### _Global tokens_
+### Global tokens
 
 Les _global tokens_ sont organisés par groupe. On a par exmeple `typography` ou `color`. Chacun de ces groupes est divisé en plusieurs fichiers :
 
 - Les _primitive tokens_ qui font référence à des valeurs absolues (par ex: `color-grey-0: "#fff"`)
 - Les _semantic tokens_ qui sont des abstractions des _primitive tokens_. Ils peuvent être lié à un style partagé par les applications (par ex: `color-text-default`), ou a un composant spécifique (par ex: `button-color-background-default-hover`)
 
-### _Theme tokens_
+### Theme tokens
 
-Les _theme tokens_ sont regroupés dans des fichiers spécifiques pour chaque thème possible sur les plateformes du pass (tel que `dark.json` pour le thème sombre).
+Les _theme tokens_ sont regroupés dans des fichiers spécifiques pour chaque thème possible sur les différentes plateformes (tel que `dark.json` pour le thème sombre).
 
-### _Override tokens_
+### Brand tokens
 
-Les _override tokens_ sont regroupés dans des fichiers spécifiques pour chaque plateforme et chaque thème possible (tel que `pro-dark.json` pour la surcharge du thème sombre sur l'application pro).
+Les _brand tokens_ sont regroupés dans des fichiers spécifiques pour chaque plateforme et chaque thème possible (tel que `pro-dark.json` pour la surcharge du thème sombre sur l'application pro).
 
 ### Comment ajouter une brand ?
 
 - Ajouter à `src/configs/brands` une config de plateformes et de thèmes pour la nouvelle brand
-- Ajouter un fichier de surcharge pour chaque thème dans `src/tokens/overrides` sous la forme `[BRAND]-[THEME].json`
+- Ajouter un fichier de surcharge pour chaque thème dans `src/tokens/brands` sous la forme `[BRAND]-[THEME].json`
 
 ### Comment ajouter un thème ?
 
-- Ajouter le thème aux listes des thèmes dnas les configs de brand concernées dans `src/configs/brands`
-- Ajouter un fichier de surcharge pour chaque brand dans `src/tokens/overrides` sous la forme `[BRAND]-[THEME].json`
+- Ajouter le thème aux listes des thèmes dans les configs de brand concernées dans `src/configs/brands`
+- Ajouter un fichier de surcharge pour chaque brand dans `src/tokens/brands` sous la forme `[BRAND]-[THEME].json`

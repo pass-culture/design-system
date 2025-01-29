@@ -1,71 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 29 Jan 2025 14:08:09 GMT
+ * Generated on Thu, 06 Feb 2025 16:21:07 GMT
  */
 
 export const theme = {
   "color": {
-    "grey": {
-      "0": "#ffffff",
-      "100": "#f1f1f4",
-      "200": "#cbcdd2",
-      "300": "#90949d",
-      "400": "#696a6f",
-      "500": "#161617"
-    },
-    "pink": {
-      "200": "#ffe0ea",
-      "300": "#ffa5c0",
-      "400": "#f2497c",
-      "500": "#eb0055",
-      "600": "#cb0659"
-    },
-    "purple": {
-      "200": "#f3edff",
-      "300": "#c1a3ff",
-      "400": "#6123df",
-      "500": "#320096",
-      "600": "#25026c"
-    },
-    "green": {
-      "200": "#eaf8f0",
-      "300": "#91e1b5",
-      "400": "#2cbe6e",
-      "500": "#15884f",
-      "600": "#096437"
-    },
-    "red": {
-      "200": "#fdf4f6",
-      "300": "#f8b2c0",
-      "400": "#de1e45",
-      "500": "#b60025",
-      "600": "#8e001d"
-    },
-    "yellow": {
-      "200": "#fff8df",
-      "300": "#ffef63",
-      "400": "#fedb5e",
-      "500": "#f9c030",
-      "600": "#d59800"
-    },
-    "blue": {
-      "300": "#dcf3f8",
-      "400": "#9be3f3",
-      "500": "#20c5e9",
-      "600": "#0e78b7"
-    },
-    "orange": {
-      "300": "#ffeae2",
-      "400": "#ffa079",
-      "500": "#f8733d",
-      "600": "#d63d00"
-    },
-    "mintgreen": {
-      "300": "#dbffea",
-      "400": "#94f0d6",
-      "500": "#27dca8",
-      "600": "#0e8474"
-    },
     "text": {
       "default": "#ffffff",
       "subtle": "#f1f1f4",
@@ -102,29 +41,6 @@ export const theme = {
     "button": {
       "text": "#ffffff"
     }
-  },
-  "lineHeight": {
-    "xs": "1.2rem",
-    "s": "1.4rem",
-    "m": "1.6rem",
-    "l": "1.7rem",
-    "xl": "1.9rem",
-    "xxl": "2.1rem",
-    "xxxl": "2.8rem"
-  },
-  "fontWeight": {
-    "bold": "700",
-    "medium": "500",
-    "semiBold": "600"
-  },
-  "fontSize": {
-    "xs": "0.75rem",
-    "s": "0.875rem",
-    "m": "1rem",
-    "l": "1.0625rem",
-    "xl": "1.1875rem",
-    "xxl": "1.3125rem",
-    "xxxl": "1.75rem"
   },
   "font": {
     "bold": {

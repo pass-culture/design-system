@@ -2,104 +2,135 @@
   "color": {
     "text": {
       "default": {
-        "value": "{color.grey.500}",
-        "comment": "Couleur des titres & du corps de texte"
+        "value": "{color.grey.500}"
       },
       "subtle": {
-        "value": "{color.grey.400}",
-        "comment": "Couleur des textes moins importants (ex : indivation sur un champ de formulaire)"
+        "value": "{color.grey.400}"
       },
       "error": {
-        "value": "{color.red.500}",
-        "comment": "Couleur des textes messages d'erreur"
+        "value": "{color.red.500}"
       },
       "disabled": {
-        "value": "{color.grey.400}",
-        "comment": "Couleur des textes des éléments disabled"
+        "value": "{color.grey.400}"
       },
       "success": {
-        "value": "{color.green.600}",
-        "comment": "Couleur des textes de succès"
+        "value": "{color.green.500}"
       },
-      "brand": {
-        "value": "{color.pink.500}",
-        "comment": "Couleur des textes de brand (ex : texte des boutons moins imprtants)"
+      "brand-primary": {
+        "value": "{color.pink.500}"
       },
-      "info": {
-        "value": "{color.blue.600}",
-        "comment": "Couleur d'information (ex : 'accent' sur pro, càd texte mis en avant dans un corps de texte / icon de la bannière type info)"
+      "brand-primary-hover": {
+        "value": "{color.pink.600}"
+      },
+      "inverted": {
+        "value": "{color.grey.0}"
+      },
+      "locked-default": {
+        "value": "{color.grey.0}"
       }
     },
     "border": {
       "default": {
-        "value": "{color.grey.300}",
-        "comment": "Couleur des bordures par défaut (ex : séparateurs)"
+        "value": "{color.grey.300}"
       },
       "subtle": {
-        "value": "{color.grey.200}",
-        "comment": "Couleur des bordures moins importantes (ex : bordures des tables)"
+        "value": "{color.grey.200}"
       },
       "disabled": {
-        "value": "{color.grey.100}",
-        "comment": "Couleur des bordures des éléments disabled"
-      },
-      "focused": {
-        "value": "{color.grey.500}",
-        "comment": "Couleur des bordures des éléments focused (utile ?)"
+        "value": "{color.grey.200}"
       },
       "error": {
-        "value": "{color.red.500}",
-        "comment": "Couleur des bordures des éléments en erreur"
+        "value": "{color.red.500}"
       },
-      "brand": {
-        "value": "{color.pink.500}",
-        "comment": "Couleur des éléments de brand (ex : bordure des boutons moins importants)"
+      "brand-primary": {
+        "value": "{color.pink.500}"
+      },
+      "brand-primary-selected": {
+        "value": "{color.pink.500}"
+      },
+      "brand-primary-hover": {
+        "value": "{color.pink.600}"
       }
     },
     "outline": {
       "default": {
-        "value": "{color.grey.500}",
-        "comment": "Couleur de l'outline de focus"
-      }
-    },
-    "interactive-border": {
-      "default": {
-        "value": "{color.grey.400}",
-        "comment": "Couleur des bordures des éléments interactifs (ex : bordure de l'input texte)"
+        "value": "{color.grey.500}"
+      },
+      "error": {
+        "value": "{color.red.500}"
+      },
+      "inverted": {
+        "value": "{color.grey.0}"
       }
     },
     "background": {
       "default": {
-        "value": "{color.grey.0}",
-        "comment": "Couleur d'arrière-plan principale"
-      },
-      "disabled": {
-        "value": "{color.grey.100}",
-        "comment": "Couleur d'arrière-plan des éléments disabled (ex : bouton disabled)"
+        "value": "{color.grey.0}"
       },
       "subtle": {
-        "value": "{color.grey.100}",
-        "comment": "Couleur d'arrière-plan alternative"
+        "value": "{color.grey.100}"
+      },
+      "disabled": {
+        "value": "{color.grey.100}"
       },
       "error": {
-        "value": "{color.red.200}",
-        "comment": "Couleur d'arrière-plan des éléments d'erreur (ex : callout/banner d'erreur)"
+        "value": "{color.red.200}"
       },
       "success": {
-        "value": "{color.green.200}",
-        "comment": "Couleur d'arrière-plan des éléments de succès (ex : callout/banner de succès)"
+        "value": "{color.green.200}"
+      },
+      "warning": {
+        "value": "{color.yellow.200}"
       },
       "info": {
-        "value": "{color.blue.300}",
-        "comment": "Couleur d'arrière-plan des éléments d'info (ex : callout/banner d'info)"
+        "value": "{color.pink.200}"
       },
-      "brand": {
-        "value": "{color.pink.500}",
-        "comment": "Couleur d'arrière-plan des éléments de brand (ex : arrière-plan du bouton principal)"
+      "brand-primary": {
+        "value": "{color.pink.500}"
       },
-      "brand-hover": {
-        "value": "{color.pink.600}",
-        "comment": "Couleur d'arrière-plan des éléments de brand en hover (ex : arrière plan du bouton pricipal quand il est hover)"
+      "brand-primary-hover": {
+        "value": "{color.pink.600}"
+      },
+      "brand-primary-selected": {
+        "value": "{color.pink.200}"
+      },
+      "locked-default": {
+        "value": "{color.grey.500}"
+      },
+      "locked-brand-primary": {
+        "value": "{color.pink.500}"
+      },
+      "locked-brand-secondary": {
+        "value": "{color.purple.500}"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{color.grey.500}"
+      },
+      "subtle": {
+        "value": "{color.grey.400}"
+      },
+      "error": {
+        "value": "{color.red.500}"
+      },
+      "disabled": {
+        "value": "{color.grey.400}"
+      },
+      "success": {
+        "value": "{color.green.500}"
+      },
+      "brand-primary": {
+        "value": "{color.pink.500}"
+      },
+      "brand-primary-hover": {
+        "value": "{color.pink.600}"
+      },
+      "inverted": {
+        "value": "{color.grey.0}"
+      },
+      "locked-default": {
+        "value": "{color.grey.0}"
       }
     }
   }

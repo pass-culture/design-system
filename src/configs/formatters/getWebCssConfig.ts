@@ -1,9 +1,11 @@
-import StyleDictionary, { Config } from 'style-dictionary'
+import { DesignToken } from 'style-dictionary/types/DesignToken'
+import { ConfigFormatter } from '../../types'
+import { designTokenFilter } from './utils'
 
-export function getWebCssConfig(sd: typeof StyleDictionary, brand: string, theme: string): Config {
+export const getWebCssConfig: ConfigFormatter = (sd, brand, theme) => {
   return {
-    source: [`src/tokens/themes/${theme}.json`, `src/tokens/overrides/${brand}-${theme}.json`],
     include: ['src/tokens/global/**/*.json'],
+    source: [`src/tokens/themes/${theme}.json`, `src/tokens/brands/${brand}-${theme}.json`],
     platforms: {
       css: {
         transforms: [
@@ -19,6 +21,7 @@ export function getWebCssConfig(sd: typeof StyleDictionary, brand: string, theme
           {
             destination: `variables-${theme}.css`,
             format: 'css/variables',
+            filter: designTokenFilter,
           },
         ],
       },

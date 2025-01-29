@@ -1,29 +1,27 @@
-import StyleDictionary, { Config, formatHelpers } from 'style-dictionary'
+import StyleDictionary, { formatHelpers } from 'style-dictionary'
+import { ConfigFormatter } from '../../types'
+import { designTokenFilter } from './utils'
 
-export function getWebTsConfig(sd: typeof StyleDictionary, brand: string, theme: string): Config {
+export const getWebTsConfig: ConfigFormatter = (sd, brand, theme) => {
   const destination = `index.${theme}.web.ts`
   const sizeTransform = 'size/pxToRem'
 
-  return getTsConfig(sd, theme, brand, sizeTransform, destination)
+  return getTsConfig(sd, sizeTransform, destination, brand, theme)
 }
 
-export function getMobileTsConfig(
-  sd: typeof StyleDictionary,
-  brand: string,
-  theme: string
-): Config {
+export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
   const destination = `index.${theme}.mobile.ts`
   const sizeTransform = 'size/px'
 
-  return getTsConfig(sd, theme, brand, sizeTransform, destination)
+  return getTsConfig(sd, sizeTransform, destination, brand, theme)
 }
 
 function getTsConfig(
   sd: StyleDictionary.Core,
-  theme: string,
-  brand: string,
   sizeTransform: string,
-  destination: string
+  destination: string,
+  brand?: string,
+  theme?: string
 ) {
   sd.registerFormat({
     name: 'typings/es6',
@@ -36,8 +34,8 @@ function getTsConfig(
   })
 
   return {
-    source: [`src/tokens/themes/${theme}.json`, `src/tokens/overrides/${brand}-${theme}.json`],
     include: ['src/tokens/global/**/*.json'],
+    source: [`src/tokens/themes/${theme}.json`, `src/tokens/brands/${brand}-${theme}.json`],
     platforms: {
       ts: {
         transforms: ['attribute/cti', 'name/cti/pascal', sizeTransform, 'color/hex'],
@@ -46,6 +44,7 @@ function getTsConfig(
           {
             destination: destination,
             format: 'typings/es6',
+            filter: designTokenFilter,
           },
         ],
       },

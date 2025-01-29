@@ -1,7 +1,6 @@
 import { getBrandConfigs } from './configs/brands'
 import { getTypoConfig } from './configs/formatters/getTypoConfig'
-
-const sd = require('style-dictionary')
+import sd from 'style-dictionary'
 
 //  Build the cross-brand configs
 const StyleDictionaryGlobal = sd.extend(getTypoConfig(sd))
