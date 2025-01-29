@@ -7,7 +7,7 @@ import StyleDictionary, {
 } from 'style-dictionary'
 
 export function getTypoConfig(sd: typeof StyleDictionary): Config {
-  const sdFontFacesFormatter: Formatter = ({ dictionary }) => {
+  const sdFontFacesFormatter: Formatter = ({ dictionary, file }) => {
     const fontFacesTokens =
       (formatHelpers.minifyDictionary(dictionary.tokens) as typeof dictionary.tokens)['font'] ?? {}
 
@@ -26,10 +26,12 @@ export function getTypoConfig(sd: typeof StyleDictionary): Config {
         .join('\n')
     }
 
-    return Object.values(fontFacesTokens).map(createFontFace).join('\n\n')
+    return `${formatHelpers.fileHeader({
+      file,
+    })}\n${Object.values(fontFacesTokens).map(createFontFace).join('\n\n')}`
   }
 
-  const sdFontPreloadsFormatter: Formatter = ({ dictionary }) => {
+  const sdFontPreloadsFormatter: Formatter = ({ dictionary, file }) => {
     const fontTokens =
       (formatHelpers.minifyDictionary(dictionary.tokens) as typeof dictionary.tokens)['font'] ?? {}
 
@@ -37,7 +39,9 @@ export function getTypoConfig(sd: typeof StyleDictionary): Config {
       return `<link rel="preload" href="${token.src}" as="font" type="font/woff2" crossorigin/>`
     }
 
-    return `export const fontPreloads =\n\`${Object.values(fontTokens)
+    return `${formatHelpers.fileHeader({
+      file,
+    })}\nexport const fontPreloads =\n\`${Object.values(fontTokens)
       .map(createPreload)
       .join('\n')}\``
   }
