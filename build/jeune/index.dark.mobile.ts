@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 06 Feb 2025 16:21:07 GMT
+ * Generated on Fri, 07 Feb 2025 09:51:23 GMT
  */
 
 export const theme = {
@@ -11,35 +11,51 @@ export const theme = {
       "error": "#f8b2c0",
       "disabled": "#cbcdd2",
       "success": "#91e1b5",
-      "brand": "#ffe0ea",
-      "info": "#dcf3f8"
+      "brand-primary": "#ffe0ea",
+      "brand-primary-hover": "#ffa5c0",
+      "inverted": "#161617",
+      "locked-default": "#ffffff"
     },
     "border": {
       "default": "#cbcdd2",
-      "subtle": "#cbcdd2",
+      "subtle": "#90949d",
       "disabled": "#90949d",
-      "focused": "#ffffff",
       "error": "#de1e45",
-      "brand": "#f2497c"
+      "brand-primary": "#f2497c",
+      "brand-primary-selected": "#f2497c",
+      "brand-primary-hover": "#eb0055"
     },
     "outline": {
-      "default": "#ffffff"
-    },
-    "interactive-border": {
-      "default": "#f1f1f4"
+      "default": "#ffffff",
+      "error": "#de1e45",
+      "inverted": "#161617"
     },
     "background": {
       "default": "#161617",
-      "disabled": "#696a6f",
       "subtle": "#696a6f",
+      "disabled": "#696a6f",
       "error": "#b60025",
       "success": "#15884f",
-      "info": "#0e78b7",
-      "brand": "#eb0055",
-      "brand-hover": "#cb0659"
+      "warning": "#f9c030",
+      "info": "#eb0055",
+      "brand-primary": "#ffa5c0",
+      "brand-primary-hover": "#f2497c",
+      "brand-primary-selected": "#eb0055",
+      "locked-default": "#161617",
+      "locked-brand-primary": "#eb0055",
+      "locked-brand-secondary": "#320096"
     },
-    "button": {
-      "text": "#ffffff"
+    "icon": {
+      "default": "#ffffff",
+      "disabled": "#cbcdd2",
+      "subtle": "#f1f1f4",
+      "info": "#ffe0ea",
+      "error": "#f8b2c0",
+      "success": "#eaf8f0",
+      "warning": "#f9c030",
+      "brand-primary": "#ffe0ea",
+      "brand-primary-hover": "#ffa5c0",
+      "inverted": "#161617"
     }
   },
   "font": {

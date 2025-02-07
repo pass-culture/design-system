@@ -1,32 +1,51 @@
 /**
  * Do not edit directly
- * Generated on Thu, 06 Feb 2025 16:21:07 GMT
+ * Generated on Fri, 07 Feb 2025 09:51:22 GMT
  */
 
 :root {
-  --color-text-default: #161617; /* Couleur des titres & du corps de texte */
-  --color-text-subtle: #696a6f; /* Couleur des textes moins importants (ex : indivation sur un champ de formulaire) */
-  --color-text-error: #b60025; /* Couleur des textes messages d'erreur */
-  --color-text-disabled: #696a6f; /* Couleur des textes des éléments disabled */
-  --color-text-success: #096437; /* Couleur des textes de succès */
-  --color-text-brand: #320096; /* Couleur des textes de brand (ex : texte des boutons moins imprtants) */
-  --color-text-info: #0e78b7; /* Couleur d'information (ex : 'accent' sur pro, càd texte mis en avant dans un corps de texte / icon de la bannière type info) */
-  --color-border-default: #90949d; /* Couleur des bordures par défaut (ex : séparateurs) */
-  --color-border-subtle: #cbcdd2; /* Couleur des bordures moins importantes (ex : bordures des tables) */
-  --color-border-disabled: #f1f1f4; /* Couleur des bordures des éléments disabled */
-  --color-border-focused: #161617; /* Couleur des bordures des éléments focused (utile ?) */
-  --color-border-error: #b60025; /* Couleur des bordures des éléments en erreur */
-  --color-border-brand: #320096; /* Couleur des éléments de brand (ex : bordure des boutons moins importants) */
-  --color-outline-default: #161617; /* Couleur de l'outline de focus */
-  --color-interactive-border-default: #696a6f; /* Couleur des bordures des éléments interactifs (ex : bordure de l'input texte) */
-  --color-background-default: #ffffff; /* Couleur d'arrière-plan principale */
-  --color-background-disabled: #f1f1f4; /* Couleur d'arrière-plan des éléments disabled (ex : bouton disabled) */
-  --color-background-subtle: #f1f1f4; /* Couleur d'arrière-plan alternative */
-  --color-background-error: #fdf4f6; /* Couleur d'arrière-plan des éléments d'erreur (ex : callout/banner d'erreur) */
-  --color-background-success: #eaf8f0; /* Couleur d'arrière-plan des éléments de succès (ex : callout/banner de succès) */
-  --color-background-info: #dcf3f8; /* Couleur d'arrière-plan des éléments d'info (ex : callout/banner d'info) */
-  --color-background-brand: #320096; /* Couleur d'arrière-plan des éléments de brand (ex : arrière-plan du bouton principal) */
-  --color-background-brand-hover: #25026c; /* Couleur d'arrière-plan des éléments de brand en hover (ex : arrière plan du bouton pricipal quand il est hover) */
+  --color-text-default: #161617;
+  --color-text-subtle: #696a6f;
+  --color-text-error: #b60025;
+  --color-text-disabled: #696a6f;
+  --color-text-success: #15884f;
+  --color-text-brand-primary: #320096;
+  --color-text-brand-primary-hover: #25026c;
+  --color-text-inverted: #ffffff;
+  --color-text-locked-default: #ffffff;
+  --color-border-default: #90949d;
+  --color-border-subtle: #cbcdd2;
+  --color-border-disabled: #cbcdd2;
+  --color-border-error: #b60025;
+  --color-border-brand-primary: #320096;
+  --color-border-brand-primary-selected: #320096;
+  --color-border-brand-primary-hover: #25026c;
+  --color-outline-default: #161617;
+  --color-outline-error: #b60025;
+  --color-outline-inverted: #ffffff;
+  --color-background-default: #ffffff;
+  --color-background-subtle: #f1f1f4;
+  --color-background-disabled: #f1f1f4;
+  --color-background-error: #fdf4f6;
+  --color-background-success: #eaf8f0;
+  --color-background-warning: #fff8df;
+  --color-background-info: #f3edff;
+  --color-background-brand-primary: #320096;
+  --color-background-brand-primary-hover: #25026c;
+  --color-background-brand-primary-selected: #f3edff;
+  --color-background-locked-default: #161617;
+  --color-background-locked-brand-primary: #320096;
+  --color-background-locked-brand-secondary: #320096;
+  --color-icon-default: #161617;
+  --color-icon-disabled: #696a6f;
+  --color-icon-subtle: #696a6f;
+  --color-icon-info: #320096;
+  --color-icon-error: #b60025;
+  --color-icon-success: #2cbe6e;
+  --color-icon-warning: #f9c030;
+  --color-icon-brand-primary: #320096;
+  --color-icon-brand-primary-hover: #25026c;
+  --color-icon-inverted: #ffffff;
   --font-bold-family: Montserrat-Bold;
   --font-bold-weight: 700;
   --font-bold-display: swap;

@@ -108,17 +108,23 @@
       "default": {
         "value": "{color.grey.500}"
       },
+      "disabled": {
+        "value": "{color.grey.400}"
+      },
       "subtle": {
         "value": "{color.grey.400}"
+      },
+      "info": {
+        "value": "{color.pink.500}"
       },
       "error": {
         "value": "{color.red.500}"
       },
-      "disabled": {
-        "value": "{color.grey.400}"
-      },
       "success": {
-        "value": "{color.green.500}"
+        "value": "{color.green.400}"
+      },
+      "warning": {
+        "value": "{color.yellow.500}"
       },
       "brand-primary": {
         "value": "{color.pink.500}"
@@ -127,9 +133,6 @@
         "value": "{color.pink.600}"
       },
       "inverted": {
-        "value": "{color.grey.0}"
-      },
-      "locked-default": {
         "value": "{color.grey.0}"
       }
     }

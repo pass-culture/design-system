@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 06 Feb 2025 16:21:07 GMT
+ * Generated on Fri, 07 Feb 2025 09:51:22 GMT
  */
 
 export const theme = {
@@ -10,33 +10,52 @@ export const theme = {
       "subtle": "#696a6f",
       "error": "#b60025",
       "disabled": "#696a6f",
-      "success": "#096437",
-      "brand": "#320096",
-      "info": "#0e78b7"
+      "success": "#15884f",
+      "brand-primary": "#320096",
+      "brand-primary-hover": "#25026c",
+      "inverted": "#ffffff",
+      "locked-default": "#ffffff"
     },
     "border": {
       "default": "#90949d",
       "subtle": "#cbcdd2",
-      "disabled": "#f1f1f4",
-      "focused": "#161617",
+      "disabled": "#cbcdd2",
       "error": "#b60025",
-      "brand": "#320096"
+      "brand-primary": "#320096",
+      "brand-primary-selected": "#320096",
+      "brand-primary-hover": "#25026c"
     },
     "outline": {
-      "default": "#161617"
-    },
-    "interactive-border": {
-      "default": "#696a6f"
+      "default": "#161617",
+      "error": "#b60025",
+      "inverted": "#ffffff"
     },
     "background": {
       "default": "#ffffff",
-      "disabled": "#f1f1f4",
       "subtle": "#f1f1f4",
+      "disabled": "#f1f1f4",
       "error": "#fdf4f6",
       "success": "#eaf8f0",
-      "info": "#dcf3f8",
-      "brand": "#320096",
-      "brand-hover": "#25026c"
+      "warning": "#fff8df",
+      "info": "#f3edff",
+      "brand-primary": "#320096",
+      "brand-primary-hover": "#25026c",
+      "brand-primary-selected": "#f3edff",
+      "locked-default": "#161617",
+      "locked-brand-primary": "#320096",
+      "locked-brand-secondary": "#320096"
+    },
+    "icon": {
+      "default": "#161617",
+      "disabled": "#696a6f",
+      "subtle": "#696a6f",
+      "info": "#320096",
+      "error": "#b60025",
+      "success": "#2cbe6e",
+      "warning": "#f9c030",
+      "brand-primary": "#320096",
+      "brand-primary-hover": "#25026c",
+      "inverted": "#ffffff"
     }
   },
   "font": {
