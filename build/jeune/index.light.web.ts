@@ -1,11 +1,62 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Nov 2024 12:32:08 GMT
+ * Generated on Fri, 07 Feb 2025 09:51:22 GMT
  */
 
 export const theme = {
   "color": {
-    "black": "#161617"
+    "text": {
+      "default": "#161617",
+      "subtle": "#696a6f",
+      "error": "#b60025",
+      "disabled": "#696a6f",
+      "success": "#15884f",
+      "brand-primary": "#eb0055",
+      "brand-primary-hover": "#cb0659",
+      "inverted": "#ffffff",
+      "locked-default": "#ffffff"
+    },
+    "border": {
+      "default": "#90949d",
+      "subtle": "#cbcdd2",
+      "disabled": "#cbcdd2",
+      "error": "#b60025",
+      "brand-primary": "#eb0055",
+      "brand-primary-selected": "#eb0055",
+      "brand-primary-hover": "#cb0659"
+    },
+    "outline": {
+      "default": "#161617",
+      "error": "#b60025",
+      "inverted": "#ffffff"
+    },
+    "background": {
+      "default": "#ffffff",
+      "subtle": "#f1f1f4",
+      "disabled": "#f1f1f4",
+      "error": "#fdf4f6",
+      "success": "#eaf8f0",
+      "warning": "#fff8df",
+      "info": "#ffe0ea",
+      "brand-primary": "#eb0055",
+      "brand-primary-hover": "#cb0659",
+      "brand-primary-selected": "#ffe0ea",
+      "locked-default": "#161617",
+      "locked-brand-primary": "#eb0055",
+      "locked-brand-secondary": "#320096"
+    },
+    "icon": {
+      "default": "#161617",
+      "disabled": "#696a6f",
+      "subtle": "#696a6f",
+      "info": "#eb0055",
+      "error": "#b60025",
+      "success": "#2cbe6e",
+      "warning": "#f9c030",
+      "brand-primary": "#eb0055",
+      "brand-primary-hover": "#cb0659",
+      "inverted": "#ffffff"
+    }
   },
   "font": {
     "bold": {
@@ -49,107 +100,71 @@ export const theme = {
       "unicode-range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;"
     }
   },
-  "lineHeight": {
-    "xs": "1.2rem",
-    "s": "1.4rem",
-    "m": "1.6rem",
-    "l": "1.7rem",
-    "xl": "1.9rem",
-    "xxl": "2.1rem",
-    "xxxl": "2.8rem"
-  },
-  "fontWeight": {
-    "bold": "700",
-    "medium": "500",
-    "semiBold": "600"
-  },
-  "fontSize": {
-    "xs": "0.75rem",
-    "s": "0.875rem",
-    "m": "1rem",
-    "l": "1.0625rem",
-    "xl": "1.1875rem",
-    "xxl": "1.3125rem",
-    "xxxl": "1.75rem"
-  },
   "typography": {
     "title1": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1.75rem",
-      "lineHeight": "2.8rem",
-      "color": "#161617"
+      "lineHeight": "2.8rem"
     },
     "title2": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1.3125rem",
-      "lineHeight": "2.1rem",
-      "color": "#161617"
+      "lineHeight": "2.1rem"
     },
     "title3": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1.1875rem",
-      "lineHeight": "1.9rem",
-      "color": "#161617"
+      "lineHeight": "1.9rem"
     },
     "title4": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1.0625rem",
-      "lineHeight": "1.7rem",
-      "color": "#161617"
+      "lineHeight": "1.7rem"
     },
     "body": {
       "fontFamily": "Montserrat-Medium",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     },
     "bodyS": {
       "fontFamily": "Montserrat-Medium",
       "fontSize": "0.875rem",
-      "lineHeight": "1.4rem",
-      "color": "#161617"
+      "lineHeight": "1.4rem"
     },
     "bodyXs": {
       "fontFamily": "Montserrat-Medium",
       "fontSize": "0.75rem",
-      "lineHeight": "1.2rem",
-      "color": "#161617"
+      "lineHeight": "1.2rem"
     },
     "bodyAccent": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     },
     "bodyAccentS": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "0.875rem",
-      "lineHeight": "1.4rem",
-      "color": "#161617"
+      "lineHeight": "1.4rem"
     },
     "bodyAccentXs": {
       "fontFamily": "Montserrat-SemiBold",
       "fontSize": "0.75rem",
-      "lineHeight": "1.2rem",
-      "color": "#161617"
+      "lineHeight": "1.2rem"
     },
     "bodyItalic": {
       "fontFamily": "Montserrat-MediumItalic",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     },
     "bodyItalicAccent": {
       "fontFamily": "Montserrat-SemiBoldItalic",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     },
     "button": {
       "fontFamily": "Montserrat-Bold",
       "fontSize": "1rem",
-      "lineHeight": "1.6rem",
-      "color": "#161617"
+      "lineHeight": "1.6rem"
     }
   }
 } as const;

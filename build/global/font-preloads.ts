@@ -1,3 +1,9 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 07 Feb 2025 09:51:22 GMT
+ */
+
+
 export const fontPreloads =
 `<link rel="preload" href="https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXx-p7K4KLg.woff" as="font" type="font/woff2" crossorigin/>
 <link rel="preload" href="https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aXx-p7K4KLg.woff" as="font" type="font/woff2" crossorigin/>

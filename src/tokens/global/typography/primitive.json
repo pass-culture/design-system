@@ -1,0 +1,124 @@
+{
+  "lineHeight": {
+    "xs": {
+      "value": "19.2",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "s": {
+      "value": "22.4",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "m": {
+      "value": "25.6",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "l": {
+      "value": "27.2",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "xl": {
+      "value": "30.4",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "xxl": {
+      "value": "33.6",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "xxxl": {
+      "value": "44.8",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    }
+  },
+  "fontWeight": {
+    "bold": {
+      "value": "700",
+      "attributes": {
+        "type": "primitive"
+      }
+    },
+    "medium": {
+      "value": "500",
+      "attributes": {
+        "type": "primitive"
+      }
+    },
+    "semiBold": {
+      "value": "600",
+      "attributes": {
+        "type": "primitive"
+      }
+    }
+  },
+  "fontSize": {
+    "xs": {
+      "value": "12",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "s": {
+      "value": "14",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "m": {
+      "value": "16",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "l": {
+      "value": "17",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "xl": {
+      "value": "19",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "xxl": {
+      "value": "21",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    },
+    "xxxl": {
+      "value": "28",
+      "attributes": {
+        "category": "size",
+        "type": "primitive"
+      }
+    }
+  }
+}

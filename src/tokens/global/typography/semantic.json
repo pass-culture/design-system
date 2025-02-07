@@ -1,9 +1,4 @@
 {
-  "color": {
-    "black": {
-      "value": "#161617"
-    }
-  },
   "font": {
     "bold": {
       "family": {
@@ -106,105 +101,6 @@
       }
     }
   },
-  "lineHeight": {
-    "xs": {
-      "value": "19.2",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "s": {
-      "value": "22.4",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "m": {
-      "value": "25.6",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "l": {
-      "value": "27.2",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "xl": {
-      "value": "30.4",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "xxl": {
-      "value": "33.6",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "xxxl": {
-      "value": "44.8",
-      "attributes": {
-        "category": "size"
-      }
-    }
-  },
-  "fontWeight": {
-    "bold": {
-      "value": "700"
-    },
-    "medium": {
-      "value": "500"
-    },
-    "semiBold": {
-      "value": "600"
-    }
-  },
-  "fontSize": {
-    "xs": {
-      "value": "12",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "s": {
-      "value": "14",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "m": {
-      "value": "16",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "l": {
-      "value": "17",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "xl": {
-      "value": "19",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "xxl": {
-      "value": "21",
-      "attributes": {
-        "category": "size"
-      }
-    },
-    "xxxl": {
-      "value": "28",
-      "attributes": {
-        "category": "size"
-      }
-    }
-  },
   "typography": {
     "title1": {
       "fontFamily": {
@@ -215,9 +111,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.xxxl}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "title2": {
@@ -229,9 +122,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.xxl}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "title3": {
@@ -243,9 +133,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.xl}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "title4": {
@@ -257,9 +144,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.l}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "body": {
@@ -271,9 +155,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.m}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "bodyS": {
@@ -285,9 +166,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.s}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "bodyXs": {
@@ -299,9 +177,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.xs}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "bodyAccent": {
@@ -313,9 +188,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.m}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "bodyAccentS": {
@@ -327,9 +199,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.s}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "bodyAccentXs": {
@@ -341,9 +210,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.xs}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "bodyItalic": {
@@ -355,9 +221,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.m}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "bodyItalicAccent": {
@@ -369,9 +232,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.m}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     },
     "button": {
@@ -383,9 +243,6 @@
       },
       "lineHeight": {
         "value": "{lineHeight.m}"
-      },
-      "color": {
-        "value": "{color.black}"
       }
     }
   }
