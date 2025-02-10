@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 07 Feb 2025 09:51:22 GMT
+ * Generated on Mon, 10 Feb 2025 16:43:17 GMT
  */
 
-:root {
+:root[data-theme="light"] {
   --color-text-default: #161617;
   --color-text-subtle: #696a6f;
   --color-text-error: #b60025;

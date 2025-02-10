@@ -22,6 +22,9 @@ export const getWebCssConfig: ConfigFormatter = (sd, brand, theme) => {
             destination: `variables-${theme}.css`,
             format: 'css/variables',
             filter: designTokenFilter,
+            options: {
+              selector: `[data-theme="${theme}"]`,
+            },
           },
         ],
       },
