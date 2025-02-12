@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Feb 2025 16:43:17 GMT
+ * Generated on Wed, 12 Feb 2025 16:33:44 GMT
  */
 
 export const theme = {
@@ -20,23 +20,23 @@ export const theme = {
       "default": "#cbcdd2",
       "subtle": "#90949d",
       "disabled": "#90949d",
-      "error": "#de1e45",
+      "error": "#f83552",
       "brand-primary": "#6123df",
       "brand-primary-selected": "#6123df",
       "brand-primary-hover": "#320096"
     },
     "outline": {
       "default": "#ffffff",
-      "error": "#de1e45",
+      "error": "#f83552",
       "inverted": "#161617"
     },
     "background": {
       "default": "#161617",
       "subtle": "#696a6f",
       "disabled": "#696a6f",
-      "error": "#b60025",
+      "error": "#a20121",
       "success": "#15884f",
-      "warning": "#f9c030",
+      "warning": "#e1a605",
       "info": "#320096",
       "brand-primary": "#c1a3ff",
       "brand-primary-hover": "#6123df",
@@ -52,7 +52,7 @@ export const theme = {
       "info": "#f3edff",
       "error": "#f8b2c0",
       "success": "#eaf8f0",
-      "warning": "#f9c030",
+      "warning": "#e1a605",
       "brand-primary": "#f3edff",
       "brand-primary-hover": "#c1a3ff",
       "inverted": "#161617"

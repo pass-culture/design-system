@@ -128,7 +128,7 @@
         }
       },
       "600": {
-        "value": "#096437",
+        "value": "#09532d",
         "attributes": {
           "type": "primitive"
         }
@@ -148,19 +148,19 @@
         }
       },
       "400": {
-        "value": "#de1e45",
+        "value": "#f83552",
         "attributes": {
           "type": "primitive"
         }
       },
       "500": {
-        "value": "#b60025",
+        "value": "#a20121",
         "attributes": {
           "type": "primitive"
         }
       },
       "600": {
-        "value": "#8e001d",
+        "value": "#700118",
         "attributes": {
           "type": "primitive"
         }
@@ -180,19 +180,19 @@
         }
       },
       "400": {
-        "value": "#fedb5e",
+        "value": "#f9cf39",
         "attributes": {
           "type": "primitive"
         }
       },
       "500": {
-        "value": "#f9c030",
+        "value": "#e1a605",
         "attributes": {
           "type": "primitive"
         }
       },
       "600": {
-        "value": "#d59800",
+        "value": "#664900",
         "attributes": {
           "type": "primitive"
         }

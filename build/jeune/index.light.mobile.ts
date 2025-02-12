@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Feb 2025 16:43:17 GMT
+ * Generated on Wed, 12 Feb 2025 16:33:44 GMT
  */
 
 export const theme = {
@@ -8,7 +8,7 @@ export const theme = {
     "text": {
       "default": "#161617",
       "subtle": "#696a6f",
-      "error": "#b60025",
+      "error": "#a20121",
       "disabled": "#696a6f",
       "success": "#15884f",
       "brand-primary": "#eb0055",
@@ -20,14 +20,14 @@ export const theme = {
       "default": "#90949d",
       "subtle": "#cbcdd2",
       "disabled": "#cbcdd2",
-      "error": "#b60025",
+      "error": "#a20121",
       "brand-primary": "#eb0055",
       "brand-primary-selected": "#eb0055",
       "brand-primary-hover": "#cb0659"
     },
     "outline": {
       "default": "#161617",
-      "error": "#b60025",
+      "error": "#a20121",
       "inverted": "#ffffff"
     },
     "background": {
@@ -50,9 +50,9 @@ export const theme = {
       "disabled": "#696a6f",
       "subtle": "#696a6f",
       "info": "#eb0055",
-      "error": "#b60025",
+      "error": "#a20121",
       "success": "#2cbe6e",
-      "warning": "#f9c030",
+      "warning": "#e1a605",
       "brand-primary": "#eb0055",
       "brand-primary-hover": "#cb0659",
       "inverted": "#ffffff"
