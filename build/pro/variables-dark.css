@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 10 Feb 2025 16:43:17 GMT
+ * Generated on Wed, 12 Feb 2025 16:33:44 GMT
  */
 
-:root[data-theme="dark"] {
+[data-theme="dark"] {
   --color-text-default: #ffffff;
   --color-text-subtle: #f1f1f4;
   --color-text-error: #f8b2c0;
@@ -16,19 +16,19 @@
   --color-border-default: #cbcdd2;
   --color-border-subtle: #90949d;
   --color-border-disabled: #90949d;
-  --color-border-error: #de1e45;
+  --color-border-error: #f83552;
   --color-border-brand-primary: #6123df;
   --color-border-brand-primary-selected: #6123df;
   --color-border-brand-primary-hover: #320096;
   --color-outline-default: #ffffff;
-  --color-outline-error: #de1e45;
+  --color-outline-error: #f83552;
   --color-outline-inverted: #161617;
   --color-background-default: #161617;
   --color-background-subtle: #696a6f;
   --color-background-disabled: #696a6f;
-  --color-background-error: #b60025;
+  --color-background-error: #a20121;
   --color-background-success: #15884f;
-  --color-background-warning: #f9c030;
+  --color-background-warning: #e1a605;
   --color-background-info: #320096;
   --color-background-brand-primary: #c1a3ff;
   --color-background-brand-primary-hover: #6123df;
@@ -42,7 +42,7 @@
   --color-icon-info: #f3edff;
   --color-icon-error: #f8b2c0;
   --color-icon-success: #eaf8f0;
-  --color-icon-warning: #f9c030;
+  --color-icon-warning: #e1a605;
   --color-icon-brand-primary: #f3edff;
   --color-icon-brand-primary-hover: #c1a3ff;
   --color-icon-inverted: #161617;
