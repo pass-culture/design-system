@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 12 Feb 2025 16:33:44 GMT
+ * Generated on Thu, 20 Feb 2025 16:02:39 GMT
  */
 
 export const theme = {
@@ -11,8 +11,10 @@ export const theme = {
       "error": "#a20121",
       "disabled": "#696a6f",
       "success": "#15884f",
-      "brand-primary": "#320096",
-      "brand-primary-hover": "#25026c",
+      "brand-primary": "#6123df",
+      "brand-primary-hover": "#320096",
+      "brand-secondary": "#320096",
+      "brand-secondary-hover": "#25026c",
       "inverted": "#ffffff",
       "locked-default": "#ffffff"
     },
@@ -21,9 +23,10 @@ export const theme = {
       "subtle": "#cbcdd2",
       "disabled": "#cbcdd2",
       "error": "#a20121",
-      "brand-primary": "#320096",
+      "focused": "#161617",
+      "brand-primary": "#6123df",
       "brand-primary-selected": "#320096",
-      "brand-primary-hover": "#25026c"
+      "brand-primary-hover": "#320096"
     },
     "outline": {
       "default": "#161617",
@@ -53,9 +56,14 @@ export const theme = {
       "error": "#a20121",
       "success": "#2cbe6e",
       "warning": "#e1a605",
-      "brand-primary": "#320096",
-      "brand-primary-hover": "#25026c",
+      "brand-primary": "#6123df",
+      "brand-primary-hover": "#320096",
       "inverted": "#ffffff"
+    }
+  },
+  "separator": {
+    "color": {
+      "default": "#90949d"
     }
   },
   "font": {

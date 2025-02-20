@@ -40,7 +40,10 @@
         "value": "{color.grey.300}"
       },
       "error": {
-        "value": "{color.red.400}"
+        "value": "{color.red.300}"
+      },
+      "focused": {
+        "value": "{color.grey.0}"
       },
       "brand-primary": {
         "value": "{color.pink.400}"
@@ -123,6 +126,9 @@
       "success": {
         "value": "{color.green.200}"
       },
+      "warning": {
+        "value": "{color.yellow.200}"
+      },
       "brand-primary": {
         "value": "{color.pink.200}"
       },
@@ -131,6 +137,13 @@
       },
       "inverted": {
         "value": "{color.grey.500}"
+      }
+    }
+  },
+  "separator": {
+    "color": {
+      "default": {
+        "value": "{color.grey.200}"
       }
     }
   }
