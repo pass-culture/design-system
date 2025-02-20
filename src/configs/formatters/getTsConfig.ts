@@ -1,4 +1,4 @@
-import StyleDictionary, { formatHelpers } from 'style-dictionary'
+import StyleDictionary, { formatHelpers, tokens, TransformedToken } from 'style-dictionary'
 import { ConfigFormatter } from '../../types'
 import { designTokenFilter } from './utils'
 
@@ -27,9 +27,24 @@ function getTsConfig(
     name: 'typings/es6',
     formatter: ({ dictionary, file }) => {
       const tokens = JSON.stringify(formatHelpers.minifyDictionary(dictionary.tokens), null, 2)
+      
+      const colors = Object.entries(dictionary.tokens.color ?? {}).flatMap(([, value]) =>
+        Object.values(value)
+          .filter(
+            (color): color is TransformedToken =>
+              typeof color === 'object' && color !== null && 'value' in color
+          )
+          .map((color) => color.value)
+      )
+
+      const avoidDuplicateColors = Array.from(new Set(colors))
+
+      const colorsType = avoidDuplicateColors.map((color) => `"${color}"`).join(' | ')
+
       return `${formatHelpers.fileHeader({
         file,
-      })}export const theme = ${tokens} as const;\n`
+      })}export const theme = ${tokens} as const;\n\nexport type ColorsType = ${colorsType};
+      `
     },
   })
 
