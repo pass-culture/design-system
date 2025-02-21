@@ -2,7 +2,7 @@ import StyleDictionary, { Config } from 'style-dictionary'
 
 export enum Brand {
   PRO = 'pro',
-  JEUNE = 'jeune',
+  JEUNES = 'jeunes',
 }
 
 export enum Platform {
@@ -17,13 +17,17 @@ export enum Theme {
 }
 
 export type BrandsConfig = {
-  [key in Brand]: {
+  [key in Brand]?: {
     platforms: Platform[]
     themes: Theme[]
   }
 }
 
-export type ConfigFormatter = (sd: typeof StyleDictionary, brand?: string, theme?: string) => Config
+export type ConfigFormatter = (
+  sd: typeof StyleDictionary,
+  brand?: string,
+  theme?: string
+) => Promise<Config>
 
 export type PlatformConfigs = {
   [key: string]: ConfigFormatter

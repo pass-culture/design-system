@@ -1,17 +1,33 @@
-import { DesignToken } from 'style-dictionary/types/DesignToken'
+import { DesignTokens } from 'style-dictionary'
 import { ConfigFormatter } from '../../types'
-import { designTokenFilter } from './utils'
+import { getJSONFromUrl, getTxtFromUrl, isSemanticToken } from './utils'
 
-export const getWebCssConfig: ConfigFormatter = (sd, brand, theme) => {
+export const getWebCssConfig: ConfigFormatter = async (sd, brand, theme) => {
+  const tokensUrlsStr = await getTxtFromUrl(process.env.ZEROHEIGHT_TOKENS_URL || '')
+
+  const tokensUrls = tokensUrlsStr.split('\n').filter(
+    (str) =>
+      //  Filter the semantic and primitive token JSON files
+      //  Ideally the theme can also be used in the url
+      (str.includes('mode_name=value') || str.includes(`mode_name=${brand}`)) &&
+      (str.includes('collection_name=primitive') || str.includes('collection_name=semantic'))
+  )
+
+  const tokensJsons = (await Promise.all(tokensUrls.map(getJSONFromUrl))) as DesignTokens[]
+
+  const tokens: DesignTokens = {}
+
+  for (const tokenJson of tokensJsons) {
+    tokens.color = { ...(tokens.color || {}), ...tokenJson.color }!
+  }
+
   return {
-    include: ['src/tokens/global/**/*.json'],
-    source: [`src/tokens/themes/${theme}.json`, `src/tokens/brands/${brand}-${theme}.json`],
+    tokens: tokens,
     platforms: {
       css: {
         transforms: [
           'attribute/cti',
           'name/cti/kebab',
-          'time/seconds',
           'content/icon',
           'size/pxToRem',
           'color/css',
@@ -21,7 +37,7 @@ export const getWebCssConfig: ConfigFormatter = (sd, brand, theme) => {
           {
             destination: `variables-${theme}.css`,
             format: 'css/variables',
-            filter: designTokenFilter,
+            filter: isSemanticToken,
             options: {
               selector: `[data-theme="${theme}"]`,
             },

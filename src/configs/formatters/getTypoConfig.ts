@@ -38,7 +38,7 @@ const sdFontPreloadsFormatter: Formatter = ({ dictionary, file }) => {
   })}\nexport const fontPreloads =\n\`${Object.values(fontTokens).map(createPreload).join('\n')}\``
 }
 
-export const getTypoConfig: ConfigFormatter = (sd) => {
+export const getTypoConfig: ConfigFormatter = async (sd) => {
   sd.registerFormat({
     name: 'css/font-faces',
     formatter: sdFontFacesFormatter,

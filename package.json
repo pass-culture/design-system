@@ -5,7 +5,7 @@
   "repository": "git@github.com:pass-culture/design-system.git",
   "private": true,
   "scripts": {
-    "build": "ts-node src/build.ts"
+    "build": "node -r ts-node/register --env-file=.env src/build.ts"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",

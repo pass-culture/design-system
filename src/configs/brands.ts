@@ -5,11 +5,7 @@ import { getMobileTsConfig, getWebTsConfig } from './formatters/getTsConfig'
 
 export const brandsConfig: BrandsConfig = {
   pro: {
-    platforms: [Platform.WEB_CSS, Platform.WEB_TS],
-    themes: [Theme.LIGHT, Theme.DARK],
-  },
-  jeune: {
-    platforms: [Platform.WEB_TS, Platform.MOBILE_TS],
+    platforms: [Platform.WEB_CSS],
     themes: [Theme.LIGHT, Theme.DARK],
   },
 }

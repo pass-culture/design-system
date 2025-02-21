@@ -25,7 +25,7 @@ Dans ce cas, les variables CSS sont directement déclarées à la racine de l'ar
 Ou bien via un fichier typescript depuis lequel on importe l'objet contenant les _design tokens_ :
 
 ```js
-import * as tokens from 'design-system/dist/build/jeune/index.light.web.ts'
+import * as tokens from 'design-system/dist/build/jeunes/index.light.web.ts'
 ```
 
 ## Création d'un nouveau tag

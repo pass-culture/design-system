@@ -1,15 +1,15 @@
 import StyleDictionary, { formatHelpers } from 'style-dictionary'
 import { ConfigFormatter } from '../../types'
-import { designTokenFilter } from './utils'
+import { isSemanticToken } from './utils'
 
-export const getWebTsConfig: ConfigFormatter = (sd, brand, theme) => {
+export const getWebTsConfig: ConfigFormatter = async (sd, brand, theme) => {
   const destination = `index.${theme}.web.ts`
   const sizeTransform = 'size/pxToRem'
 
   return getTsConfig(sd, sizeTransform, destination, brand, theme)
 }
 
-export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
+export const getMobileTsConfig: ConfigFormatter = async (sd, brand, theme) => {
   const destination = `index.${theme}.mobile.ts`
   const sizeTransform = 'size/px'
 
@@ -44,7 +44,7 @@ function getTsConfig(
           {
             destination: destination,
             format: 'typings/es6',
-            filter: designTokenFilter,
+            filter: isSemanticToken,
           },
         ],
       },
