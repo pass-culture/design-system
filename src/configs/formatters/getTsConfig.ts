@@ -1,4 +1,6 @@
-import StyleDictionary, { formatHelpers, tokens, TransformedToken } from 'style-dictionary'
+import StyleDictionary from 'style-dictionary';
+import { TransformedToken } from 'style-dictionary'
+import { fileHeader, minifyDictionary } from 'style-dictionary/utils';
 import { ConfigFormatter } from '../../types'
 import { designTokenFilter } from './utils'
 
@@ -17,7 +19,7 @@ export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
 }
 
 function getTsConfig(
-  sd: StyleDictionary.Core,
+  sd: typeof StyleDictionary,
   sizeTransform: string,
   destination: string,
   brand?: string,
@@ -25,8 +27,8 @@ function getTsConfig(
 ) {
   sd.registerFormat({
     name: 'typings/es6',
-    formatter: ({ dictionary, file }) => {
-      const tokens = JSON.stringify(formatHelpers.minifyDictionary(dictionary.tokens), null, 2)
+    format: ({ dictionary, file }) => {
+      const tokens = JSON.stringify(minifyDictionary(dictionary.tokens), null, 2)
       
       const colors = Object.entries(dictionary.tokens.color ?? {}).flatMap(([, value]) =>
         Object.values(value)
@@ -41,7 +43,7 @@ function getTsConfig(
 
       const colorsType = avoidDuplicateColors.map((color) => `"${color}"`).join(' | ')
 
-      return `${formatHelpers.fileHeader({
+      return `${fileHeader({
         file,
       })}export const theme = ${tokens} as const;\n\nexport type ColorsType = ${colorsType};
       `
