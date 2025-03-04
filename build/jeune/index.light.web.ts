@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 Feb 2025 15:20:14 GMT
+ * Generated on Tue, 04 Mar 2025 09:22:13 GMT
  */
 
 export const theme = {
@@ -26,7 +26,8 @@ export const theme = {
       "focused": "#161617",
       "brand-primary": "#eb0055",
       "brand-primary-selected": "#eb0055",
-      "brand-primary-hover": "#cb0659"
+      "brand-primary-hover": "#cb0659",
+      "selected": "#161617"
     },
     "outline": {
       "default": "#161617",

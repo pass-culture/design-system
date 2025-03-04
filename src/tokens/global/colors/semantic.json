@@ -59,6 +59,9 @@
       },
       "brand-primary-hover": {
         "value": "{color.pink.600}"
+      },
+      "selected": {
+        "value": "{color.grey.500}"
       }
     },
     "outline": {

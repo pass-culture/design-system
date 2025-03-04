@@ -1,20 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 Feb 2025 15:20:14 GMT
+ * Generated on Tue, 04 Mar 2025 09:22:13 GMT
  */
 
 export const theme = {
   "color": {
     "text": {
       "default": "#ffffff",
-      "subtle": "#f1f1f4",
-      "error": "#f8b2c0",
-      "disabled": "#cbcdd2",
-      "success": "#91e1b5",
-      "brand-primary": "#ffe0ea",
-      "brand-primary-hover": "#ffa5c0",
-      "brand-secondary": "#320096",
-      "brand-secondary-hover": "#25026c",
+      "subtle": "#90949d",
+      "error": "#f83552",
+      "disabled": "#f1f1f4",
+      "success": "#2cbe6e",
+      "brand-primary": "#ffa5c0",
+      "brand-primary-hover": "#f2497c",
+      "brand-secondary": "#c1a3ff",
+      "brand-secondary-hover": "#f3edff",
       "inverted": "#161617",
       "locked-default": "#ffffff"
     },
@@ -22,11 +22,12 @@ export const theme = {
       "default": "#cbcdd2",
       "subtle": "#90949d",
       "disabled": "#90949d",
-      "error": "#f8b2c0",
+      "error": "#f83552",
       "focused": "#ffffff",
-      "brand-primary": "#f2497c",
-      "brand-primary-selected": "#f2497c",
-      "brand-primary-hover": "#eb0055"
+      "brand-primary": "#ffa5c0",
+      "brand-primary-selected": "#ffa5c0",
+      "brand-primary-hover": "#f2497c",
+      "selected": "#ffffff"
     },
     "outline": {
       "default": "#ffffff",
@@ -37,33 +38,34 @@ export const theme = {
       "default": "#161617",
       "subtle": "#696a6f",
       "disabled": "#696a6f",
-      "error": "#a20121",
-      "success": "#15884f",
-      "warning": "#e1a605",
-      "info": "#eb0055",
+      "error": "#700118",
+      "success": "#09532d",
+      "warning": "#664900",
+      "info": "#cb0659",
       "brand-primary": "#ffa5c0",
-      "brand-primary-hover": "#f2497c",
-      "brand-primary-selected": "#eb0055",
-      "locked-default": "#161617",
+      "brand-primary-hover": "#ffe0ea",
+      "brand-primary-selected": "#cb0659",
+      "locked-default": "#ffffff",
       "locked-brand-primary": "#eb0055",
-      "locked-brand-secondary": "#320096"
+      "locked-brand-secondary": "#ffa5c0"
     },
     "icon": {
       "default": "#ffffff",
       "disabled": "#cbcdd2",
-      "subtle": "#f1f1f4",
-      "info": "#ffe0ea",
-      "error": "#f8b2c0",
-      "success": "#eaf8f0",
-      "warning": "#fff8df",
-      "brand-primary": "#ffe0ea",
+      "subtle": "#cbcdd2",
+      "info": "#ffa5c0",
+      "error": "#f83552",
+      "success": "#2cbe6e",
+      "warning": "#ffef63",
+      "brand-primary": "#ffa5c0",
       "brand-primary-hover": "#ffa5c0",
       "inverted": "#161617"
     }
   },
   "separator": {
     "color": {
-      "default": "#cbcdd2"
+      "default": "#90949d",
+      "subtle": "#696a6f"
     }
   },
   "font": {
@@ -177,5 +179,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#ffffff" | "#f1f1f4" | "#f8b2c0" | "#cbcdd2" | "#91e1b5" | "#ffe0ea" | "#ffa5c0" | "#320096" | "#25026c" | "#161617" | "#90949d" | "#f2497c" | "#eb0055" | "#f83552" | "#696a6f" | "#a20121" | "#15884f" | "#e1a605" | "#eaf8f0" | "#fff8df";
+export type ColorsType = "#ffffff" | "#90949d" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#ffa5c0" | "#f2497c" | "#c1a3ff" | "#f3edff" | "#161617" | "#cbcdd2" | "#696a6f" | "#700118" | "#09532d" | "#664900" | "#cb0659" | "#ffe0ea" | "#eb0055" | "#ffef63";
       
