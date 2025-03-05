@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Mar 2025 09:22:13 GMT
+ * Generated on Wed, 05 Mar 2025 17:04:05 GMT
  */
 
 [data-theme="dark"] {
@@ -9,8 +9,8 @@
   --color-text-error: #f83552;
   --color-text-disabled: #f1f1f4;
   --color-text-success: #2cbe6e;
-  --color-text-brand-primary: #f3edff;
-  --color-text-brand-primary-hover: #c1a3ff;
+  --color-text-brand-primary: #c1a3ff;
+  --color-text-brand-primary-hover: #6123df;
   --color-text-brand-secondary: #c1a3ff;
   --color-text-brand-secondary-hover: #f3edff;
   --color-text-inverted: #161617;
@@ -20,9 +20,9 @@
   --color-border-disabled: #90949d;
   --color-border-error: #f83552;
   --color-border-focused: #ffffff;
-  --color-border-brand-primary: #6123df;
-  --color-border-brand-primary-selected: #6123df;
-  --color-border-brand-primary-hover: #320096;
+  --color-border-brand-primary: #c1a3ff;
+  --color-border-brand-primary-selected: #c1a3ff;
+  --color-border-brand-primary-hover: #6123df;
   --color-border-selected: #ffffff;
   --color-outline-default: #ffffff;
   --color-outline-error: #f83552;
@@ -33,22 +33,22 @@
   --color-background-error: #700118;
   --color-background-success: #09532d;
   --color-background-warning: #664900;
-  --color-background-info: #320096;
+  --color-background-info: #25026c;
   --color-background-brand-primary: #c1a3ff;
-  --color-background-brand-primary-hover: #6123df;
-  --color-background-brand-primary-selected: #320096;
+  --color-background-brand-primary-hover: #f3edff;
+  --color-background-brand-primary-selected: #25026c;
   --color-background-locked-default: #ffffff;
   --color-background-locked-brand-primary: #320096;
-  --color-background-locked-brand-secondary: #320096;
+  --color-background-locked-brand-secondary: #ffa5c0;
   --color-icon-default: #ffffff;
   --color-icon-disabled: #cbcdd2;
   --color-icon-subtle: #cbcdd2;
-  --color-icon-info: #f3edff;
+  --color-icon-info: #c1a3ff;
   --color-icon-error: #f83552;
   --color-icon-success: #2cbe6e;
   --color-icon-warning: #ffef63;
-  --color-icon-brand-primary: #f3edff;
-  --color-icon-brand-primary-hover: #c1a3ff;
+  --color-icon-brand-primary: #c1a3ff;
+  --color-icon-brand-primary-hover: #f3edff;
   --color-icon-inverted: #161617;
   --separator-color-default: #90949d;
   --separator-color-subtle: #696a6f;

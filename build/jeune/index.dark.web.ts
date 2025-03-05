@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Mar 2025 09:22:13 GMT
+ * Generated on Wed, 05 Mar 2025 17:04:05 GMT
  */
 
 export const theme = {
@@ -58,7 +58,7 @@ export const theme = {
       "success": "#2cbe6e",
       "warning": "#ffef63",
       "brand-primary": "#ffa5c0",
-      "brand-primary-hover": "#ffa5c0",
+      "brand-primary-hover": "#ffe0ea",
       "inverted": "#161617"
     }
   },
