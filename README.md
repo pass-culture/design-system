@@ -43,9 +43,11 @@ yarn build
 
 3. _Commit_ les changements et les poussez sur la branche
 
-4. Créer une PR de la branche vers main
+4. Ajouter un _commit_ d'upgrade avec le changement de version dans le fichier `package.json`
 
-5. Une fois la PR approuvée et mergée, basculer sur main et exécuter la commande suivante :
+5. Créer une PR de la branche vers main
+
+6. Une fois la PR approuvée et mergée, basculer sur main et exécuter la commande suivante :
 
 ```bash
 
@@ -64,6 +66,8 @@ yarn build
 > ```bash
 > chmod  +x  ./scripts/generate_dist_case.sh
 > ```
+
+7. Créer une nouvelle _release_ Github avec le détail des changements
 
 ## Fonctionnement du build
 

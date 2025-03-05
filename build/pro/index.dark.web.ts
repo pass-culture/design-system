@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 04 Mar 2025 09:22:13 GMT
+ * Generated on Wed, 05 Mar 2025 17:04:05 GMT
  */
 
 export const theme = {
@@ -11,8 +11,8 @@ export const theme = {
       "error": "#f83552",
       "disabled": "#f1f1f4",
       "success": "#2cbe6e",
-      "brand-primary": "#f3edff",
-      "brand-primary-hover": "#c1a3ff",
+      "brand-primary": "#c1a3ff",
+      "brand-primary-hover": "#6123df",
       "brand-secondary": "#c1a3ff",
       "brand-secondary-hover": "#f3edff",
       "inverted": "#161617",
@@ -24,9 +24,9 @@ export const theme = {
       "disabled": "#90949d",
       "error": "#f83552",
       "focused": "#ffffff",
-      "brand-primary": "#6123df",
-      "brand-primary-selected": "#6123df",
-      "brand-primary-hover": "#320096",
+      "brand-primary": "#c1a3ff",
+      "brand-primary-selected": "#c1a3ff",
+      "brand-primary-hover": "#6123df",
       "selected": "#ffffff"
     },
     "outline": {
@@ -41,24 +41,24 @@ export const theme = {
       "error": "#700118",
       "success": "#09532d",
       "warning": "#664900",
-      "info": "#320096",
+      "info": "#25026c",
       "brand-primary": "#c1a3ff",
-      "brand-primary-hover": "#6123df",
-      "brand-primary-selected": "#320096",
+      "brand-primary-hover": "#f3edff",
+      "brand-primary-selected": "#25026c",
       "locked-default": "#ffffff",
       "locked-brand-primary": "#320096",
-      "locked-brand-secondary": "#320096"
+      "locked-brand-secondary": "#ffa5c0"
     },
     "icon": {
       "default": "#ffffff",
       "disabled": "#cbcdd2",
       "subtle": "#cbcdd2",
-      "info": "#f3edff",
+      "info": "#c1a3ff",
       "error": "#f83552",
       "success": "#2cbe6e",
       "warning": "#ffef63",
-      "brand-primary": "#f3edff",
-      "brand-primary-hover": "#c1a3ff",
+      "brand-primary": "#c1a3ff",
+      "brand-primary-hover": "#f3edff",
       "inverted": "#161617"
     }
   },
@@ -179,5 +179,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#ffffff" | "#90949d" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#f3edff" | "#c1a3ff" | "#161617" | "#cbcdd2" | "#6123df" | "#320096" | "#696a6f" | "#700118" | "#09532d" | "#664900" | "#ffef63";
+export type ColorsType = "#ffffff" | "#90949d" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#c1a3ff" | "#6123df" | "#f3edff" | "#161617" | "#cbcdd2" | "#696a6f" | "#700118" | "#09532d" | "#664900" | "#25026c" | "#320096" | "#ffa5c0" | "#ffef63";
       

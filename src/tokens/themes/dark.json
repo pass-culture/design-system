@@ -142,7 +142,7 @@
         "value": "{color.pink.300}"
       },
       "brand-primary-hover": {
-        "value": "{color.pink.300}"
+        "value": "{color.pink.200}"
       },
       "inverted": {
         "value": "{color.grey.500}"
