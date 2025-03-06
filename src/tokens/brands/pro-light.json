@@ -12,9 +12,6 @@
       "brand-primary": {
         "value": "{color.purple.400}"
       },
-      "brand-primary-selected": {
-        "value": "{color.purple.500}"
-      },
       "brand-primary-hover": {
         "value": "{color.purple.500}"
       }

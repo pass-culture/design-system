@@ -12,9 +12,6 @@
       "brand-primary": {
         "value": "{color.purple.300}"
       },
-      "brand-primary-selected": {
-        "value": "{color.purple.300}"
-      },
       "brand-primary-hover": {
         "value": "{color.purple.400}"
       }
@@ -27,7 +24,7 @@
         "value": "{color.purple.300}"
       },
       "brand-primary-hover": {
-        "value": "{color.purple.200}"
+        "value": "{color.purple.400}"
       },
       "brand-primary-selected": {
         "value": "{color.purple.600}"
@@ -44,7 +41,7 @@
         "value": "{color.purple.300}"
       },
       "brand-primary-hover": {
-        "value": "{color.purple.200}"
+        "value": "{color.purple.400}"
       }
     }
   }

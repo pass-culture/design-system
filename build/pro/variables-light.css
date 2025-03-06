@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 Mar 2025 17:04:05 GMT
+ * Generated on Thu, 06 Mar 2025 16:22:23 GMT
  */
 
 [data-theme="light"] {
@@ -19,11 +19,10 @@
   --color-border-subtle: #cbcdd2;
   --color-border-disabled: #cbcdd2;
   --color-border-error: #a20121;
+  --color-border-selected: #161617;
   --color-border-focused: #161617;
   --color-border-brand-primary: #6123df;
-  --color-border-brand-primary-selected: #320096;
   --color-border-brand-primary-hover: #320096;
-  --color-border-selected: #161617;
   --color-outline-default: #161617;
   --color-outline-error: #a20121;
   --color-outline-inverted: #ffffff;
@@ -45,12 +44,13 @@
   --color-icon-subtle: #696a6f;
   --color-icon-info: #320096;
   --color-icon-error: #a20121;
-  --color-icon-success: #2cbe6e;
+  --color-icon-success: #15884f;
   --color-icon-warning: #e1a605;
   --color-icon-brand-primary: #6123df;
   --color-icon-brand-primary-hover: #320096;
   --color-icon-inverted: #ffffff;
   --separator-color-default: #90949d;
+  --separator-color-subtle: #cbcdd2;
   --font-bold-family: Montserrat-Bold;
   --font-bold-weight: 700;
   --font-bold-display: swap;

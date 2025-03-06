@@ -1,20 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 Mar 2025 17:04:05 GMT
+ * Generated on Thu, 06 Mar 2025 16:22:23 GMT
  */
 
 export const theme = {
   "color": {
     "text": {
       "default": "#ffffff",
-      "subtle": "#90949d",
+      "subtle": "#cbcdd2",
       "error": "#f83552",
       "disabled": "#f1f1f4",
       "success": "#2cbe6e",
       "brand-primary": "#ffa5c0",
       "brand-primary-hover": "#f2497c",
       "brand-secondary": "#c1a3ff",
-      "brand-secondary-hover": "#f3edff",
+      "brand-secondary-hover": "#6123df",
       "inverted": "#161617",
       "locked-default": "#ffffff"
     },
@@ -23,11 +23,10 @@ export const theme = {
       "subtle": "#90949d",
       "disabled": "#90949d",
       "error": "#f83552",
+      "selected": "#ffffff",
       "focused": "#ffffff",
       "brand-primary": "#ffa5c0",
-      "brand-primary-selected": "#ffa5c0",
-      "brand-primary-hover": "#f2497c",
-      "selected": "#ffffff"
+      "brand-primary-hover": "#f2497c"
     },
     "outline": {
       "default": "#ffffff",
@@ -43,11 +42,11 @@ export const theme = {
       "warning": "#664900",
       "info": "#cb0659",
       "brand-primary": "#ffa5c0",
-      "brand-primary-hover": "#ffe0ea",
+      "brand-primary-hover": "#f2497c",
       "brand-primary-selected": "#cb0659",
       "locked-default": "#ffffff",
       "locked-brand-primary": "#eb0055",
-      "locked-brand-secondary": "#ffa5c0"
+      "locked-brand-secondary": "#320096"
     },
     "icon": {
       "default": "#ffffff",
@@ -58,7 +57,7 @@ export const theme = {
       "success": "#2cbe6e",
       "warning": "#ffef63",
       "brand-primary": "#ffa5c0",
-      "brand-primary-hover": "#ffe0ea",
+      "brand-primary-hover": "#f2497c",
       "inverted": "#161617"
     }
   },
@@ -179,5 +178,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#ffffff" | "#90949d" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#ffa5c0" | "#f2497c" | "#c1a3ff" | "#f3edff" | "#161617" | "#cbcdd2" | "#696a6f" | "#700118" | "#09532d" | "#664900" | "#cb0659" | "#ffe0ea" | "#eb0055" | "#ffef63";
+export type ColorsType = "#ffffff" | "#cbcdd2" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#ffa5c0" | "#f2497c" | "#c1a3ff" | "#6123df" | "#161617" | "#90949d" | "#696a6f" | "#700118" | "#09532d" | "#664900" | "#cb0659" | "#eb0055" | "#320096" | "#ffef63";
       
