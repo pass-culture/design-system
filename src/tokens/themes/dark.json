@@ -5,7 +5,7 @@
         "value": "{color.grey.0}"
       },
       "subtle": {
-        "value": "{color.grey.300}"
+        "value": "{color.grey.200}"
       },
       "error": {
         "value": "{color.red.400}"
@@ -26,7 +26,7 @@
         "value": "{color.purple.300}"
       },
       "brand-secondary-hover": {
-        "value": "{color.purple.200}"
+        "value": "{color.purple.400}"
       },
       "inverted": {
         "value": "{color.grey.500}"
@@ -52,9 +52,6 @@
         "value": "{color.grey.0}"
       },
       "brand-primary": {
-        "value": "{color.pink.300}"
-      },
-      "brand-primary-selected": {
         "value": "{color.pink.300}"
       },
       "brand-primary-hover": {
@@ -90,7 +87,7 @@
         "value": "{color.pink.300}"
       },
       "brand-primary-hover": {
-        "value": "{color.pink.200}"
+        "value": "{color.pink.400}"
       },
       "brand-primary-selected": {
         "value": "{color.pink.600}"
@@ -102,7 +99,7 @@
         "value": "{color.pink.500}"
       },
       "locked-brand-secondary": {
-        "value": "{color.pink.300}"
+        "value": "{color.purple.500}"
       }
     },
     "outline": {
@@ -142,7 +139,7 @@
         "value": "{color.pink.300}"
       },
       "brand-primary-hover": {
-        "value": "{color.pink.200}"
+        "value": "{color.pink.400}"
       },
       "inverted": {
         "value": "{color.grey.500}"

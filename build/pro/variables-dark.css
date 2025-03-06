@@ -1,29 +1,28 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 Mar 2025 17:04:05 GMT
+ * Generated on Thu, 06 Mar 2025 16:22:23 GMT
  */
 
 [data-theme="dark"] {
   --color-text-default: #ffffff;
-  --color-text-subtle: #90949d;
+  --color-text-subtle: #cbcdd2;
   --color-text-error: #f83552;
   --color-text-disabled: #f1f1f4;
   --color-text-success: #2cbe6e;
   --color-text-brand-primary: #c1a3ff;
   --color-text-brand-primary-hover: #6123df;
   --color-text-brand-secondary: #c1a3ff;
-  --color-text-brand-secondary-hover: #f3edff;
+  --color-text-brand-secondary-hover: #6123df;
   --color-text-inverted: #161617;
   --color-text-locked-default: #ffffff;
   --color-border-default: #cbcdd2;
   --color-border-subtle: #90949d;
   --color-border-disabled: #90949d;
   --color-border-error: #f83552;
+  --color-border-selected: #ffffff;
   --color-border-focused: #ffffff;
   --color-border-brand-primary: #c1a3ff;
-  --color-border-brand-primary-selected: #c1a3ff;
   --color-border-brand-primary-hover: #6123df;
-  --color-border-selected: #ffffff;
   --color-outline-default: #ffffff;
   --color-outline-error: #f83552;
   --color-outline-inverted: #161617;
@@ -35,11 +34,11 @@
   --color-background-warning: #664900;
   --color-background-info: #25026c;
   --color-background-brand-primary: #c1a3ff;
-  --color-background-brand-primary-hover: #f3edff;
+  --color-background-brand-primary-hover: #6123df;
   --color-background-brand-primary-selected: #25026c;
   --color-background-locked-default: #ffffff;
   --color-background-locked-brand-primary: #320096;
-  --color-background-locked-brand-secondary: #ffa5c0;
+  --color-background-locked-brand-secondary: #320096;
   --color-icon-default: #ffffff;
   --color-icon-disabled: #cbcdd2;
   --color-icon-subtle: #cbcdd2;
@@ -48,7 +47,7 @@
   --color-icon-success: #2cbe6e;
   --color-icon-warning: #ffef63;
   --color-icon-brand-primary: #c1a3ff;
-  --color-icon-brand-primary-hover: #f3edff;
+  --color-icon-brand-primary-hover: #6123df;
   --color-icon-inverted: #161617;
   --separator-color-default: #90949d;
   --separator-color-subtle: #696a6f;
