@@ -1,4 +1,4 @@
-import StyleDictionary from 'style-dictionary'
+import StyleDictionary, { Config } from 'style-dictionary'
 import { BrandsConfig, Platform, PlatformConfigs, Theme } from '../types'
 import { getWebCssConfig } from './formatters/getWebCssConfig'
 import { getMobileTsConfig, getWebTsConfig } from './formatters/getTsConfig'
@@ -20,7 +20,7 @@ export const platformFormatter: PlatformConfigs = {
   ['mobile.ts']: getMobileTsConfig,
 }
 
-export function getBrandConfigs(sd: typeof StyleDictionary) {
+export function getBrandConfigs(sd: StyleDictionary): Config[] {
   return Object.entries(brandsConfig).flatMap(([brand, brandConfig]) => {
     return brandConfig.platforms.flatMap((platform) => {
       const configFn = platformFormatter[platform]

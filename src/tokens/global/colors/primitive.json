@@ -3,277 +3,191 @@
     "grey": {
       "0": {
         "value": "#fff",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "100": {
         "value": "#f1f1f4",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "200": {
         "value": "#cbcdd2",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "300": {
         "value": "#90949d",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#696a6f",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#161617",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     },
     "pink": {
       "200": {
         "value": "#ffe0ea",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "300": {
         "value": "#ffa5c0",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#f2497c",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#eb0055",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "600": {
         "value": "#cb0659",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     },
     "purple": {
       "200": {
         "value": "#f3edff",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "300": {
         "value": "#c1a3ff",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#6123df",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#320096",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "600": {
         "value": "#25026c",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     },
     "green": {
       "200": {
         "value": "#eaf8f0",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "300": {
         "value": "#91e1b5",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#2cbe6e",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#15884f",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "600": {
         "value": "#09532d",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     },
     "red": {
       "200": {
         "value": "#fdf4f6",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "300": {
         "value": "#f8b2c0",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#f83552",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#a20121",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "600": {
         "value": "#700118",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     },
     "yellow": {
       "200": {
         "value": "#fff8df",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "300": {
         "value": "#ffef63",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#f9cf39",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#e1a605",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "600": {
         "value": "#664900",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     },
     "blue": {
       "300": {
         "value": "#dcf3f8",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#9be3f3",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#20c5e9",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "600": {
         "value": "#0e78b7",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     },
     "orange": {
       "300": {
         "value": "#ffeae2",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#ffa079",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#f8733d",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "600": {
         "value": "#d63d00",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     },
     "mintgreen": {
       "300": {
         "value": "#dbffea",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "400": {
         "value": "#94f0d6",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "500": {
         "value": "#27dca8",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       },
       "600": {
         "value": "#0e8474",
-        "attributes": {
-          "type": "primitive"
-        }
+        "type": "color"
       }
     }
   }
