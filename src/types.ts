@@ -23,7 +23,7 @@ export type BrandsConfig = {
   }
 }
 
-export type ConfigFormatter = (sd: typeof StyleDictionary, brand?: string, theme?: string) => Config
+export type ConfigFormatter = (sd: StyleDictionary, brand?: string, theme?: string) => Config
 
 export type PlatformConfigs = {
   [key: string]: ConfigFormatter

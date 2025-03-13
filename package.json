@@ -4,13 +4,14 @@
   "main": "design-tokens.json",
   "repository": "git@github.com:pass-culture/design-system.git",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "ts-node src/build.ts"
+    "build": "tsx src/build.ts"
   },
   "devDependencies": {
     "@types/node": "^20.17.23",
-    "style-dictionary": "^3.9.2",
-    "ts-node": "^10.9.2",
+    "style-dictionary": "^4.3.3",
+    "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   },
   "packageManager": "yarn@3.6.4"

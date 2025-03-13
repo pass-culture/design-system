@@ -1,5 +1,7 @@
-import { formatHelpers, Formatter, TransformedToken, TransformedTokens } from 'style-dictionary'
+import { TransformedToken, TransformedTokens } from 'style-dictionary'
+import { FormatFn } from 'style-dictionary/types'
 import { ConfigFormatter } from '../../types'
+import { fileHeader, minifyDictionary } from 'style-dictionary/utils'
 
 function createFontFace(token: TransformedTokens | TransformedToken) {
   return [
@@ -16,44 +18,49 @@ function createFontFace(token: TransformedTokens | TransformedToken) {
     .join('\n')
 }
 
-const sdFontFacesFormatter: Formatter = ({ dictionary, file }) => {
+const sdFontFacesFormatter: FormatFn = async ({ dictionary, file }) => {
   const fontFacesTokens =
-    (formatHelpers.minifyDictionary(dictionary.tokens) as typeof dictionary.tokens)['font'] ?? {}
+    (minifyDictionary(dictionary.tokens) as typeof dictionary.tokens)['font'] ?? {}
 
-  return `${formatHelpers.fileHeader({
+  return `${await fileHeader({
     file,
+    formatting: {
+      fileHeaderTimestamp: true,
+    },
   })}\n${Object.values(fontFacesTokens).map(createFontFace).join('\n\n')}`
 }
 
-const sdFontPreloadsFormatter: Formatter = ({ dictionary, file }) => {
-  const fontTokens =
-    (formatHelpers.minifyDictionary(dictionary.tokens) as typeof dictionary.tokens)['font'] ?? {}
+const sdFontPreloadsFormatter: FormatFn = async ({ dictionary, file }) => {
+  const fontTokens = (minifyDictionary(dictionary.tokens) as typeof dictionary.tokens)['font'] ?? {}
 
   function createPreload(token: TransformedTokens | TransformedToken) {
     return `<link rel="preload" href="${token.src}" as="font" type="font/woff2" crossorigin/>`
   }
 
-  return `${formatHelpers.fileHeader({
+  return `${await fileHeader({
     file,
+    formatting: {
+      fileHeaderTimestamp: true,
+    },
   })}\nexport const fontPreloads =\n\`${Object.values(fontTokens).map(createPreload).join('\n')}\``
 }
 
 export const getTypoConfig: ConfigFormatter = (sd) => {
   sd.registerFormat({
     name: 'css/font-faces',
-    formatter: sdFontFacesFormatter,
+    format: sdFontFacesFormatter,
   })
 
   sd.registerFormat({
     name: 'ts/font-preloads',
-    formatter: sdFontPreloadsFormatter,
+    format: sdFontPreloadsFormatter,
   })
 
   return {
     source: ['src/tokens/global/typography/**/*.json'],
     platforms: {
       css: {
-        transforms: ['name/cti/kebab'],
+        transforms: ['name/kebab'],
         buildPath: 'build/global/',
         files: [
           {
@@ -63,7 +70,7 @@ export const getTypoConfig: ConfigFormatter = (sd) => {
         ],
       },
       js: {
-        transforms: ['name/cti/kebab'],
+        transforms: ['name/kebab'],
         buildPath: 'build/global/',
         files: [
           {

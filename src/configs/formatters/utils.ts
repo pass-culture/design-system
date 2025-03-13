@@ -1,5 +1,5 @@
-import { DesignToken } from 'style-dictionary/types/DesignToken'
+import { DesignToken } from 'style-dictionary/types'
 
 export function designTokenFilter(token: DesignToken) {
-  return token.attributes?.type !== 'primitive'
+  return !token.filePath.endsWith('primitive.json')
 }
