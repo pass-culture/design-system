@@ -9,7 +9,7 @@
     "build": "tsx src/build.ts"
   },
   "devDependencies": {
-    "@types/node": "^20.17.23",
+    "@types/node": "^20.17.24",
     "style-dictionary": "^4.3.3",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
