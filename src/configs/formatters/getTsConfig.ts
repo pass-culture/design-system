@@ -1,4 +1,4 @@
-import StyleDictionary, { TransformedToken } from 'style-dictionary'
+import StyleDictionary from 'style-dictionary'
 import { minifyDictionary, fileHeader } from 'style-dictionary/utils'
 import { ConfigFormatter } from '../../types'
 import { designTokenFilter, getColorsCodesInTokens } from './utils'

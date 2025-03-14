@@ -49,7 +49,7 @@
         "value": "{color.grey.300}"
       },
       "disabled": {
-        "value": "{color.grey.300}"
+        "value": "{color.grey.400}"
       },
       "error": {
         "value": "{color.red.400}"

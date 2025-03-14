@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Fri, 14 Mar 2025 14:28:26 GMT
+ * Generated on Fri, 14 Mar 2025 14:34:55 GMT
  */
 
 [data-theme="light"] {
@@ -17,7 +17,7 @@
   --color-text-locked: #ffffff;
   --color-border-default: #90949d;
   --color-border-subtle: #cbcdd2;
-  --color-border-disabled: #cbcdd2;
+  --color-border-disabled: #f1f1f4;
   --color-border-error: #a20121;
   --color-border-selected: #161617;
   --color-border-focused: #161617;

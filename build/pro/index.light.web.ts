@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Fri, 14 Mar 2025 14:28:26 GMT
+ * Generated on Fri, 14 Mar 2025 14:34:55 GMT
  */
 
 export const theme = {
@@ -27,7 +27,7 @@ export const theme = {
     "border": {
       "default": "#90949d",
       "subtle": "#cbcdd2",
-      "disabled": "#cbcdd2",
+      "disabled": "#f1f1f4",
       "error": "#a20121",
       "selected": "#161617",
       "focused": "#161617",
