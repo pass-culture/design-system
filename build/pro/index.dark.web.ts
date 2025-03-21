@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Fri, 14 Mar 2025 14:34:55 GMT
+ * Generated on Fri, 21 Mar 2025 08:38:58 GMT
  */
 
 export const theme = {
@@ -80,7 +80,8 @@ export const theme = {
           "hover": "#6123df"
         }
       },
-      "inverted": "#161617"
+      "inverted": "#161617",
+      "locked": "#ffffff"
     }
   },
   "separator": {
