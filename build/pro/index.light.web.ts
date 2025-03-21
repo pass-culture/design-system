@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 12 Mar 2025 14:55:22 GMT
+ * Generated on Fri, 21 Mar 2025 08:38:58 GMT
  */
 
 export const theme = {
@@ -11,22 +11,32 @@ export const theme = {
       "error": "#a20121",
       "disabled": "#696a6f",
       "success": "#15884f",
-      "brand-primary": "#6123df",
-      "brand-primary-hover": "#320096",
-      "brand-secondary": "#320096",
-      "brand-secondary-hover": "#25026c",
+      "brand": {
+        "primary": {
+          "default": "#6123df",
+          "hover": "#320096"
+        },
+        "secondary": {
+          "default": "#320096",
+          "hover": "#25026c"
+        }
+      },
       "inverted": "#ffffff",
-      "locked-default": "#ffffff"
+      "locked": "#ffffff"
     },
     "border": {
       "default": "#90949d",
       "subtle": "#cbcdd2",
-      "disabled": "#cbcdd2",
+      "disabled": "#f1f1f4",
       "error": "#a20121",
       "selected": "#161617",
       "focused": "#161617",
-      "brand-primary": "#6123df",
-      "brand-primary-hover": "#320096"
+      "brand": {
+        "primary": {
+          "default": "#6123df",
+          "hover": "#320096"
+        }
+      }
     },
     "outline": {
       "default": "#161617",
@@ -41,12 +51,20 @@ export const theme = {
       "success": "#eaf8f0",
       "warning": "#fff8df",
       "info": "#f3edff",
-      "brand-primary": "#320096",
-      "brand-primary-hover": "#25026c",
-      "brand-primary-selected": "#f3edff",
-      "locked-default": "#161617",
-      "locked-brand-primary": "#320096",
-      "locked-brand-secondary": "#320096"
+      "brand": {
+        "primary": {
+          "default": "#320096",
+          "hover": "#25026c",
+          "selected": "#f3edff"
+        }
+      },
+      "locked": {
+        "default": "#161617",
+        "brand": {
+          "primary": "#320096",
+          "secondary": "#320096"
+        }
+      }
     },
     "icon": {
       "default": "#161617",
@@ -56,9 +74,14 @@ export const theme = {
       "error": "#a20121",
       "success": "#15884f",
       "warning": "#e1a605",
-      "brand-primary": "#6123df",
-      "brand-primary-hover": "#320096",
-      "inverted": "#ffffff"
+      "brand": {
+        "primary": {
+          "default": "#6123df",
+          "hover": "#320096"
+        }
+      },
+      "inverted": "#ffffff",
+      "locked": "#ffffff"
     }
   },
   "separator": {
