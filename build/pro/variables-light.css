@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Fri, 21 Mar 2025 08:38:58 GMT
+ * Generated on Tue, 25 Mar 2025 14:25:59 GMT
  */
 
 [data-theme="light"] {
@@ -9,19 +9,19 @@
   --color-text-error: #a20121;
   --color-text-disabled: #696a6f;
   --color-text-success: #15884f;
-  --color-text-brand-primary-default: #6123df;
+  --color-text-brand-primary: #6123df;
   --color-text-brand-primary-hover: #320096;
-  --color-text-brand-secondary-default: #320096;
+  --color-text-brand-secondary: #320096;
   --color-text-brand-secondary-hover: #25026c;
   --color-text-inverted: #ffffff;
-  --color-text-locked: #ffffff;
+  --color-text-locked-default: #ffffff;
   --color-border-default: #90949d;
   --color-border-subtle: #cbcdd2;
   --color-border-disabled: #f1f1f4;
   --color-border-error: #a20121;
   --color-border-selected: #161617;
   --color-border-focused: #161617;
-  --color-border-brand-primary-default: #6123df;
+  --color-border-brand-primary: #6123df;
   --color-border-brand-primary-hover: #320096;
   --color-outline-default: #161617;
   --color-outline-error: #a20121;
@@ -33,7 +33,7 @@
   --color-background-success: #eaf8f0;
   --color-background-warning: #fff8df;
   --color-background-info: #f3edff;
-  --color-background-brand-primary-default: #320096;
+  --color-background-brand-primary: #320096;
   --color-background-brand-primary-hover: #25026c;
   --color-background-brand-primary-selected: #f3edff;
   --color-background-locked-default: #161617;
@@ -46,7 +46,7 @@
   --color-icon-error: #a20121;
   --color-icon-success: #15884f;
   --color-icon-warning: #e1a605;
-  --color-icon-brand-primary-default: #6123df;
+  --color-icon-brand-primary: #6123df;
   --color-icon-brand-primary-hover: #320096;
   --color-icon-inverted: #ffffff;
   --color-icon-locked: #ffffff;

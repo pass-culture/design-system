@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Fri, 21 Mar 2025 08:38:58 GMT
+ * Generated on Tue, 25 Mar 2025 14:25:59 GMT
  */
 
 export const theme = {
@@ -11,18 +11,12 @@ export const theme = {
       "error": "#f83552",
       "disabled": "#f1f1f4",
       "success": "#2cbe6e",
-      "brand": {
-        "primary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df"
-        },
-        "secondary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df"
-        }
-      },
+      "brand-primary": "#c1a3ff",
+      "brand-primary-hover": "#6123df",
+      "brand-secondary": "#c1a3ff",
+      "brand-secondary-hover": "#6123df",
       "inverted": "#161617",
-      "locked": "#ffffff"
+      "locked-default": "#ffffff"
     },
     "border": {
       "default": "#cbcdd2",
@@ -31,12 +25,8 @@ export const theme = {
       "error": "#f83552",
       "selected": "#ffffff",
       "focused": "#ffffff",
-      "brand": {
-        "primary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df"
-        }
-      }
+      "brand-primary": "#c1a3ff",
+      "brand-primary-hover": "#6123df"
     },
     "outline": {
       "default": "#ffffff",
@@ -51,20 +41,12 @@ export const theme = {
       "success": "#09532d",
       "warning": "#664900",
       "info": "#25026c",
-      "brand": {
-        "primary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df",
-          "selected": "#25026c"
-        }
-      },
-      "locked": {
-        "default": "#ffffff",
-        "brand": {
-          "primary": "#320096",
-          "secondary": "#320096"
-        }
-      }
+      "brand-primary": "#c1a3ff",
+      "brand-primary-hover": "#6123df",
+      "brand-primary-selected": "#25026c",
+      "locked-default": "#ffffff",
+      "locked-brand-primary": "#320096",
+      "locked-brand-secondary": "#320096"
     },
     "icon": {
       "default": "#ffffff",
@@ -74,12 +56,8 @@ export const theme = {
       "error": "#f83552",
       "success": "#2cbe6e",
       "warning": "#ffef63",
-      "brand": {
-        "primary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df"
-        }
-      },
+      "brand-primary": "#c1a3ff",
+      "brand-primary-hover": "#6123df",
       "inverted": "#161617",
       "locked": "#ffffff"
     }
