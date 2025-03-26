@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Fri, 21 Mar 2025 08:38:58 GMT
+ * Generated on Wed, 26 Mar 2025 16:07:52 GMT
  */
 
 export const theme = {
@@ -11,16 +11,10 @@ export const theme = {
       "error": "#f83552",
       "disabled": "#f1f1f4",
       "success": "#2cbe6e",
-      "brand": {
-        "primary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df"
-        },
-        "secondary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df"
-        }
-      },
+      "brandPrimary": "#c1a3ff",
+      "brandPrimaryHover": "#6123df",
+      "brandSecondary": "#c1a3ff",
+      "brandSecondaryHover": "#6123df",
       "inverted": "#161617",
       "locked": "#ffffff"
     },
@@ -31,12 +25,8 @@ export const theme = {
       "error": "#f83552",
       "selected": "#ffffff",
       "focused": "#ffffff",
-      "brand": {
-        "primary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df"
-        }
-      }
+      "brandPrimary": "#c1a3ff",
+      "brandPrimaryHover": "#6123df"
     },
     "outline": {
       "default": "#ffffff",
@@ -51,20 +41,12 @@ export const theme = {
       "success": "#09532d",
       "warning": "#664900",
       "info": "#25026c",
-      "brand": {
-        "primary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df",
-          "selected": "#25026c"
-        }
-      },
-      "locked": {
-        "default": "#ffffff",
-        "brand": {
-          "primary": "#320096",
-          "secondary": "#320096"
-        }
-      }
+      "brandPrimary": "#c1a3ff",
+      "brandPrimaryHover": "#6123df",
+      "brandPrimarySelected": "#25026c",
+      "locked": "#ffffff",
+      "lockedBrandPrimary": "#320096",
+      "lockedBrandSecondary": "#320096"
     },
     "icon": {
       "default": "#ffffff",
@@ -74,12 +56,8 @@ export const theme = {
       "error": "#f83552",
       "success": "#2cbe6e",
       "warning": "#ffef63",
-      "brand": {
-        "primary": {
-          "default": "#c1a3ff",
-          "hover": "#6123df"
-        }
-      },
+      "brandPrimary": "#c1a3ff",
+      "brandPrimaryHover": "#6123df",
       "inverted": "#161617",
       "locked": "#ffffff"
     }

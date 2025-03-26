@@ -1,67 +1,47 @@
 {
   "color": {
     "text": {
-      "brand": {
-        "primary": {
-          "default": {
-            "value": "{color.purple.300}"
-          },
-          "hover": {
-            "value": "{color.purple.400}"
-          }
-        }
+      "brandPrimary": {
+        "value": "{color.purple.300}"
+      },
+      "brandPrimaryHover": {
+        "value": "{color.purple.400}"
       }
     },
     "border": {
-      "brand": {
-        "primary": {
-          "default": {
-            "value": "{color.purple.300}"
-          },
-          "hover": {
-            "value": "{color.purple.400}"
-          }
-        }
+      "brandPrimary": {
+        "value": "{color.purple.300}"
+      },
+      "brandPrimaryHover": {
+        "value": "{color.purple.400}"
       }
     },
     "background": {
       "info": {
         "value": "{color.purple.600}"
       },
-      "brand": {
-        "primary": {
-          "default": {
-            "value": "{color.purple.300}"
-          },
-          "hover": {
-            "value": "{color.purple.400}"
-          },
-          "selected": {
-            "value": "{color.purple.600}"
-          }
-        }
+      "brandPrimary": {
+        "value": "{color.purple.300}"
       },
-      "locked": {
-        "brand": {
-          "primary": {
-            "value": "{color.purple.500}"
-          }
-        }
+      "brandPrimaryHover": {
+        "value": "{color.purple.400}"
+      },
+      "brandPrimarySelected": {
+        "value": "{color.purple.600}"
+      },
+      "lockedBrandPrimary": {
+        "value": "{color.purple.500}"
       }
     },
     "icon": {
       "info": {
         "value": "{color.purple.300}"
       },
-      "brand": {
-        "primary": {
-          "default": {
-            "value": "{color.purple.300}"
-          },
-          "hover": {
-            "value": "{color.purple.400}"
-          }
-        }
+      "brandPrimary": {
+        "value": "{color.purple.300}"
+      },
+      "brandPrimaryHover": {
+        "value": "{color.purple.400}"
       }
     }
   }
