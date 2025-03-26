@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Tue, 25 Mar 2025 14:25:59 GMT
+ * Generated on Wed, 26 Mar 2025 16:07:52 GMT
  */
 
 export const theme = {
@@ -11,12 +11,12 @@ export const theme = {
       "error": "#f83552",
       "disabled": "#f1f1f4",
       "success": "#2cbe6e",
-      "brand-primary": "#c1a3ff",
-      "brand-primary-hover": "#6123df",
-      "brand-secondary": "#c1a3ff",
-      "brand-secondary-hover": "#6123df",
+      "brandPrimary": "#c1a3ff",
+      "brandPrimaryHover": "#6123df",
+      "brandSecondary": "#c1a3ff",
+      "brandSecondaryHover": "#6123df",
       "inverted": "#161617",
-      "locked-default": "#ffffff"
+      "locked": "#ffffff"
     },
     "border": {
       "default": "#cbcdd2",
@@ -25,8 +25,8 @@ export const theme = {
       "error": "#f83552",
       "selected": "#ffffff",
       "focused": "#ffffff",
-      "brand-primary": "#c1a3ff",
-      "brand-primary-hover": "#6123df"
+      "brandPrimary": "#c1a3ff",
+      "brandPrimaryHover": "#6123df"
     },
     "outline": {
       "default": "#ffffff",
@@ -41,12 +41,12 @@ export const theme = {
       "success": "#09532d",
       "warning": "#664900",
       "info": "#25026c",
-      "brand-primary": "#c1a3ff",
-      "brand-primary-hover": "#6123df",
-      "brand-primary-selected": "#25026c",
-      "locked-default": "#ffffff",
-      "locked-brand-primary": "#320096",
-      "locked-brand-secondary": "#320096"
+      "brandPrimary": "#c1a3ff",
+      "brandPrimaryHover": "#6123df",
+      "brandPrimarySelected": "#25026c",
+      "locked": "#ffffff",
+      "lockedBrandPrimary": "#320096",
+      "lockedBrandSecondary": "#320096"
     },
     "icon": {
       "default": "#ffffff",
@@ -56,8 +56,8 @@ export const theme = {
       "error": "#f83552",
       "success": "#2cbe6e",
       "warning": "#ffef63",
-      "brand-primary": "#c1a3ff",
-      "brand-primary-hover": "#6123df",
+      "brandPrimary": "#c1a3ff",
+      "brandPrimaryHover": "#6123df",
       "inverted": "#161617",
       "locked": "#ffffff"
     }
