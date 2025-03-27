@@ -1,110 +1,8 @@
 {
-  "font": {
-    "bold": {
-      "family": {
-        "value": "Montserrat-Bold"
-      },
-      "weight": {
-        "value": "{fontWeight.bold}"
-      },
-      "display": {
-        "value": "swap"
-      },
-      "style": {
-        "value": "normal"
-      },
-      "src": {
-        "value": "https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXx-p7K4KLg.woff"
-      },
-      "unicode-range": {
-        "value": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;"
-      }
-    },
-    "semiBold": {
-      "family": {
-        "value": "Montserrat-SemiBold"
-      },
-      "weight": {
-        "value": "{fontWeight.semiBold}"
-      },
-      "display": {
-        "value": "swap"
-      },
-      "style": {
-        "value": "normal"
-      },
-      "src": {
-        "value": "https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aXx-p7K4KLg.woff"
-      },
-      "unicode-range": {
-        "value": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;"
-      }
-    },
-    "semiBoldItalic": {
-      "family": {
-        "value": "Montserrat-SemiBoldItalic"
-      },
-      "weight": {
-        "value": "{fontWeight.semiBold}"
-      },
-      "display": {
-        "value": "swap"
-      },
-      "style": {
-        "value": "italic"
-      },
-      "src": {
-        "value": "https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXh0oJC8MLnbtg.woff"
-      },
-      "unicode-range": {
-        "value": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;"
-      }
-    },
-    "medium": {
-      "family": {
-        "value": "Montserrat-Medium"
-      },
-      "weight": {
-        "value": "{fontWeight.medium}"
-      },
-      "display": {
-        "value": "swap"
-      },
-      "style": {
-        "value": "normal"
-      },
-      "src": {
-        "value": "https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aXx-p7K4KLg.woff"
-      },
-      "unicode-range": {
-        "value": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;"
-      }
-    },
-    "mediumItalic": {
-      "family": {
-        "value": "Montserrat-MediumItalic"
-      },
-      "weight": {
-        "value": "{fontWeight.medium}"
-      },
-      "style": {
-        "value": "italic"
-      },
-      "display": {
-        "value": "swap"
-      },
-      "src": {
-        "value": "https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0oJC8MLnbtg.woff"
-      },
-      "unicode-range": {
-        "value": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;"
-      }
-    }
-  },
   "typography": {
     "title1": {
       "fontFamily": {
-        "value": "{font.bold.family}"
+        "value": "{fontFamily.bold.name}"
       },
       "fontSize": {
         "value": "{fontSize.xxxl}"
@@ -115,7 +13,7 @@
     },
     "title2": {
       "fontFamily": {
-        "value": "{font.bold.family}"
+        "value": "{fontFamily.bold.name}"
       },
       "fontSize": {
         "value": "{fontSize.xxl}"
@@ -126,7 +24,7 @@
     },
     "title3": {
       "fontFamily": {
-        "value": "{font.bold.family}"
+        "value": "{fontFamily.bold.name}"
       },
       "fontSize": {
         "value": "{fontSize.xl}"
@@ -137,7 +35,7 @@
     },
     "title4": {
       "fontFamily": {
-        "value": "{font.bold.family}"
+        "value": "{fontFamily.bold.name}"
       },
       "fontSize": {
         "value": "{fontSize.l}"
@@ -148,7 +46,7 @@
     },
     "body": {
       "fontFamily": {
-        "value": "{font.medium.family}"
+        "value": "{fontFamily.medium.name}"
       },
       "fontSize": {
         "value": "{fontSize.m}"
@@ -159,7 +57,7 @@
     },
     "bodyS": {
       "fontFamily": {
-        "value": "{font.medium.family}"
+        "value": "{fontFamily.medium.name}"
       },
       "fontSize": {
         "value": "{fontSize.s}"
@@ -170,7 +68,7 @@
     },
     "bodyXs": {
       "fontFamily": {
-        "value": "{font.medium.family}"
+        "value": "{fontFamily.medium.name}"
       },
       "fontSize": {
         "value": "{fontSize.xs}"
@@ -181,7 +79,7 @@
     },
     "bodyAccent": {
       "fontFamily": {
-        "value": "{font.semiBold.family}"
+        "value": "{fontFamily.semiBold.name}"
       },
       "fontSize": {
         "value": "{fontSize.m}"
@@ -192,7 +90,7 @@
     },
     "bodyAccentS": {
       "fontFamily": {
-        "value": "{font.semiBold.family}"
+        "value": "{fontFamily.semiBold.name}"
       },
       "fontSize": {
         "value": "{fontSize.s}"
@@ -203,7 +101,7 @@
     },
     "bodyAccentXs": {
       "fontFamily": {
-        "value": "{font.semiBold.family}"
+        "value": "{fontFamily.semiBold.name}"
       },
       "fontSize": {
         "value": "{fontSize.xs}"
@@ -214,7 +112,7 @@
     },
     "bodyItalic": {
       "fontFamily": {
-        "value": "{font.mediumItalic.family}"
+        "value": "{fontFamily.mediumItalic.name}"
       },
       "fontSize": {
         "value": "{fontSize.m}"
@@ -225,7 +123,7 @@
     },
     "bodyItalicAccent": {
       "fontFamily": {
-        "value": "{font.semiBoldItalic.family}"
+        "value": "{fontFamily.semiBoldItalic.name}"
       },
       "fontSize": {
         "value": "{fontSize.m}"
@@ -236,7 +134,7 @@
     },
     "button": {
       "fontFamily": {
-        "value": "{font.bold.family}"
+        "value": "{fontFamily.bold.name}"
       },
       "fontSize": {
         "value": "{fontSize.m}"

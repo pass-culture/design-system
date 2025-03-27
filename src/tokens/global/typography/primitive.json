@@ -69,5 +69,47 @@
       "value": "28",
       "type": "dimension"
     }
+  },
+  "fontFamily": {
+    "medium": {
+      "name": {
+        "value": "Montserrat-Medium"
+      },
+      "url": {
+        "value": "https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aXp-p7K4KLg.woff2"
+      }
+    },
+    "mediumItalic": {
+      "name": {
+        "value": "Montserrat-MediumItalic"
+      },
+      "url": {
+        "value": "https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0ppC8MLnbtg.woff2"
+      }
+    },
+    "semiBold": {
+      "name": {
+        "value": "Montserrat-SemiBold"
+      },
+      "url": {
+        "value": "https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aXp-p7K4KLg.woff2"
+      }
+    },
+    "semiBoldItalic": {
+      "name": {
+        "value": "Montserrat-SemiBoldItalic"
+      },
+      "url": {
+        "value": "https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXh0ppC8MLnbtg.woff2"
+      }
+    },
+    "bold": {
+      "name": {
+        "value": "Montserrat-Bold"
+      },
+      "url": {
+        "value": "https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXp-p7K4KLg.woff2"
+      }
+    }
   }
 }
