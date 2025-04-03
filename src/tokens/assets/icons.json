@@ -1,0 +1,7 @@
+{
+  "asset": {
+    "icon": {
+      "thumb-up": { "value": "src/tokens/assets/icons/thumb-up.svg", "type": "asset" }
+    }
+  }
+}
