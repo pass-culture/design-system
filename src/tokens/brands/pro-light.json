@@ -21,19 +21,19 @@
         "value": "{color.purple.200}"
       },
       "brandPrimary": {
-        "value": "{color.purple.500}"
+        "value": "{color.purple.400}"
       },
       "brandPrimaryHover": {
-        "value": "{color.purple.600}"
+        "value": "{color.purple.500}"
       },
       "brandPrimarySelected": {
         "value": "{color.purple.200}"
       },
       "lockedBrandPrimary": {
-        "value": "{color.purple.500}"
+        "value": "{color.purple.400}"
       },
       "lockedBrandSecondary": {
-        "value": "{color.purple.500}"
+        "value": "{color.purple.400}"
       }
     },
     "icon": {

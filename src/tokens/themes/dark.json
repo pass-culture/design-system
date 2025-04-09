@@ -59,6 +59,9 @@
       },
       "selected": {
         "value": "{color.grey.0}"
+      },
+      "inverted": {
+        "value": "{color.grey.500}"
       }
     },
     "background": {
@@ -100,6 +103,9 @@
       },
       "lockedBrandSecondary": {
         "value": "{color.purple.500}"
+      },
+      "inverted": {
+        "value": "{color.grey.0}"
       }
     },
     "outline": {

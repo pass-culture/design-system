@@ -59,6 +59,9 @@
       },
       "brandPrimaryHover": {
         "value": "{color.pink.600}"
+      },
+      "inverted": {
+        "value": "{color.grey.0}"
       }
     },
     "outline": {
@@ -111,6 +114,9 @@
       },
       "lockedBrandSecondary": {
         "value": "{color.purple.500}"
+      },
+      "inverted": {
+        "value": "{color.grey.500}"
       }
     },
     "icon": {
