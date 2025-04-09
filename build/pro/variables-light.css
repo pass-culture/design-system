@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 09 Apr 2025 15:15:48 GMT
+ * Generated on Wed, 09 Apr 2025 15:30:57 GMT
  */
 
 [data-theme="light"] {
@@ -23,6 +23,7 @@
   --color-border-focused: #161617;
   --color-border-brand-primary: #6123df;
   --color-border-brand-primary-hover: #320096;
+  --color-border-inverted: #ffffff;
   --color-outline-default: #161617;
   --color-outline-error: #a20121;
   --color-outline-inverted: #ffffff;
@@ -39,6 +40,7 @@
   --color-background-locked: #161617;
   --color-background-locked-brand-primary: #6123df;
   --color-background-locked-brand-secondary: #6123df;
+  --color-background-inverted: #161617;
   --color-icon-default: #161617;
   --color-icon-disabled: #696a6f;
   --color-icon-subtle: #696a6f;
