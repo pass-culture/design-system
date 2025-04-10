@@ -297,6 +297,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pass-culture/design-system@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@pass-culture/design-system@workspace:."
+  dependencies:
+    "@types/node": ^20.17.30
+    style-dictionary: ^4.3.3
+    tsx: ^4.19.3
+    typescript: ^5.8.3
+  languageName: unknown
+  linkType: soft
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -630,17 +641,6 @@ __metadata:
   checksum: b4ccd00597dd46cb2d4a379398f5b19fca84a16f3374e2249201992f36b30f6835949a9429669ee6b41b6e837205a163eadd745e472069e70dfc10f03e5fcc12
   languageName: node
   linkType: hard
-
-"design-system@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "design-system@workspace:."
-  dependencies:
-    "@types/node": ^20.17.30
-    style-dictionary: ^4.3.3
-    tsx: ^4.19.3
-    typescript: ^5.8.3
-  languageName: unknown
-  linkType: soft
 
 "dunder-proto@npm:^1.0.1":
   version: 1.0.1
