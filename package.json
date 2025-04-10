@@ -6,7 +6,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsx src/build.ts"
+    "build": "tsx src/build.ts && yarn run tsc build/**/*.ts --outDir dist"
   },
   "devDependencies": {
     "@types/node": "^20.17.30",
