@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 09 Apr 2025 15:30:57 GMT
+ * Generated on Wed, 16 Apr 2025 15:18:37 GMT
  */
 
 export const theme = {
@@ -61,7 +61,7 @@ export const theme = {
       "brandPrimary": "#c1a3ff",
       "brandPrimaryHover": "#6123df",
       "inverted": "#161617",
-      "locked": "#ffffff"
+      "locked": "#161617"
     }
   },
   "separator": {
