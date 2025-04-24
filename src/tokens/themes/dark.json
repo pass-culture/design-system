@@ -29,7 +29,7 @@
         "value": "{color.purple.400}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "locked": {
         "value": "{color.grey.0}"
@@ -61,7 +61,7 @@
         "value": "{color.grey.0}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "decorative01": {
         "value": "{color.orange.300}"
@@ -81,10 +81,10 @@
     },
     "background": {
       "default": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "subtle": {
-        "value": "{color.grey.400}"
+        "value": "{color.grey.500}"
       },
       "disabled": {
         "value": "{color.grey.400}"
@@ -111,7 +111,7 @@
         "value": "{color.pink.600}"
       },
       "locked": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "lockedBrandPrimary": {
         "value": "{color.pink.500}"
@@ -146,7 +146,7 @@
         "value": "{color.red.400}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       }
     },
     "icon": {
@@ -178,7 +178,7 @@
         "value": "{color.pink.400}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "locked": {
         "value": "{color.grey.0}"
