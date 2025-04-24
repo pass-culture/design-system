@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Thu, 24 Apr 2025 13:05:33 GMT
+ * Generated on Thu, 24 Apr 2025 15:05:32 GMT
  */
 
 export const theme = {
@@ -27,7 +27,12 @@ export const theme = {
       "focused": "#ffffff",
       "brandPrimary": "#c1a3ff",
       "brandPrimaryHover": "#6123df",
-      "inverted": "#161617"
+      "inverted": "#161617",
+      "decorative01": "#ffeae2",
+      "decorative02": "#dcf3f8",
+      "decorative03": "#dbffea",
+      "decorative04": "#c1a3ff",
+      "decorative05": "#ffa5c0"
     },
     "outline": {
       "default": "#ffffff",
@@ -48,7 +53,12 @@ export const theme = {
       "locked": "#161617",
       "lockedBrandPrimary": "#320096",
       "lockedBrandSecondary": "#320096",
-      "inverted": "#ffffff"
+      "inverted": "#ffffff",
+      "decorative01": "#d63d00",
+      "decorative02": "#0e78b7",
+      "decorative03": "#0e8474",
+      "decorative04": "#25026c",
+      "decorative05": "#cb0659"
     },
     "icon": {
       "default": "#ffffff",
@@ -139,5 +149,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#ffffff" | "#cbcdd2" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#c1a3ff" | "#6123df" | "#161617" | "#90949d" | "#696a6f" | "#700118" | "#09532d" | "#664900" | "#25026c" | "#320096" | "#ffef63";
+export type ColorsType = "#ffffff" | "#cbcdd2" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#c1a3ff" | "#6123df" | "#161617" | "#90949d" | "#696a6f" | "#ffeae2" | "#dcf3f8" | "#dbffea" | "#ffa5c0" | "#700118" | "#09532d" | "#664900" | "#25026c" | "#320096" | "#d63d00" | "#0e78b7" | "#0e8474" | "#cb0659" | "#ffef63";
       

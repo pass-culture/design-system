@@ -62,6 +62,21 @@
       },
       "inverted": {
         "value": "{color.grey.0}"
+      },
+      "decorative01": {
+        "value": "{color.orange.600}"
+      },
+      "decorative02": {
+        "value": "{color.blue.500}"
+      },
+      "decorative03": {
+        "value": "{color.mintgreen.600}"
+      },
+      "decorative04": {
+        "value": "{color.purple.500}"
+      },
+      "decorative05": {
+        "value": "{color.pink.500}"
       }
     },
     "outline": {
@@ -117,6 +132,21 @@
       },
       "inverted": {
         "value": "{color.grey.500}"
+      },
+      "decorative01": {
+        "value": "{color.orange.300}"
+      },
+      "decorative02": {
+        "value": "{color.blue.400}"
+      },
+      "decorative03": {
+        "value": "{color.mintgreen.400}"
+      },
+      "decorative04": {
+        "value": "{color.purple.300}"
+      },
+      "decorative05": {
+        "value": "{color.pink.300}"
       }
     },
     "icon": {
