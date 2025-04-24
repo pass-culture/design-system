@@ -96,7 +96,7 @@
         "value": "{color.pink.600}"
       },
       "locked": {
-        "value": "{color.grey.0}"
+        "value": "{color.grey.500}"
       },
       "lockedBrandPrimary": {
         "value": "{color.pink.500}"
@@ -151,7 +151,7 @@
         "value": "{color.grey.500}"
       },
       "locked": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.0}"
       }
     }
   },

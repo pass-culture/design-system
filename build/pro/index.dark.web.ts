@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 16 Apr 2025 15:18:37 GMT
+ * Generated on Thu, 24 Apr 2025 13:05:33 GMT
  */
 
 export const theme = {
@@ -45,7 +45,7 @@ export const theme = {
       "brandPrimary": "#c1a3ff",
       "brandPrimaryHover": "#6123df",
       "brandPrimarySelected": "#25026c",
-      "locked": "#ffffff",
+      "locked": "#161617",
       "lockedBrandPrimary": "#320096",
       "lockedBrandSecondary": "#320096",
       "inverted": "#ffffff"
@@ -61,7 +61,7 @@ export const theme = {
       "brandPrimary": "#c1a3ff",
       "brandPrimaryHover": "#6123df",
       "inverted": "#161617",
-      "locked": "#161617"
+      "locked": "#ffffff"
     }
   },
   "separator": {
