@@ -22,6 +22,10 @@
         "type": "color"
       },
       "500": {
+        "value": "#232323",
+        "type": "color"
+      },
+      "600": {
         "value": "#161617",
         "type": "color"
       }

@@ -2,7 +2,7 @@
   "color": {
     "text": {
       "default": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "subtle": {
         "value": "{color.grey.400}"
@@ -49,10 +49,10 @@
         "value": "{color.red.500}"
       },
       "selected": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "focused": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "brandPrimary": {
         "value": "{color.pink.500}"
@@ -62,11 +62,26 @@
       },
       "inverted": {
         "value": "{color.grey.0}"
+      },
+      "decorative01": {
+        "value": "{color.orange.600}"
+      },
+      "decorative02": {
+        "value": "{color.blue.500}"
+      },
+      "decorative03": {
+        "value": "{color.mintgreen.600}"
+      },
+      "decorative04": {
+        "value": "{color.purple.500}"
+      },
+      "decorative05": {
+        "value": "{color.pink.500}"
       }
     },
     "outline": {
       "default": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "error": {
         "value": "{color.red.500}"
@@ -107,7 +122,7 @@
         "value": "{color.pink.200}"
       },
       "locked": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "lockedBrandPrimary": {
         "value": "{color.pink.500}"
@@ -116,12 +131,27 @@
         "value": "{color.purple.500}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
+      },
+      "decorative01": {
+        "value": "{color.orange.300}"
+      },
+      "decorative02": {
+        "value": "{color.blue.400}"
+      },
+      "decorative03": {
+        "value": "{color.mintgreen.400}"
+      },
+      "decorative04": {
+        "value": "{color.purple.300}"
+      },
+      "decorative05": {
+        "value": "{color.pink.300}"
       }
     },
     "icon": {
       "default": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "disabled": {
         "value": "{color.grey.400}"

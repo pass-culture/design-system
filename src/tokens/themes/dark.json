@@ -29,7 +29,7 @@
         "value": "{color.purple.400}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "locked": {
         "value": "{color.grey.0}"
@@ -61,15 +61,30 @@
         "value": "{color.grey.0}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
+      },
+      "decorative01": {
+        "value": "{color.orange.300}"
+      },
+      "decorative02": {
+        "value": "{color.blue.300}"
+      },
+      "decorative03": {
+        "value": "{color.mintgreen.300}"
+      },
+      "decorative04": {
+        "value": "{color.purple.300}"
+      },
+      "decorative05": {
+        "value": "{color.pink.300}"
       }
     },
     "background": {
       "default": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "subtle": {
-        "value": "{color.grey.400}"
+        "value": "{color.grey.500}"
       },
       "disabled": {
         "value": "{color.grey.400}"
@@ -96,7 +111,7 @@
         "value": "{color.pink.600}"
       },
       "locked": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "lockedBrandPrimary": {
         "value": "{color.pink.500}"
@@ -106,6 +121,21 @@
       },
       "inverted": {
         "value": "{color.grey.0}"
+      },
+      "decorative01": {
+        "value": "{color.orange.600}"
+      },
+      "decorative02": {
+        "value": "{color.blue.600}"
+      },
+      "decorative03": {
+        "value": "{color.mintgreen.600}"
+      },
+      "decorative04": {
+        "value": "{color.purple.600}"
+      },
+      "decorative05": {
+        "value": "{color.pink.600}"
       }
     },
     "outline": {
@@ -116,7 +146,7 @@
         "value": "{color.red.400}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       }
     },
     "icon": {
@@ -148,7 +178,7 @@
         "value": "{color.pink.400}"
       },
       "inverted": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.600}"
       },
       "locked": {
         "value": "{color.grey.0}"
