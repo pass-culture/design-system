@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 16 Apr 2025 15:18:37 GMT
+ * Generated on Thu, 24 Apr 2025 13:05:33 GMT
  */
 
 [data-theme="dark"] {
@@ -37,7 +37,7 @@
   --color-background-brand-primary: #c1a3ff;
   --color-background-brand-primary-hover: #6123df;
   --color-background-brand-primary-selected: #25026c;
-  --color-background-locked: #ffffff;
+  --color-background-locked: #161617;
   --color-background-locked-brand-primary: #320096;
   --color-background-locked-brand-secondary: #320096;
   --color-background-inverted: #ffffff;
@@ -51,7 +51,7 @@
   --color-icon-brand-primary: #c1a3ff;
   --color-icon-brand-primary-hover: #6123df;
   --color-icon-inverted: #161617;
-  --color-icon-locked: #161617;
+  --color-icon-locked: #ffffff;
   --separator-color-default: #90949d;
   --separator-color-subtle: #696a6f;
   --typography-title1-font-family: Montserrat-Bold;
