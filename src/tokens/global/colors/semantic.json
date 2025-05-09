@@ -31,8 +31,11 @@
       "inverted": {
         "value": "{color.grey.0}"
       },
-      "locked": {
+      "lockedInverted": {
         "value": "{color.grey.0}"
+      },
+      "locked": {
+        "value": "{color.grey.600}"
       }
     },
     "border": {
@@ -133,7 +136,7 @@
       "brandSecondaryHover": {
         "value": "{color.purple.500}"
       },
-      "locked": {
+      "lockedInverted": {
         "value": "{color.grey.600}"
       },
       "lockedBrandPrimary": {
@@ -198,7 +201,7 @@
       "inverted": {
         "value": "{color.grey.0}"
       },
-      "locked": {
+      "lockedInverted": {
         "value": "{color.grey.0}"
       }
     }

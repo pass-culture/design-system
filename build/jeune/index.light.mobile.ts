@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Fri, 09 May 2025 14:58:45 GMT
+ * Generated on Fri, 09 May 2025 15:03:17 GMT
  */
 
 export const theme = {
@@ -16,7 +16,8 @@ export const theme = {
       "brandSecondary": "#320096",
       "brandSecondaryHover": "#25026c",
       "inverted": "#ffffff",
-      "locked": "#ffffff"
+      "lockedInverted": "#ffffff",
+      "locked": "#161617"
     },
     "border": {
       "default": "#90949d",
@@ -54,7 +55,7 @@ export const theme = {
       "brandPrimarySelected": "#ffe0ea",
       "brandSecondary": "#6123df",
       "brandSecondaryHover": "#320096",
-      "locked": "#161617",
+      "lockedInverted": "#161617",
       "lockedBrandPrimary": "#eb0055",
       "lockedBrandSecondary": "#6123df",
       "inverted": "#161617",
@@ -77,7 +78,7 @@ export const theme = {
       "brandSecondary": "#6123df",
       "brandSecondaryHover": "#320096",
       "inverted": "#ffffff",
-      "locked": "#ffffff"
+      "lockedInverted": "#ffffff"
     }
   },
   "separator": {
