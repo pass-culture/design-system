@@ -31,9 +31,6 @@
       },
       "lockedBrandPrimary": {
         "value": "{color.purple.400}"
-      },
-      "lockedBrandSecondary": {
-        "value": "{color.purple.400}"
       }
     },
     "icon": {
