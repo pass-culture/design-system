@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Fri, 09 May 2025 15:03:17 GMT
+ * Generated on Fri, 09 May 2025 15:04:24 GMT
  */
 
 export const theme = {
@@ -32,7 +32,7 @@ export const theme = {
       "brandSecondaryHover": "#320096",
       "inverted": "#ffffff",
       "decorative01": "#d63d00",
-      "decorative02": "#20c5e9",
+      "decorative02": "#0e78b7",
       "decorative03": "#0e8474",
       "decorative04": "#320096",
       "decorative05": "#eb0055"
@@ -156,5 +156,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#161617" | "#696a6f" | "#a20121" | "#15884f" | "#6123df" | "#320096" | "#25026c" | "#ffffff" | "#90949d" | "#cbcdd2" | "#f1f1f4" | "#d63d00" | "#20c5e9" | "#0e8474" | "#eb0055" | "#fdf4f6" | "#eaf8f0" | "#fff8df" | "#f3edff" | "#ffeae2" | "#9be3f3" | "#94f0d6" | "#c1a3ff" | "#ffa5c0" | "#e1a605";
+export type ColorsType = "#161617" | "#696a6f" | "#a20121" | "#15884f" | "#6123df" | "#320096" | "#25026c" | "#ffffff" | "#90949d" | "#cbcdd2" | "#f1f1f4" | "#d63d00" | "#0e78b7" | "#0e8474" | "#eb0055" | "#fdf4f6" | "#eaf8f0" | "#fff8df" | "#f3edff" | "#ffeae2" | "#9be3f3" | "#94f0d6" | "#c1a3ff" | "#ffa5c0" | "#e1a605";
       
