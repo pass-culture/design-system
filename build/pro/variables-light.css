@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Thu, 24 Apr 2025 15:09:33 GMT
+ * Generated on Fri, 09 May 2025 14:58:45 GMT
  */
 
 [data-theme="light"] {
@@ -23,6 +23,8 @@
   --color-border-focused: #161617;
   --color-border-brand-primary: #6123df;
   --color-border-brand-primary-hover: #320096;
+  --color-border-brand-secondary: #6123df;
+  --color-border-brand-secondary-hover: #320096;
   --color-border-inverted: #ffffff;
   --color-border-decorative01: #d63d00;
   --color-border-decorative02: #20c5e9;
@@ -42,6 +44,8 @@
   --color-background-brand-primary: #6123df;
   --color-background-brand-primary-hover: #320096;
   --color-background-brand-primary-selected: #f3edff;
+  --color-background-brand-secondary: #6123df;
+  --color-background-brand-secondary-hover: #320096;
   --color-background-locked: #161617;
   --color-background-locked-brand-primary: #6123df;
   --color-background-locked-brand-secondary: #6123df;
@@ -60,6 +64,8 @@
   --color-icon-warning: #e1a605;
   --color-icon-brand-primary: #6123df;
   --color-icon-brand-primary-hover: #320096;
+  --color-icon-brand-secondary: #6123df;
+  --color-icon-brand-secondary-hover: #320096;
   --color-icon-inverted: #ffffff;
   --color-icon-locked: #ffffff;
   --separator-color-default: #90949d;

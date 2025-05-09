@@ -57,6 +57,12 @@
       "brandPrimaryHover": {
         "value": "{color.pink.400}"
       },
+      "brandSecondary": {
+        "value": "{color.purple.300}"
+      },
+      "brandSecondaryHover": {
+        "value": "{color.purple.400}"
+      },
       "selected": {
         "value": "{color.grey.0}"
       },
@@ -109,6 +115,12 @@
       },
       "brandPrimarySelected": {
         "value": "{color.pink.600}"
+      },
+      "brandSecondary": {
+        "value": "{color.purple.300}"
+      },
+      "brandSecondaryHover": {
+        "value": "{color.purple.400}"
       },
       "locked": {
         "value": "{color.grey.600}"
@@ -176,6 +188,12 @@
       },
       "brandPrimaryHover": {
         "value": "{color.pink.400}"
+      },
+      "brandSecondary": {
+        "value": "{color.purple.300}"
+      },
+      "brandSecondaryHover": {
+        "value": "{color.purple.400}"
       },
       "inverted": {
         "value": "{color.grey.600}"
