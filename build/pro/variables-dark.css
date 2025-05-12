@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Thu, 24 Apr 2025 15:09:33 GMT
+ * Generated on Mon, 12 May 2025 14:24:44 GMT
  */
 
 [data-theme="dark"] {
@@ -14,7 +14,8 @@
   --color-text-brand-secondary: #c1a3ff;
   --color-text-brand-secondary-hover: #6123df;
   --color-text-inverted: #161617;
-  --color-text-locked: #ffffff;
+  --color-text-locked-inverted: #ffffff;
+  --color-text-locked: #161617;
   --color-border-default: #cbcdd2;
   --color-border-subtle: #90949d;
   --color-border-disabled: #696a6f;
@@ -23,6 +24,8 @@
   --color-border-focused: #ffffff;
   --color-border-brand-primary: #c1a3ff;
   --color-border-brand-primary-hover: #6123df;
+  --color-border-brand-secondary: #c1a3ff;
+  --color-border-brand-secondary-hover: #6123df;
   --color-border-inverted: #161617;
   --color-border-decorative01: #ffeae2;
   --color-border-decorative02: #dcf3f8;
@@ -42,8 +45,10 @@
   --color-background-brand-primary: #c1a3ff;
   --color-background-brand-primary-hover: #6123df;
   --color-background-brand-primary-selected: #25026c;
-  --color-background-locked: #161617;
-  --color-background-locked-brand-primary: #320096;
+  --color-background-brand-secondary: #c1a3ff;
+  --color-background-brand-secondary-hover: #6123df;
+  --color-background-locked-inverted: #161617;
+  --color-background-locked-brand-primary: #6123df;
   --color-background-locked-brand-secondary: #320096;
   --color-background-inverted: #ffffff;
   --color-background-decorative01: #d63d00;
@@ -60,8 +65,10 @@
   --color-icon-warning: #ffef63;
   --color-icon-brand-primary: #c1a3ff;
   --color-icon-brand-primary-hover: #6123df;
+  --color-icon-brand-secondary: #c1a3ff;
+  --color-icon-brand-secondary-hover: #6123df;
   --color-icon-inverted: #161617;
-  --color-icon-locked: #ffffff;
+  --color-icon-locked-inverted: #ffffff;
   --separator-color-default: #90949d;
   --separator-color-subtle: #696a6f;
   --typography-title1-font-family: Montserrat-Bold;
