@@ -304,12 +304,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.17.30":
-  version: 20.17.30
-  resolution: "@types/node@npm:20.17.30"
+"@types/node@npm:^20.17.47":
+  version: 20.17.47
+  resolution: "@types/node@npm:20.17.47"
   dependencies:
     undici-types: ~6.19.2
-  checksum: 40253bc4a3f6adc5dc286824c1fc72a398280a7f6e76cfc22a9d68e42c70edb04c4af53c5709030b90d439bb4bbb29ad62e937d0b04ce2019b3297698bad55ef
+  checksum: e3afa4dcc70a833d6a93c1d7824f4a406b920bdd57eaae82d11e2524fe157bf1c4f0ffd3f9f6ee76b5452737d20233e7d5ad0c98e0198ba1332a2989f0bd9fb9
   languageName: node
   linkType: hard
 
@@ -635,7 +635,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "design-system@workspace:."
   dependencies:
-    "@types/node": ^20.17.30
+    "@types/node": ^20.17.47
     style-dictionary: ^4.3.3
     tsx: ^4.19.3
     typescript: ^5.8.3
