@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Thu, 24 Apr 2025 15:09:33 GMT
+ * Generated on Wed, 14 May 2025 07:21:22 GMT
  */
 
 export const theme = {
@@ -16,7 +16,8 @@ export const theme = {
       "brandSecondary": "#320096",
       "brandSecondaryHover": "#25026c",
       "inverted": "#ffffff",
-      "locked": "#ffffff"
+      "lockedInverted": "#ffffff",
+      "locked": "#161617"
     },
     "border": {
       "default": "#90949d",
@@ -27,9 +28,11 @@ export const theme = {
       "focused": "#161617",
       "brandPrimary": "#eb0055",
       "brandPrimaryHover": "#cb0659",
+      "brandSecondary": "#320096",
+      "brandSecondaryHover": "#25026c",
       "inverted": "#ffffff",
       "decorative01": "#d63d00",
-      "decorative02": "#20c5e9",
+      "decorative02": "#0e78b7",
       "decorative03": "#0e8474",
       "decorative04": "#320096",
       "decorative05": "#eb0055"
@@ -50,7 +53,9 @@ export const theme = {
       "brandPrimary": "#eb0055",
       "brandPrimaryHover": "#cb0659",
       "brandPrimarySelected": "#ffe0ea",
-      "locked": "#161617",
+      "brandSecondary": "#320096",
+      "brandSecondaryHover": "#25026c",
+      "lockedInverted": "#161617",
       "lockedBrandPrimary": "#eb0055",
       "lockedBrandSecondary": "#320096",
       "inverted": "#161617",
@@ -70,14 +75,41 @@ export const theme = {
       "warning": "#e1a605",
       "brandPrimary": "#eb0055",
       "brandPrimaryHover": "#cb0659",
+      "brandSecondary": "#320096",
+      "brandSecondaryHover": "#25026c",
       "inverted": "#ffffff",
-      "locked": "#ffffff"
+      "lockedInverted": "#ffffff"
     }
   },
   "separator": {
     "color": {
       "default": "#90949d",
       "subtle": "#cbcdd2"
+    }
+  },
+  "tag": {
+    "like": {
+      "color": {
+        "icon": "#eb0055",
+        "background": "#f1f1f4"
+      }
+    },
+    "new": {
+      "color": {
+        "background": "#eb0055"
+      }
+    },
+    "headline": {
+      "color": {
+        "icon": "#6123df",
+        "background": "#f3edff"
+      }
+    },
+    "bookclub": {
+      "color": {
+        "icon": "#0e78b7",
+        "background": "#dcf3f8"
+      }
     }
   },
   "typography": {
@@ -149,5 +181,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#161617" | "#696a6f" | "#a20121" | "#15884f" | "#eb0055" | "#cb0659" | "#320096" | "#25026c" | "#ffffff" | "#90949d" | "#cbcdd2" | "#f1f1f4" | "#d63d00" | "#20c5e9" | "#0e8474" | "#fdf4f6" | "#eaf8f0" | "#fff8df" | "#ffe0ea" | "#ffeae2" | "#9be3f3" | "#94f0d6" | "#c1a3ff" | "#ffa5c0" | "#e1a605";
+export type ColorsType = "#161617" | "#696a6f" | "#a20121" | "#15884f" | "#eb0055" | "#cb0659" | "#320096" | "#25026c" | "#ffffff" | "#90949d" | "#cbcdd2" | "#f1f1f4" | "#d63d00" | "#0e78b7" | "#0e8474" | "#fdf4f6" | "#eaf8f0" | "#fff8df" | "#ffe0ea" | "#ffeae2" | "#9be3f3" | "#94f0d6" | "#c1a3ff" | "#ffa5c0" | "#e1a605";
       

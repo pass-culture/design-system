@@ -31,8 +31,11 @@
       "inverted": {
         "value": "{color.grey.600}"
       },
-      "locked": {
+      "lockedInverted": {
         "value": "{color.grey.0}"
+      },
+      "locked": {
+        "value": "{color.grey.600}"
       }
     },
     "border": {
@@ -56,6 +59,12 @@
       },
       "brandPrimaryHover": {
         "value": "{color.pink.400}"
+      },
+      "brandSecondary": {
+        "value": "{color.purple.300}"
+      },
+      "brandSecondaryHover": {
+        "value": "{color.purple.400}"
       },
       "selected": {
         "value": "{color.grey.0}"
@@ -110,7 +119,13 @@
       "brandPrimarySelected": {
         "value": "{color.pink.600}"
       },
-      "locked": {
+      "brandSecondary": {
+        "value": "{color.purple.300}"
+      },
+      "brandSecondaryHover": {
+        "value": "{color.purple.400}"
+      },
+      "lockedInverted": {
         "value": "{color.grey.600}"
       },
       "lockedBrandPrimary": {
@@ -177,10 +192,16 @@
       "brandPrimaryHover": {
         "value": "{color.pink.400}"
       },
+      "brandSecondary": {
+        "value": "{color.purple.300}"
+      },
+      "brandSecondaryHover": {
+        "value": "{color.purple.400}"
+      },
       "inverted": {
         "value": "{color.grey.600}"
       },
-      "locked": {
+      "lockedInverted": {
         "value": "{color.grey.0}"
       }
     }

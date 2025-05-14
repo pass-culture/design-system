@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Thu, 24 Apr 2025 15:09:33 GMT
+ * Generated on Wed, 14 May 2025 07:21:22 GMT
  */
 
 [data-theme="light"] {
@@ -14,7 +14,8 @@
   --color-text-brand-secondary: #320096;
   --color-text-brand-secondary-hover: #25026c;
   --color-text-inverted: #ffffff;
-  --color-text-locked: #ffffff;
+  --color-text-locked-inverted: #ffffff;
+  --color-text-locked: #161617;
   --color-border-default: #90949d;
   --color-border-subtle: #cbcdd2;
   --color-border-disabled: #f1f1f4;
@@ -23,9 +24,11 @@
   --color-border-focused: #161617;
   --color-border-brand-primary: #6123df;
   --color-border-brand-primary-hover: #320096;
+  --color-border-brand-secondary: #320096;
+  --color-border-brand-secondary-hover: #25026c;
   --color-border-inverted: #ffffff;
   --color-border-decorative01: #d63d00;
-  --color-border-decorative02: #20c5e9;
+  --color-border-decorative02: #0e78b7;
   --color-border-decorative03: #0e8474;
   --color-border-decorative04: #320096;
   --color-border-decorative05: #eb0055;
@@ -42,9 +45,11 @@
   --color-background-brand-primary: #6123df;
   --color-background-brand-primary-hover: #320096;
   --color-background-brand-primary-selected: #f3edff;
-  --color-background-locked: #161617;
+  --color-background-brand-secondary: #320096;
+  --color-background-brand-secondary-hover: #25026c;
+  --color-background-locked-inverted: #161617;
   --color-background-locked-brand-primary: #6123df;
-  --color-background-locked-brand-secondary: #6123df;
+  --color-background-locked-brand-secondary: #320096;
   --color-background-inverted: #161617;
   --color-background-decorative01: #ffeae2;
   --color-background-decorative02: #9be3f3;
@@ -60,10 +65,19 @@
   --color-icon-warning: #e1a605;
   --color-icon-brand-primary: #6123df;
   --color-icon-brand-primary-hover: #320096;
+  --color-icon-brand-secondary: #320096;
+  --color-icon-brand-secondary-hover: #25026c;
   --color-icon-inverted: #ffffff;
-  --color-icon-locked: #ffffff;
+  --color-icon-locked-inverted: #ffffff;
   --separator-color-default: #90949d;
   --separator-color-subtle: #cbcdd2;
+  --tag-like-color-icon: #6123df;
+  --tag-like-color-background: #f1f1f4;
+  --tag-new-color-background: #6123df;
+  --tag-headline-color-icon: #6123df;
+  --tag-headline-color-background: #f3edff;
+  --tag-bookclub-color-icon: #0e78b7;
+  --tag-bookclub-color-background: #dcf3f8;
   --typography-title1-font-family: Montserrat-Bold;
   --typography-title1-font-size: 1.75rem;
   --typography-title1-line-height: 2.8rem;

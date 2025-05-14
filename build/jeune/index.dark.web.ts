@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Thu, 24 Apr 2025 15:09:33 GMT
+ * Generated on Wed, 14 May 2025 07:21:22 GMT
  */
 
 export const theme = {
@@ -16,7 +16,8 @@ export const theme = {
       "brandSecondary": "#c1a3ff",
       "brandSecondaryHover": "#6123df",
       "inverted": "#161617",
-      "locked": "#ffffff"
+      "lockedInverted": "#ffffff",
+      "locked": "#161617"
     },
     "border": {
       "default": "#cbcdd2",
@@ -27,6 +28,8 @@ export const theme = {
       "focused": "#ffffff",
       "brandPrimary": "#ffa5c0",
       "brandPrimaryHover": "#f2497c",
+      "brandSecondary": "#c1a3ff",
+      "brandSecondaryHover": "#6123df",
       "inverted": "#161617",
       "decorative01": "#ffeae2",
       "decorative02": "#dcf3f8",
@@ -50,7 +53,9 @@ export const theme = {
       "brandPrimary": "#ffa5c0",
       "brandPrimaryHover": "#f2497c",
       "brandPrimarySelected": "#cb0659",
-      "locked": "#161617",
+      "brandSecondary": "#c1a3ff",
+      "brandSecondaryHover": "#6123df",
+      "lockedInverted": "#161617",
       "lockedBrandPrimary": "#eb0055",
       "lockedBrandSecondary": "#320096",
       "inverted": "#ffffff",
@@ -70,14 +75,41 @@ export const theme = {
       "warning": "#ffef63",
       "brandPrimary": "#ffa5c0",
       "brandPrimaryHover": "#f2497c",
+      "brandSecondary": "#c1a3ff",
+      "brandSecondaryHover": "#6123df",
       "inverted": "#161617",
-      "locked": "#ffffff"
+      "lockedInverted": "#ffffff"
     }
   },
   "separator": {
     "color": {
       "default": "#90949d",
       "subtle": "#696a6f"
+    }
+  },
+  "tag": {
+    "like": {
+      "color": {
+        "icon": "#ffa5c0",
+        "background": "#f1f1f4"
+      }
+    },
+    "new": {
+      "color": {
+        "background": "#ffa5c0"
+      }
+    },
+    "headline": {
+      "color": {
+        "icon": "#6123df",
+        "background": "#f3edff"
+      }
+    },
+    "bookclub": {
+      "color": {
+        "icon": "#0e78b7",
+        "background": "#dcf3f8"
+      }
     }
   },
   "typography": {
