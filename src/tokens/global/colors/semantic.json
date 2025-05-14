@@ -121,6 +121,9 @@
       "info": {
         "value": "{color.pink.200}"
       },
+      "hover": {
+        "value": "{color.grey.100}"
+      },
       "brandPrimary": {
         "value": "{color.pink.500}"
       },
@@ -135,6 +138,9 @@
       },
       "brandSecondaryHover": {
         "value": "{color.purple.600}"
+      },
+      "locked": {
+        "value": "{color.grey.0}"
       },
       "lockedInverted": {
         "value": "{color.grey.600}"

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 14 May 2025 16:09:35 GMT
+ * Generated on Wed, 14 May 2025 16:17:29 GMT
  */
 
 export const theme = {
@@ -50,11 +50,13 @@ export const theme = {
       "success": "#09532d",
       "warning": "#664900",
       "info": "#25026c",
+      "hover": "#232323",
       "brandPrimary": "#c1a3ff",
       "brandPrimaryHover": "#6123df",
       "brandPrimarySelected": "#25026c",
       "brandSecondary": "#c1a3ff",
       "brandSecondaryHover": "#6123df",
+      "locked": "#ffffff",
       "lockedInverted": "#161617",
       "lockedBrandPrimary": "#6123df",
       "lockedBrandSecondary": "#320096",
