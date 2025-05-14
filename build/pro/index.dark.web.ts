@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Mon, 12 May 2025 14:24:44 GMT
+ * Generated on Wed, 14 May 2025 07:21:22 GMT
  */
 
 export const theme = {
@@ -85,6 +85,31 @@ export const theme = {
     "color": {
       "default": "#90949d",
       "subtle": "#696a6f"
+    }
+  },
+  "tag": {
+    "like": {
+      "color": {
+        "icon": "#c1a3ff",
+        "background": "#f1f1f4"
+      }
+    },
+    "new": {
+      "color": {
+        "background": "#c1a3ff"
+      }
+    },
+    "headline": {
+      "color": {
+        "icon": "#6123df",
+        "background": "#f3edff"
+      }
+    },
+    "bookclub": {
+      "color": {
+        "icon": "#0e78b7",
+        "background": "#dcf3f8"
+      }
     }
   },
   "typography": {

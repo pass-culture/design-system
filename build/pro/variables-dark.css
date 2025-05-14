@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Mon, 12 May 2025 14:24:44 GMT
+ * Generated on Wed, 14 May 2025 07:21:22 GMT
  */
 
 [data-theme="dark"] {
@@ -71,6 +71,13 @@
   --color-icon-locked-inverted: #ffffff;
   --separator-color-default: #90949d;
   --separator-color-subtle: #696a6f;
+  --tag-like-color-icon: #c1a3ff;
+  --tag-like-color-background: #f1f1f4;
+  --tag-new-color-background: #c1a3ff;
+  --tag-headline-color-icon: #6123df;
+  --tag-headline-color-background: #f3edff;
+  --tag-bookclub-color-icon: #0e78b7;
+  --tag-bookclub-color-background: #dcf3f8;
   --typography-title1-font-family: Montserrat-Bold;
   --typography-title1-font-size: 1.75rem;
   --typography-title1-line-height: 2.8rem;
