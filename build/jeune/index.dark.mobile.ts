@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 14 May 2025 07:21:22 GMT
+ * Generated on Wed, 14 May 2025 16:17:29 GMT
  */
 
 export const theme = {
@@ -50,11 +50,13 @@ export const theme = {
       "success": "#09532d",
       "warning": "#664900",
       "info": "#cb0659",
+      "hover": "#232323",
       "brandPrimary": "#ffa5c0",
       "brandPrimaryHover": "#f2497c",
       "brandPrimarySelected": "#cb0659",
       "brandSecondary": "#c1a3ff",
       "brandSecondaryHover": "#6123df",
+      "locked": "#ffffff",
       "lockedInverted": "#161617",
       "lockedBrandPrimary": "#eb0055",
       "lockedBrandSecondary": "#320096",
@@ -181,5 +183,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#ffffff" | "#cbcdd2" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#ffa5c0" | "#f2497c" | "#c1a3ff" | "#6123df" | "#161617" | "#90949d" | "#696a6f" | "#ffeae2" | "#dcf3f8" | "#dbffea" | "#232323" | "#700118" | "#09532d" | "#664900" | "#cb0659" | "#eb0055" | "#320096" | "#d63d00" | "#0e78b7" | "#0e8474" | "#25026c" | "#ffef63";
+export type ColorsType = "#ffffff" | "#cbcdd2" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#ffa5c0" | "#f2497c" | "#c1a3ff" | "#6123df" | "#161617" | "#90949d" | "#696a6f" | "#ffeae2" | "#dcf3f8" | "#dbffea" | "#232323" | "#700118" | "#09532d" | "#664900" | "#cb0659" | "#eb0055" | "#320096" | "#d63d00" | "#0e78b7" | "#0e8474" | "#25026c" | "#ffef63" | "#f3edff";
       

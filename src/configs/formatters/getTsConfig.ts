@@ -1,7 +1,7 @@
-import StyleDictionary, { TransformedToken } from 'style-dictionary'
+import StyleDictionary from 'style-dictionary'
 import { minifyDictionary, fileHeader } from 'style-dictionary/utils'
 import { ConfigFormatter } from '../../types'
-import { designTokenFilter } from './utils'
+import { designTokenFilter, getTokensColors } from './utils'
 
 export const getWebTsConfig: ConfigFormatter = (sd, brand, theme) => {
   const destination = `index.${theme}.web.ts`
@@ -29,16 +29,7 @@ function getTsConfig(
     format: async ({ dictionary, file }) => {
       const tokens = JSON.stringify(minifyDictionary(dictionary.tokens), null, 2)
 
-      const colors = Object.entries(dictionary.tokens.color ?? {}).flatMap(([, value]) =>
-        Object.values(value)
-          .filter(
-            (color): color is TransformedToken =>
-              typeof color === 'object' && color !== null && 'value' in color
-          )
-          .map((color) => color.value)
-      )
-
-      const avoidDuplicateColors = Array.from(new Set(colors))
+      const avoidDuplicateColors = Array.from(new Set(getTokensColors(dictionary.tokens)))
 
       const colorsType = avoidDuplicateColors.map((color) => `"${color}"`).join(' | ')
 

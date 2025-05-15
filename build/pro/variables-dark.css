@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 14 May 2025 07:21:22 GMT
+ * Generated on Wed, 14 May 2025 16:17:29 GMT
  */
 
 [data-theme="dark"] {
@@ -42,11 +42,13 @@
   --color-background-success: #09532d;
   --color-background-warning: #664900;
   --color-background-info: #25026c;
+  --color-background-hover: #232323;
   --color-background-brand-primary: #c1a3ff;
   --color-background-brand-primary-hover: #6123df;
   --color-background-brand-primary-selected: #25026c;
   --color-background-brand-secondary: #c1a3ff;
   --color-background-brand-secondary-hover: #6123df;
+  --color-background-locked: #ffffff;
   --color-background-locked-inverted: #161617;
   --color-background-locked-brand-primary: #6123df;
   --color-background-locked-brand-secondary: #320096;
