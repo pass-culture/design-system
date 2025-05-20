@@ -61,7 +61,7 @@ export const getTypoConfig: ConfigFormatter = (sd) => {
     platforms: {
       css: {
         transforms: ['name/kebab'],
-        buildPath: 'build/global/',
+        buildPath: 'lib/global/',
         files: [
           {
             destination: 'font-faces.css',
@@ -71,7 +71,7 @@ export const getTypoConfig: ConfigFormatter = (sd) => {
       },
       js: {
         transforms: ['name/kebab'],
-        buildPath: 'build/global/',
+        buildPath: 'lib/global/',
         files: [
           {
             destination: 'font-preloads.ts',
