@@ -46,7 +46,7 @@
         "value": "{color.grey.300}"
       },
       "disabled": {
-        "value": "{color.grey.400}"
+        "value": "{color.grey.300}"
       },
       "error": {
         "value": "{color.red.400}"
@@ -157,6 +157,12 @@
       },
       "decorative05": {
         "value": "{color.pink.600}"
+      },
+      "headline": {
+        "value": "{color.purple.500}"
+      },
+      "bookclub": {
+        "value": "{color.blue.600}"
       }
     },
     "outline": {
@@ -209,6 +215,12 @@
       },
       "lockedInverted": {
         "value": "{color.grey.0}"
+      },
+      "headline": {
+        "value": "{color.purple.200}"
+      },
+      "bookclub": {
+        "value": "{color.blue.300}"
       }
     }
   },
