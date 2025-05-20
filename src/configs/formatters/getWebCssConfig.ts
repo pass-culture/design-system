@@ -8,7 +8,7 @@ export const getWebCssConfig: ConfigFormatter = (sd, brand, theme) => {
     platforms: {
       css: {
         transforms: ['attribute/cti', 'name/kebab', 'size/pxToRem', 'color/css'],
-        buildPath: `build/${brand}/`,
+        buildPath: `lib/${brand}/`,
         files: [
           {
             destination: `variables-${theme}.css`,
