@@ -4,14 +4,14 @@ import { ConfigFormatter } from '../../types'
 import { designTokenFilter, getTokensColors } from './utils'
 
 export const getWebTsConfig: ConfigFormatter = (sd, brand, theme) => {
-  const destination = `index.${theme}.web.ts`
+  const destination = `${theme}.web.ts`
   const sizeTransform = 'size/pxToRem'
 
   return getTsConfig(sd, sizeTransform, destination, brand, theme)
 }
 
 export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
-  const destination = `index.${theme}.mobile.ts`
+  const destination = `${theme}.mobile.ts`
   const sizeTransform = 'size/px'
 
   return getTsConfig(sd, sizeTransform, destination, brand, theme)
@@ -49,7 +49,7 @@ function getTsConfig(
     platforms: {
       ts: {
         transforms: ['attribute/cti', 'name/pascal', sizeTransform, 'color/hex'],
-        buildPath: `build/${brand}/`,
+        buildPath: `lib/${brand}/`,
         files: [
           {
             destination: destination,
