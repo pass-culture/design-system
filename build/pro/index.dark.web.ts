@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 14 May 2025 16:17:29 GMT
+ * Generated on Tue, 20 May 2025 14:27:44 GMT
  */
 
 export const theme = {
@@ -22,7 +22,7 @@ export const theme = {
     "border": {
       "default": "#cbcdd2",
       "subtle": "#90949d",
-      "disabled": "#696a6f",
+      "disabled": "#90949d",
       "error": "#f83552",
       "selected": "#ffffff",
       "focused": "#ffffff",
@@ -65,7 +65,9 @@ export const theme = {
       "decorative02": "#0e78b7",
       "decorative03": "#0e8474",
       "decorative04": "#25026c",
-      "decorative05": "#cb0659"
+      "decorative05": "#cb0659",
+      "headline": "#320096",
+      "bookclub": "#0e78b7"
     },
     "icon": {
       "default": "#ffffff",
@@ -80,38 +82,15 @@ export const theme = {
       "brandSecondary": "#c1a3ff",
       "brandSecondaryHover": "#6123df",
       "inverted": "#161617",
-      "lockedInverted": "#ffffff"
+      "lockedInverted": "#ffffff",
+      "headline": "#f3edff",
+      "bookclub": "#dcf3f8"
     }
   },
   "separator": {
     "color": {
       "default": "#90949d",
       "subtle": "#696a6f"
-    }
-  },
-  "tag": {
-    "like": {
-      "color": {
-        "icon": "#c1a3ff",
-        "background": "#f1f1f4"
-      }
-    },
-    "new": {
-      "color": {
-        "background": "#c1a3ff"
-      }
-    },
-    "headline": {
-      "color": {
-        "icon": "#6123df",
-        "background": "#f3edff"
-      }
-    },
-    "bookclub": {
-      "color": {
-        "icon": "#0e78b7",
-        "background": "#dcf3f8"
-      }
     }
   },
   "typography": {
@@ -183,5 +162,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#ffffff" | "#cbcdd2" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#c1a3ff" | "#6123df" | "#161617" | "#90949d" | "#696a6f" | "#ffeae2" | "#dcf3f8" | "#dbffea" | "#ffa5c0" | "#232323" | "#700118" | "#09532d" | "#664900" | "#25026c" | "#320096" | "#d63d00" | "#0e78b7" | "#0e8474" | "#cb0659" | "#ffef63" | "#f3edff";
+export type ColorsType = "#ffffff" | "#cbcdd2" | "#f83552" | "#f1f1f4" | "#2cbe6e" | "#c1a3ff" | "#6123df" | "#161617" | "#90949d" | "#ffeae2" | "#dcf3f8" | "#dbffea" | "#ffa5c0" | "#232323" | "#696a6f" | "#700118" | "#09532d" | "#664900" | "#25026c" | "#320096" | "#d63d00" | "#0e78b7" | "#0e8474" | "#cb0659" | "#ffef63" | "#f3edff";
       

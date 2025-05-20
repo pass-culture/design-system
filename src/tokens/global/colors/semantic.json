@@ -46,7 +46,7 @@
         "value": "{color.grey.200}"
       },
       "disabled": {
-        "value": "{color.grey.100}"
+        "value": "{color.grey.200}"
       },
       "error": {
         "value": "{color.red.500}"
@@ -168,6 +168,12 @@
       },
       "decorative05": {
         "value": "{color.pink.300}"
+      },
+      "headline": {
+        "value": "{color.purple.200}"
+      },
+      "bookclub": {
+        "value": "{color.blue.300}"
       }
     },
     "icon": {
@@ -209,6 +215,12 @@
       },
       "lockedInverted": {
         "value": "{color.grey.0}"
+      },
+      "headline": {
+        "value": "{color.purple.400}"
+      },
+      "bookclub": {
+        "value": "{color.blue.600}"
       }
     }
   },
@@ -219,45 +231,6 @@
       },
       "subtle": {
         "value": "{color.grey.200}"
-      }
-    }
-  },
-  "tag": {
-    "like": {
-      "color": {
-        "icon": {
-          "value": "{color.icon.brandPrimary}"
-        },
-        "background": {
-          "value": "{color.grey.100}"
-        }
-      }
-    },
-    "new": {
-      "color": {
-        "background": {
-          "value": "{color.background.brandPrimary}"
-        }
-      }
-    },
-    "headline": {
-      "color": {
-        "icon": {
-          "value": "{color.purple.400}"
-        },
-        "background": {
-          "value": "{color.purple.200}"
-        }
-      }
-    },
-    "bookclub": {
-      "color": {
-        "icon": {
-          "value": "{color.blue.600}"
-        },
-        "background": {
-          "value": "{color.blue.300}"
-        }
       }
     }
   }

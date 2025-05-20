@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 14 May 2025 16:17:29 GMT
+ * Generated on Tue, 20 May 2025 14:27:44 GMT
  */
 
 [data-theme="light"] {
@@ -18,7 +18,7 @@
   --color-text-locked: #161617;
   --color-border-default: #90949d;
   --color-border-subtle: #cbcdd2;
-  --color-border-disabled: #f1f1f4;
+  --color-border-disabled: #cbcdd2;
   --color-border-error: #a20121;
   --color-border-selected: #161617;
   --color-border-focused: #161617;
@@ -58,6 +58,8 @@
   --color-background-decorative03: #94f0d6;
   --color-background-decorative04: #c1a3ff;
   --color-background-decorative05: #ffa5c0;
+  --color-background-headline: #f3edff;
+  --color-background-bookclub: #dcf3f8;
   --color-icon-default: #161617;
   --color-icon-disabled: #696a6f;
   --color-icon-subtle: #696a6f;
@@ -71,15 +73,10 @@
   --color-icon-brand-secondary-hover: #25026c;
   --color-icon-inverted: #ffffff;
   --color-icon-locked-inverted: #ffffff;
+  --color-icon-headline: #6123df;
+  --color-icon-bookclub: #0e78b7;
   --separator-color-default: #90949d;
   --separator-color-subtle: #cbcdd2;
-  --tag-like-color-icon: #6123df;
-  --tag-like-color-background: #f1f1f4;
-  --tag-new-color-background: #6123df;
-  --tag-headline-color-icon: #6123df;
-  --tag-headline-color-background: #f3edff;
-  --tag-bookclub-color-icon: #0e78b7;
-  --tag-bookclub-color-background: #dcf3f8;
   --typography-title1-font-family: Montserrat-Bold;
   --typography-title1-font-size: 1.75rem;
   --typography-title1-line-height: 2.8rem;

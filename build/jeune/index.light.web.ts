@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Wed, 14 May 2025 16:17:29 GMT
+ * Generated on Tue, 20 May 2025 14:27:44 GMT
  */
 
 export const theme = {
@@ -22,7 +22,7 @@ export const theme = {
     "border": {
       "default": "#90949d",
       "subtle": "#cbcdd2",
-      "disabled": "#f1f1f4",
+      "disabled": "#cbcdd2",
       "error": "#a20121",
       "selected": "#161617",
       "focused": "#161617",
@@ -65,7 +65,9 @@ export const theme = {
       "decorative02": "#9be3f3",
       "decorative03": "#94f0d6",
       "decorative04": "#c1a3ff",
-      "decorative05": "#ffa5c0"
+      "decorative05": "#ffa5c0",
+      "headline": "#f3edff",
+      "bookclub": "#dcf3f8"
     },
     "icon": {
       "default": "#161617",
@@ -80,38 +82,15 @@ export const theme = {
       "brandSecondary": "#320096",
       "brandSecondaryHover": "#25026c",
       "inverted": "#ffffff",
-      "lockedInverted": "#ffffff"
+      "lockedInverted": "#ffffff",
+      "headline": "#6123df",
+      "bookclub": "#0e78b7"
     }
   },
   "separator": {
     "color": {
       "default": "#90949d",
       "subtle": "#cbcdd2"
-    }
-  },
-  "tag": {
-    "like": {
-      "color": {
-        "icon": "#eb0055",
-        "background": "#f1f1f4"
-      }
-    },
-    "new": {
-      "color": {
-        "background": "#eb0055"
-      }
-    },
-    "headline": {
-      "color": {
-        "icon": "#6123df",
-        "background": "#f3edff"
-      }
-    },
-    "bookclub": {
-      "color": {
-        "icon": "#0e78b7",
-        "background": "#dcf3f8"
-      }
     }
   },
   "typography": {
@@ -183,5 +162,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#161617" | "#696a6f" | "#a20121" | "#15884f" | "#eb0055" | "#cb0659" | "#320096" | "#25026c" | "#ffffff" | "#90949d" | "#cbcdd2" | "#f1f1f4" | "#d63d00" | "#0e78b7" | "#0e8474" | "#fdf4f6" | "#eaf8f0" | "#fff8df" | "#ffe0ea" | "#ffeae2" | "#9be3f3" | "#94f0d6" | "#c1a3ff" | "#ffa5c0" | "#e1a605" | "#6123df" | "#f3edff" | "#dcf3f8";
+export type ColorsType = "#161617" | "#696a6f" | "#a20121" | "#15884f" | "#eb0055" | "#cb0659" | "#320096" | "#25026c" | "#ffffff" | "#90949d" | "#cbcdd2" | "#d63d00" | "#0e78b7" | "#0e8474" | "#f1f1f4" | "#fdf4f6" | "#eaf8f0" | "#fff8df" | "#ffe0ea" | "#ffeae2" | "#9be3f3" | "#94f0d6" | "#c1a3ff" | "#ffa5c0" | "#f3edff" | "#dcf3f8" | "#e1a605" | "#6123df";
       
