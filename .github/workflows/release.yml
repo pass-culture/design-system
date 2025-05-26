@@ -1,13 +1,12 @@
 name: Publish package
 on:
-  release:
-    types: [published]
+  pull_request:
 
 jobs:
   publish:
     name: Publish
     permissions:
-      contents: read
+      contents: write
       id-token: write
     runs-on: ubuntu-latest
     steps:
@@ -20,6 +19,14 @@ jobs:
         run: yarn
       - name: Build project
         run: yarn run build
+      - name: Bump version and create tag
+        run: |
+          npm version patch -m "ci: bump version to %s"
+      - name: Push new tag
+        run: |
+          git push origin HEAD --tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish library
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

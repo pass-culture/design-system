@@ -1,12 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "design-system",
   "version": "0.0.34",
   "main": "design-tokens.json",
-=======
-  "name": "@pass-culture/design-system",
-  "version": "0.0.31",
->>>>>>> 5bedfcb (Rework build & create build, test and publish workflows.)
   "repository": "git@github.com:pass-culture/design-system.git",
   "type": "module",
   "files": [
