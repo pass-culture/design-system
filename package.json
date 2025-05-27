@@ -1,6 +1,6 @@
 {
   "name": "design-system",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "main": "design-tokens.json",
   "repository": "git@github.com:pass-culture/design-system.git",
   "type": "module",
