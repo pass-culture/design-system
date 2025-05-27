@@ -9,6 +9,9 @@ jobs:
       contents: write
       id-token: write
     runs-on: ubuntu-latest
+    env:
+      GIT_CONFIG_EMAIL: github-actions-bot@passculture.app
+      GIT_CONFIG_NAME: ${{ github.actor }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -17,6 +20,10 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: yarn
+      - name: Configure git author
+        run: |
+          git config --global user.email "$GIT_CONFIG_EMAIL"
+          git config --global user.name "$GIT_CONFIG_NAME"
       - name: Build project
         run: yarn run build
       - name: Bump version and create tag
@@ -24,7 +31,7 @@ jobs:
           npm version patch -m "ci: bump version to %s"
       - name: Push new tag
         run: |
-          git push origin HEAD --tags
+          git push origin --tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish library
