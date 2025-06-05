@@ -108,7 +108,7 @@
         "value": "{color.yellow.600}"
       },
       "info": {
-        "value": "{color.pink.600}"
+        "value": "{color.purple.600}"
       },
       "hover": {
         "value": "{color.grey.500}"
@@ -187,7 +187,7 @@
         "value": "{color.grey.200}"
       },
       "info": {
-        "value": "{color.pink.300}"
+        "value": "{color.purple.300}"
       },
       "error": {
         "value": "{color.red.400}"

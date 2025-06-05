@@ -17,9 +17,6 @@
       }
     },
     "background": {
-      "info": {
-        "value": "{color.purple.600}"
-      },
       "brandPrimary": {
         "value": "{color.purple.300}"
       },
@@ -34,9 +31,6 @@
       }
     },
     "icon": {
-      "info": {
-        "value": "{color.purple.300}"
-      },
       "brandPrimary": {
         "value": "{color.purple.300}"
       },
