@@ -10,6 +10,9 @@
       "error": {
         "value": "{color.red.500}"
       },
+      "warning": {
+        "value": "{color.yellow.600}"
+      },
       "disabled": {
         "value": "{color.grey.400}"
       },

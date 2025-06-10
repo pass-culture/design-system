@@ -1,12 +1,13 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Thu, 05 Jun 2025 15:32:23 GMT
+ * Generated on Tue, 10 Jun 2025 08:49:18 GMT
  */
 
 [data-theme="dark"] {
   --color-text-default: #ffffff;
   --color-text-subtle: #cbcdd2;
   --color-text-error: #f83552;
+  --color-text-warning: #f9cf39;
   --color-text-disabled: #f1f1f4;
   --color-text-success: #2cbe6e;
   --color-text-brand-primary: #c1a3ff;
