@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Thu, 05 Jun 2025 15:32:23 GMT
+ * Generated on Tue, 10 Jun 2025 08:49:18 GMT
  */
 
 export const theme = {
@@ -9,6 +9,7 @@ export const theme = {
       "default": "#161617",
       "subtle": "#696a6f",
       "error": "#a20121",
+      "warning": "#664900",
       "disabled": "#696a6f",
       "success": "#15884f",
       "brandPrimary": "#eb0055",
@@ -162,5 +163,5 @@ export const theme = {
   }
 } as const;
 
-export type ColorsType = "#161617" | "#696a6f" | "#a20121" | "#15884f" | "#eb0055" | "#cb0659" | "#320096" | "#25026c" | "#ffffff" | "#90949d" | "#cbcdd2" | "#d63d00" | "#14a0be" | "#0e8474" | "#f1f1f4" | "#f8b2c0" | "#91e1b5" | "#f9df81" | "#f3edff" | "#ffe0ea" | "#ffeae2" | "#9be3f3" | "#94f0d6" | "#c1a3ff" | "#ffa5c0" | "#dcf3f8" | "#e1a605" | "#6123df";
+export type ColorsType = "#161617" | "#696a6f" | "#a20121" | "#664900" | "#15884f" | "#eb0055" | "#cb0659" | "#320096" | "#25026c" | "#ffffff" | "#90949d" | "#cbcdd2" | "#d63d00" | "#14a0be" | "#0e8474" | "#f1f1f4" | "#f8b2c0" | "#91e1b5" | "#f9df81" | "#f3edff" | "#ffe0ea" | "#ffeae2" | "#9be3f3" | "#94f0d6" | "#c1a3ff" | "#ffa5c0" | "#dcf3f8" | "#e1a605" | "#6123df";
       
