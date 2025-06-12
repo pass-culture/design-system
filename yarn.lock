@@ -637,7 +637,7 @@ __metadata:
   dependencies:
     "@types/node": ^20.19.0
     style-dictionary: ^4.4.0
-    tsx: ^4.20.0
+    tsx: ^4.20.1
     typescript: ^5.8.3
   languageName: unknown
   linkType: soft
@@ -2093,9 +2093,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:^4.20.0":
-  version: 4.20.0
-  resolution: "tsx@npm:4.20.0"
+"tsx@npm:^4.20.1":
+  version: 4.20.1
+  resolution: "tsx@npm:4.20.1"
   dependencies:
     esbuild: ~0.25.0
     fsevents: ~2.3.3
@@ -2105,7 +2105,7 @@ __metadata:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 618e9121561f29c3152abf77200f207ea01b8ae7b5cb37da093be50d455c8e210956683b7f8aa62695862ce1c196e00e5a9ce4db688939897f5880ac4789defa
+  checksum: b3958f8eda923a80d99a0e03feb84ac0ec5dd168f209778fa4726c3aa70d5d23dec77c7e95626e354a476e77aab63bf19c6d3f557488fc1ed5956a6c1984493d
   languageName: node
   linkType: hard
 
