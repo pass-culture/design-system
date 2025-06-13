@@ -10,14 +10,14 @@ La dernière version de la librairie peut être installée dans un projet avec l
 
 ```bash
 
-yarn add https://github.com/pass-culture/design-system.git#[TAG_VERSION]
+yarn add @pass-culture/design-system
 
 ```
 
 La librairie donne accès aux _design tokens_ soit via un fichier de variables CSS qu'on peut importer cette manière :
 
 ```css
-@import 'design-system/build/pro/variables-light.css';
+@import 'design-system/lib/pro/light.css';
 ```
 
 Dans ce cas, les variables CSS sont directement déclarées à la racine de l'arbre du document.
@@ -25,53 +25,28 @@ Dans ce cas, les variables CSS sont directement déclarées à la racine de l'ar
 Ou bien via un fichier typescript depuis lequel on importe l'objet contenant les _design tokens_ :
 
 ```js
-import * as tokens from 'design-system/dist/build/jeune/index.light.web.ts'
+import * as tokens from 'design-system/lib/jeune/light.web.ts'
 ```
 
-## Création d'un nouveau tag
-
-A chaque nouvelle version des _design tokens_, un nouveau tag est généré. La création du nouveau tag se fait de la manière suivante :
+## Création d'une nouvelle version de la librairie
 
 1. Créer une nouvelle branche depuis main avec le nom `pc-[NUMERO_TICKET ou BSR]`
-2. Générer un nouveau _build_ :
 
-```bash
+2. _Commit_ les changements et les poussez sur la branche
 
-yarn build
+3. Ajouter un _commit_ d'upgrade avec le changement de version dans le fichier `package.json`
 
-```
+4. Créer une PR de la branche vers main
 
-3. _Commit_ les changements et les poussez sur la branche
+5. Si la ci est verte (build + tests OK) et que la _code review_ est approuvée, merger la PR
 
-4. Ajouter un _commit_ d'upgrade avec le changement de version dans le fichier `package.json`
+6. Publier [une nouvelle _release_ Github](https://github.com/pass-culture/design-system/releases/new) avec le détail des changements et pour nom `v[NOUVEAU_NUMERO_DE_VERSION]`
 
-5. Créer une PR de la branche vers main
-
-6. Une fois la PR approuvée et mergée, basculer sur main et exécuter la commande suivante :
-
-```bash
-
-./scripts/generate_dist_case.sh
-
-```
-
-> Il faudra peut-être installer jq si ce n'est pas déjà fait :
->
-> ```bash
-> brew  install  jq
-> ```
->
-> Il se peut qu'il faille modifier les permissions pour exécuter le script :
->
-> ```bash
-> chmod  +x  ./scripts/generate_dist_case.sh
-> ```
-
-7. Créer une nouvelle _release_ Github avec le détail des changements
+7. Vérifier que la publication du package a eu lieu à l'issue de l'[action de publication](https://github.com/pass-culture/design-system/actions)
 
 ## Fonctionnement du build
 
-Le but du _build_ est de transformer l'objet JSON contenant les _design tokens_ exportés depuis Figma en des fichiers exploitables par les applications du pass Culture (les fichiers `variables.light.web.css` ou `index.dark.web.ts` donnés en exemple plus haut).
+Le but du _build_ est de transformer l'objet JSON contenant les _design tokens_ exportés depuis Figma en des fichiers exploitables par les applications du pass Culture (les fichiers `light.web.css` ou `dark.web.ts` donnés en exemple plus haut).
 
 ### Transformation des design tokens
 
