@@ -54,6 +54,9 @@
       "error": {
         "value": "{color.red.500}"
       },
+      "success": {
+        "value": "{color.green.500}"
+      },
       "selected": {
         "value": "{color.grey.600}"
       },
