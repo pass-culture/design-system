@@ -54,6 +54,9 @@
       "error": {
         "value": "{color.red.400}"
       },
+      "success": {
+        "value": "{color.green.400}"
+      },
       "focused": {
         "value": "{color.grey.0}"
       },

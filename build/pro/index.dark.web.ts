@@ -1,6 +1,6 @@
 /**
  * Do not edit directly, this file was auto-generated.
- * Generated on Tue, 10 Jun 2025 08:49:18 GMT
+ * Generated on Wed, 18 Jun 2025 09:04:00 GMT
  */
 
 export const theme = {
@@ -25,6 +25,7 @@ export const theme = {
       "subtle": "#90949d",
       "disabled": "#90949d",
       "error": "#f83552",
+      "success": "#2cbe6e",
       "selected": "#ffffff",
       "focused": "#ffffff",
       "brandPrimary": "#c1a3ff",
