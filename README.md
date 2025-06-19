@@ -30,7 +30,7 @@ import * as tokens from 'design-system/lib/jeune/light.web.ts'
 
 ## Création d'une nouvelle version de la librairie
 
-1. Créer un nouveau tag via le workflow manuel ["Update package version and create tag"](https://github.com/pass-culture/design-system/actions)
+1. Créer un nouveau tag via le workflow manuel ["Update package version and create tag"](https://github.com/pass-culture/design-system/actions/workflows/create_tag.yml)
 
 2. Publier [une nouvelle _release_ Github](https://github.com/pass-culture/design-system/releases/new) avec le détail des changements basée sur le tag créé à l'étape précédente
 
