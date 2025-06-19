@@ -16,5 +16,6 @@
     "declaration": true,
     "lib": ["es2022"]
   },
-  "include": ["src/**/*.ts"]
+  "include": ["lib/**/*.ts"],
+  "exclude": ["src"]
 }

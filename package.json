@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "preversion": "yarn install && yarn run build && yarn run test-ci",
-    "build": "tsx src/build.ts && yarn run tsc lib/**/*.ts",
+    "build": "tsx src/build.ts && yarn run tsc",
     "test": "vitest",
     "test-ci": "vitest run"
   },
