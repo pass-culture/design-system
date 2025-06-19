@@ -11,10 +11,10 @@
     "noImplicitOverride": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "outDir": "dist",
+    "outDir": "lib",
     "sourceMap": true,
     "declaration": true,
     "lib": ["es2022"]
   },
-  "include": ["build/**/*.ts", "src/**/*.ts"]
+  "include": ["src/**/*.ts"]
 }

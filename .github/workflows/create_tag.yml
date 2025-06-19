@@ -1,0 +1,39 @@
+name: Update package version and create tag
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        type: choice
+        description: 'Type de nouvelle version'
+        required: true
+        options:
+          - major
+          - minor
+          - patch
+jobs:
+  update_package_version:
+    name: Update package version
+    runs-on: ubuntu-24.04
+    env:
+      GIT_CONFIG_EMAIL: github-actions-bot@passculture.app
+      GIT_CONFIG_NAME: ${{ github.actor }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Configure git author
+        run: |
+          git config --global user.email "$GIT_CONFIG_EMAIL"
+          git config --global user.name "$GIT_CONFIG_NAME"
+      - name: Update npm version and create tag
+        run: |
+          NEW_VERSION=$(npm version ${{ github.event.inputs.version }})
+          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+          echo "New version: $NEW_VERSION"
+      - name: Push tag
+        run: |
+          git push origin
+          git push origin $NEW_VERSION
