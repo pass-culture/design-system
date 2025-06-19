@@ -7,7 +7,7 @@
     "lib"
   ],
   "scripts": {
-    "preversion": "npm run build && npm run test-ci",
+    "preversion": "yarn install && yarn run build && yarn run test-ci",
     "build": "tsx src/build.ts && yarn run tsc lib/**/*.ts",
     "test": "vitest",
     "test-ci": "vitest run"

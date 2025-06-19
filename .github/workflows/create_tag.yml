@@ -29,10 +29,7 @@ jobs:
           git config --global user.email "$GIT_CONFIG_EMAIL"
           git config --global user.name "$GIT_CONFIG_NAME"
       - name: Update npm version and create tag
-        run: |
-          NEW_VERSION=$(npm version ${{ github.event.inputs.version }})
-          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
-          echo "New version: $NEW_VERSION"
+        run: echo "NEW_VERSION=$(npm version minor | tail -n1)" >> $GITHUB_ENV
       - name: Push tag
         run: |
           git push origin
