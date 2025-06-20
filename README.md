@@ -17,7 +17,7 @@ yarn add @pass-culture/design-system
 La librairie donne accès aux _design tokens_ soit via un fichier de variables CSS qu'on peut importer cette manière :
 
 ```css
-@import 'design-system/lib/pro/light.css';
+@import '@pass-culture/design-system/lib/pro/light.css';
 ```
 
 Dans ce cas, les variables CSS sont directement déclarées à la racine de l'arbre du document.
@@ -25,7 +25,7 @@ Dans ce cas, les variables CSS sont directement déclarées à la racine de l'ar
 Ou bien via un fichier typescript depuis lequel on importe l'objet contenant les _design tokens_ :
 
 ```js
-import * as tokens from 'design-system/lib/jeune/light.web.ts'
+import * as tokens from '@pass-culture/design-system/lib/jeune/light.web.ts'
 ```
 
 ## Création d'une nouvelle version de la librairie
