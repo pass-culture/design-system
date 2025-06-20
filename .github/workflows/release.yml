@@ -1,13 +1,11 @@
 name: Publish package
 on:
-  release:
-    types: [published]
+  pull_request:
 
 jobs:
   publish:
     name: Publish
     permissions:
-      contents: write
       id-token: write
     runs-on: ubuntu-24.04
     steps:
@@ -23,4 +21,4 @@ jobs:
       - name: Publish library
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm publish --access public
+        run: npm publish
