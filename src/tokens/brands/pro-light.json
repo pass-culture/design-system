@@ -18,7 +18,7 @@
     },
     "background": {
       "brandPrimary": {
-        "value": "{color.purple.400}"
+        "value": "{color.purple.500}"
       },
       "brandPrimaryHover": {
         "value": "{color.purple.500}"
