@@ -193,6 +193,16 @@
         "value": "#0e8474",
         "type": "color"
       }
+    },
+    "opacity": {
+      "200": {
+        "value": "#2424241f",
+        "type": "color"
+      },
+      "300": {
+        "value": "#24242429",
+        "type": "color"
+      }
     }
   }
 }

@@ -1,0 +1,53 @@
+{
+    "size": {
+        "borderRadius": {
+            "s": {
+                "value": "{size.200}"
+            },
+            "m": {
+                "value": "{size.300}"
+            },
+            "l": {
+                "value": "{size.500}"
+            },
+            "xl": {
+                "value": "{size.600}"
+            },
+            "xxl": {
+                "value": "{size.700}"
+            },
+            "pill": {
+                "value": "{size.infinity}"
+            }
+        },
+        "spacing": {
+            "xxs": {
+                "value": "{size.100}"
+            },
+            "xs": {
+                "value": "{size.200}"
+            },
+            "s": {
+                "value": "{size.300}"
+            },
+            "m": {
+                "value": "{size.400}"
+            },
+            "l": {
+                "value": "{size.500}"
+            },
+            "xl": {
+                "value": "{size.600}"
+            },
+            "xxl": {
+                "value": "{size.700}"
+            },
+            "xxxl": {
+                "value": "{size.800}"
+            },
+            "xxxxl": {
+                "value": "{size.900}"
+            }
+        }
+    }
+}

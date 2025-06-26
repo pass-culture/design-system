@@ -180,6 +180,12 @@
       },
       "bookclub": {
         "value": "{color.blue.300}"
+      },
+      "cineclub": {
+        "value": "{color.pink.200}"
+      },
+      "overlay": {
+        "value": "{color.opacity.300}"
       }
     },
     "icon": {
@@ -191,6 +197,9 @@
       },
       "subtle": {
         "value": "{color.grey.400}"
+      },
+      "locked": {
+        "value": "{color.grey.600}"
       },
       "info": {
         "value": "{color.purple.500}"
@@ -227,6 +236,9 @@
       },
       "bookclub": {
         "value": "{color.blue.600}"
+      },
+      "cineclub": {
+        "value": "{color.pink.600}"
       }
     }
   },

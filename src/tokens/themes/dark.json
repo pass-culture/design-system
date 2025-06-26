@@ -169,6 +169,12 @@
       },
       "bookclub": {
         "value": "{color.blue.600}"
+      },
+      "cineclub": {
+        "value": "{color.pink.600}"
+      },
+      "overlay": {
+        "value": "{color.opacity.300}"
       }
     },
     "outline": {
@@ -219,6 +225,9 @@
       "inverted": {
         "value": "{color.grey.600}"
       },
+      "locked": {
+        "value": "{color.grey.600}"
+      },
       "lockedInverted": {
         "value": "{color.grey.0}"
       },
@@ -227,6 +236,9 @@
       },
       "bookclub": {
         "value": "{color.blue.300}"
+      },
+      "cineclub": {
+        "value": "{color.pink.400}"
       }
     }
   },
