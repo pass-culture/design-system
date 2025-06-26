@@ -192,6 +192,9 @@
       "subtle": {
         "value": "{color.grey.400}"
       },
+      "locked": {
+        "value": "{color.grey.600}"
+      },
       "info": {
         "value": "{color.purple.500}"
       },

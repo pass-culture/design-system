@@ -219,6 +219,9 @@
       "inverted": {
         "value": "{color.grey.600}"
       },
+      "locked": {
+        "value": "{color.grey.600}"
+      },
       "lockedInverted": {
         "value": "{color.grey.0}"
       },
