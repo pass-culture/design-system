@@ -1,0 +1,52 @@
+{
+    "size": {
+        "100": {
+            "value": "2",
+            "type": "dimension"
+        },
+        "200": {
+            "value": "4",
+            "type": "dimension"
+        },
+        "300": {
+            "value": "8",
+            "type": "dimension"
+        },
+        "400": {
+            "value": "12",
+            "type": "dimension"
+        },
+        "500": {
+            "value": "16",
+            "type": "dimension"
+        },
+        "600": {
+            "value": "24",
+            "type": "dimension"
+        },
+        "700": {
+            "value": "32",
+            "type": "dimension"
+        },
+        "800": {
+            "value": "40",
+            "type": "dimension"
+        },
+        "900": {
+            "value": "48",
+            "type": "dimension"
+        },
+        "1000": {
+            "value": "56",
+            "type": "dimension"
+        },
+        "1100": {
+            "value": "64",
+            "type": "dimension"
+        },
+        "infinity": {
+            "value": "999",
+            "type": "dimension"
+        }
+    }
+}

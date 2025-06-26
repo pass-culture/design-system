@@ -169,6 +169,12 @@
       },
       "bookclub": {
         "value": "{color.blue.600}"
+      },
+      "cineclub": {
+        "value": "{color.pink.600}"
+      },
+      "overlay": {
+        "value": "{color.opacity.300}"
       }
     },
     "outline": {
@@ -230,6 +236,9 @@
       },
       "bookclub": {
         "value": "{color.blue.300}"
+      },
+      "cineclub": {
+        "value": "{color.pink.400}"
       }
     }
   },
