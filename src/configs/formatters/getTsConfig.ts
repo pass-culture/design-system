@@ -14,12 +14,12 @@ export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
   const destination = `${theme}.mobile.ts`
   const sizeTransform = 'size/px'
 
-  return getTsConfig(sd, sizeTransform, destination, brand, theme)
+  return getTsConfig(sd, null, destination, brand, theme)
 }
 
 function getTsConfig(
   sd: StyleDictionary,
-  sizeTransform: string,
+  sizeTransform: string | null,
   destination: string,
   brand?: string,
   theme?: string
@@ -48,7 +48,7 @@ function getTsConfig(
     source: [`src/tokens/themes/${theme}.json`, `src/tokens/brands/${brand}-${theme}.json`],
     platforms: {
       ts: {
-        transforms: ['attribute/cti', 'name/pascal', sizeTransform, 'color/hex'],
+        transforms: ['attribute/cti', 'name/pascal', 'color/hex'].concat(sizeTransform || []),
         buildPath: `lib/${brand}/`,
         files: [
           {

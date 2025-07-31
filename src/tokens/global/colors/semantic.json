@@ -186,6 +186,15 @@
       },
       "overlay": {
         "value": "{color.opacity.300}"
+      },
+      "shadowOverlay": {
+        "value": "{color.opacity.300}"
+      },
+      "skeletonGradient01": {
+        "value": "{color.grey.200}"
+      },
+      "skeletonGradient02": {
+        "value": "{color.grey.100}"
       }
     },
     "icon": {

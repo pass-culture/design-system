@@ -1,31 +1,31 @@
 {
   "lineHeight": {
     "xs": {
-      "value": "19.2",
+      "value": 19.2,
       "type": "dimension"
     },
     "s": {
-      "value": "22.4",
+      "value": 22.4,
       "type": "dimension"
     },
     "m": {
-      "value": "25.6",
+      "value": 25.6,
       "type": "dimension"
     },
     "l": {
-      "value": "27.2",
+      "value": 27.2,
       "type": "dimension"
     },
     "xl": {
-      "value": "30.4",
+      "value": 30.4,
       "type": "dimension"
     },
     "xxl": {
-      "value": "33.6",
+      "value": 33.6,
       "type": "dimension"
     },
     "xxxl": {
-      "value": "44.8",
+      "value": 44.8,
       "type": "dimension"
     }
   },
@@ -42,31 +42,31 @@
   },
   "fontSize": {
     "xs": {
-      "value": "12",
+      "value": 12,
       "type": "dimension"
     },
     "s": {
-      "value": "14",
+      "value": 14,
       "type": "dimension"
     },
     "m": {
-      "value": "16",
+      "value": 16,
       "type": "dimension"
     },
     "l": {
-      "value": "17",
+      "value": 17,
       "type": "dimension"
     },
     "xl": {
-      "value": "19",
+      "value": 19,
       "type": "dimension"
     },
     "xxl": {
-      "value": "21",
+      "value": 21,
       "type": "dimension"
     },
     "xxxl": {
-      "value": "28",
+      "value": 28,
       "type": "dimension"
     }
   },
