@@ -180,10 +180,10 @@
         "value": "{color.opacity.300}"
       },
       "skeletonGradient01": {
-        "value": "{color.grey.500}"
+        "value": "{color.grey.400}"
       },
       "skeletonGradient02": {
-        "value": "{color.grey.400}"
+        "value": "{color.grey.500}"
       }
     },
     "outline": {
