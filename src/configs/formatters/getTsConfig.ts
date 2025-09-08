@@ -5,14 +5,12 @@ import { designTokenFilter, getTokensColors } from './utils'
 
 export const getWebTsConfig: ConfigFormatter = (sd, brand, theme) => {
   const destination = `${theme}.web.ts`
-  const sizeTransform = 'size/pxToRem'
 
-  return getTsConfig(sd, sizeTransform, destination, brand, theme)
+  return getTsConfig(sd, 'size/pxToRem_typography', destination, brand, theme)
 }
 
 export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
   const destination = `${theme}.mobile.ts`
-  const sizeTransform = 'size/px'
 
   return getTsConfig(sd, null, destination, brand, theme)
 }
