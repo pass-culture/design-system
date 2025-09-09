@@ -9,6 +9,7 @@ export enum Platform {
   WEB_CSS = 'web.css',
   WEB_TS = 'web.ts',
   MOBILE_TS = 'mobile.ts',
+  WEB_TYPO_REM_TS = 'web_typo_rem.ts',
 }
 
 export enum Theme {
