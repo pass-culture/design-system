@@ -2,6 +2,7 @@ import StyleDictionary, { Config } from 'style-dictionary'
 import { BrandsConfig, Platform, PlatformConfigs, Theme } from '../types'
 import { getWebCssConfig } from './formatters/getWebCssConfig'
 import { getMobileTsConfig, getWebTsConfig } from './formatters/getTsConfig'
+import { getWebTypoRemTsConfig } from './formatters/getWebTypoRemTsConfig'
 
 export const brandsConfig: BrandsConfig = {
   pro: {
@@ -9,7 +10,7 @@ export const brandsConfig: BrandsConfig = {
     themes: [Theme.LIGHT, Theme.DARK],
   },
   jeune: {
-    platforms: [Platform.WEB_TS, Platform.MOBILE_TS],
+    platforms: [Platform.WEB_TYPO_REM_TS, Platform.MOBILE_TS],
     themes: [Theme.LIGHT, Theme.DARK],
   },
 }
@@ -18,6 +19,7 @@ export const platformFormatter: PlatformConfigs = {
   ['web.css']: getWebCssConfig,
   ['web.ts']: getWebTsConfig,
   ['mobile.ts']: getMobileTsConfig,
+  ['web_typo_rem.ts']: getWebTypoRemTsConfig,
 }
 
 export function getBrandConfigs(sd: StyleDictionary): Config[] {

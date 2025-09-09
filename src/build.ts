@@ -5,8 +5,6 @@ import { registerCustomTransforms } from './configs/transformers/sizeTransform'
 
 const sd = new StyleDictionary()
 
-registerCustomTransforms(StyleDictionary)
-
 //  Build the cross-brand configs
 const StyleDictionaryGlobal = await sd.extend(getTypoConfig(sd))
 StyleDictionaryGlobal.buildAllPlatforms()
