@@ -1,6 +1,6 @@
 {
   "name": "@pass-culture/design-system",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": "git@github.com:pass-culture/design-system.git",
   "type": "module",
   "files": [
