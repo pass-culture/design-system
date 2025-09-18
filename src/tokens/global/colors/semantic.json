@@ -20,10 +20,10 @@
         "value": "{color.green.500}"
       },
       "brandPrimary": {
-        "value": "{color.pink.500}"
+        "value": "{color.purple.400}"
       },
       "brandPrimaryHover": {
-        "value": "{color.pink.600}"
+        "value": "{color.purple.500}"
       },
       "brandSecondary": {
         "value": "{color.purple.500}"
@@ -64,10 +64,10 @@
         "value": "{color.grey.600}"
       },
       "brandPrimary": {
-        "value": "{color.pink.500}"
+        "value": "{color.purple.400}"
       },
       "brandPrimaryHover": {
-        "value": "{color.pink.600}"
+        "value": "{color.purple.500}"
       },
       "brandSecondary": {
         "value": "{color.purple.500}"
@@ -131,13 +131,13 @@
         "value": "{color.grey.100}"
       },
       "brandPrimary": {
-        "value": "{color.pink.500}"
+        "value": "{color.purple.400}"
       },
       "brandPrimaryHover": {
-        "value": "{color.pink.600}"
+        "value": "{color.purple.500}"
       },
       "brandPrimarySelected": {
-        "value": "{color.pink.200}"
+        "value": "{color.purple.200}"
       },
       "brandSecondary": {
         "value": "{color.purple.500}"
@@ -152,7 +152,7 @@
         "value": "{color.grey.600}"
       },
       "lockedBrandPrimary": {
-        "value": "{color.pink.500}"
+        "value": "{color.purple.400}"
       },
       "lockedBrandSecondary": {
         "value": "{color.purple.500}"
@@ -223,10 +223,10 @@
         "value": "{color.yellow.500}"
       },
       "brandPrimary": {
-        "value": "{color.pink.500}"
+        "value": "{color.purple.400}"
       },
       "brandPrimaryHover": {
-        "value": "{color.pink.600}"
+        "value": "{color.purple.500}"
       },
       "brandSecondary": {
         "value": "{color.purple.500}"
