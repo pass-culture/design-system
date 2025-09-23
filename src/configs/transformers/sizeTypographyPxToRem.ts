@@ -1,19 +1,8 @@
 import StyleDictionary from 'style-dictionary'
+import { isTypographyFontOrLineHeight } from './utils'
+import { TRANSFORM_NAME_PX_TO_REM_TYPOGRAPHY } from './transformNames'
 
 const REM_TO_PX = 16
-const TRANSFORM_NAME = 'size/pxToRem_typography'
-
-function isTypographyFontOrLineHeight(token): boolean {
-  if (token.attributes?.category !== 'typography') return false
-  const type = token.attributes?.type
-  const path = Array.isArray(token.path) ? token.path : []
-  return (
-    type === 'fontSize' ||
-    type === 'lineHeight' ||
-    path.includes('fontSize') ||
-    path.includes('lineHeight')
-  )
-}
 
 function toRemStringFromPx(pxValue: number): string {
   const rem = pxValue / REM_TO_PX
@@ -23,7 +12,7 @@ function toRemStringFromPx(pxValue: number): string {
 
 export function registerCustomTransforms(sd: StyleDictionary): void {
   sd.registerTransform({
-    name: TRANSFORM_NAME,
+    name: TRANSFORM_NAME_PX_TO_REM_TYPOGRAPHY,
     type: 'value',
     transitive: true,
     filter: (token) => isTypographyFontOrLineHeight(token),
