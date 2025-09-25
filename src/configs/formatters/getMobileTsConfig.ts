@@ -1,25 +1,19 @@
 import { ConfigFormatter } from '../../types'
-import { registerCustomTransforms } from '../transformers/sizeTypographyPxToRem'
-import { TRANSFORM_NAME_PX_TO_REM_TYPOGRAPHY } from '../transformers/transformNames'
+import { registerTypographyPxOnlyTransform } from '../transformers/sizeTypographyPxOnly'
 
 import { designTokenFilter, ensureThemeEsModuleTypingsFormat } from './utils'
 
-export const getWebTypoRemTsConfig: ConfigFormatter = (sd, brand, theme) => {
+export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
   ensureThemeEsModuleTypingsFormat(sd)
-  registerCustomTransforms(sd)
+  registerTypographyPxOnlyTransform(sd)
 
-  const destination = `${theme}.web_typo_rem.ts`
+  const destination = `${theme}.mobile.ts`
   return {
     include: ['src/tokens/global/**/*.json'],
     source: [`src/tokens/themes/${theme}.json`, `src/tokens/brands/${brand}-${theme}.json`],
     platforms: {
       ts: {
-        transforms: [
-          'attribute/cti',
-          'name/pascal',
-          'color/hex',
-          TRANSFORM_NAME_PX_TO_REM_TYPOGRAPHY,
-        ],
+        transforms: ['attribute/cti', 'name/pascal', 'color/hex', 'size/px_typographyOnly'],
         buildPath: `lib/${brand}/`,
         files: [
           {

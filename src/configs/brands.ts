@@ -1,8 +1,9 @@
 import StyleDictionary, { Config } from 'style-dictionary'
 import { BrandsConfig, Platform, PlatformConfigs, Theme } from '../types'
 import { getWebCssConfig } from './formatters/getWebCssConfig'
-import { getMobileTsConfig, getWebTsConfig } from './formatters/getTsConfig'
+import { getWebTsConfig } from './formatters/getWebTsConfig'
 import { getWebTypoRemTsConfig } from './formatters/getWebTypoRemTsConfig'
+import { getMobileTsConfig } from './formatters/getMobileTsConfig'
 
 export const brandsConfig: BrandsConfig = {
   pro: {
