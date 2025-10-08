@@ -174,7 +174,7 @@
         "value": "{color.pink.600}"
       },
       "overlay": {
-        "value": "{color.opacity.300}"
+        "value": "{color.opacity.700}"
       },
       "shadowOverlay": {
         "value": "{color.opacity.300}"
