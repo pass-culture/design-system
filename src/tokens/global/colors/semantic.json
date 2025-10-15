@@ -116,13 +116,13 @@
         "value": "{color.grey.100}"
       },
       "error": {
-        "value": "{color.red.300}"
+        "value": "{color.red.200}"
       },
       "success": {
-        "value": "{color.green.300}"
+        "value": "{color.green.200}"
       },
       "warning": {
-        "value": "{color.yellow.300}"
+        "value": "{color.yellow.200}"
       },
       "info": {
         "value": "{color.purple.200}"
