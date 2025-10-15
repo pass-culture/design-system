@@ -217,7 +217,7 @@
         "value": "{color.green.400}"
       },
       "warning": {
-        "value": "{color.yellow.300}"
+        "value": "{color.yellow.400}"
       },
       "brandPrimary": {
         "value": "{color.purple.300}"
