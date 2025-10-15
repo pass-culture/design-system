@@ -483,7 +483,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pass-culture/design-system@workspace:."
   dependencies:
-    "@types/node": ^20.19.19
+    "@types/node": ^20.19.21
     style-dictionary: ^4.4.0
     tsx: ^4.20.6
     typescript: ^5.9.3
@@ -661,12 +661,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.19.19":
-  version: 20.19.19
-  resolution: "@types/node@npm:20.19.19"
+"@types/node@npm:^20.19.21":
+  version: 20.19.21
+  resolution: "@types/node@npm:20.19.21"
   dependencies:
     undici-types: ~6.21.0
-  checksum: 0019bd44153ef4590a7d8c15b04004572df9b63ca2196ba4f6799196b9ce04b699d7315a94b8029e2f716a530e4683f83b9f0cc03d2d88f9969a0c22ac972665
+  checksum: 79eeb55b109a54e212d963870d0a9184bbc1b6ed07a26a52d9aa87c15f594648d3832876b37635e5fb5c6206acd9240209394579d4e6ec0870d1b78cfa4c13d2
   languageName: node
   linkType: hard
 
