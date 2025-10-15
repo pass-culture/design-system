@@ -76,7 +76,7 @@
     },
     "green": {
       "200": {
-        "value": "#eaf8f0",
+        "value": "#b9ecd0",
         "type": "color"
       },
       "300": {
@@ -98,7 +98,7 @@
     },
     "red": {
       "200": {
-        "value": "#fdf4f6",
+        "value": "#fce1e6",
         "type": "color"
       },
       "300": {
@@ -120,7 +120,7 @@
     },
     "yellow": {
       "200": {
-        "value": "#fff8df",
+        "value": "#fbebb2",
         "type": "color"
       },
       "300": {
