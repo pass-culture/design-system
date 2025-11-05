@@ -13,7 +13,7 @@
     "test-ci": "vitest run"
   },
   "devDependencies": {
-    "@types/node": "^20.19.23",
+    "@types/node": "^20.19.24",
     "style-dictionary": "^4.4.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
