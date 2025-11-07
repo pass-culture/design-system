@@ -244,10 +244,10 @@
         "value": "{color.purple.200}"
       },
       "bookclub": {
-        "value": "{color.blue.300}"
+        "value": "{color.blue.500}"
       },
       "cineclub": {
-        "value": "{color.pink.400}"
+        "value": "{color.pink.500}"
       }
     }
   },
