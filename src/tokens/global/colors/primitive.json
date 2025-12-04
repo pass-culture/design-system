@@ -194,7 +194,11 @@
         "type": "color"
       }
     },
-    "opacity": {
+    "opacityGrey": {
+      "0": {
+        "value": "#23232300",
+        "type": "color"
+      },
       "200": {
         "value": "#2323231f",
         "type": "color"
@@ -203,8 +207,34 @@
         "value": "#23232329",
         "type": "color"
       },
+      "500": {
+        "value": "#2323237a",
+        "type": "color"
+      },
       "700": {
         "value": "#232323b8",
+        "type": "color"
+      }
+    },
+    "opacityWhite": {
+      "0": {
+        "value": "#ffffff00",
+        "type": "color"
+      },
+      "200": {
+        "value": "#ffffff1f",
+        "type": "color"
+      },
+      "300": {
+        "value": "#ffffff29",
+        "type": "color"
+      },
+      "500": {
+        "value": "#ffffff7a",
+        "type": "color"
+      },
+      "700": {
+        "value": "#ffffffb8",
         "type": "color"
       }
     }

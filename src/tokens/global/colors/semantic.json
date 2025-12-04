@@ -185,16 +185,25 @@
         "value": "{color.pink.200}"
       },
       "overlay": {
-        "value": "{color.opacity.300}"
+        "value": "{color.opacityGrey.300}"
       },
       "shadowOverlay": {
-        "value": "{color.opacity.300}"
+        "value": "{color.opacityGrey.300}"
       },
       "skeletonGradient01": {
         "value": "{color.grey.200}"
       },
       "skeletonGradient02": {
         "value": "{color.grey.100}"
+      },
+      "gradientMinimum": {
+        "value": "{color.opacityWhite.0}"
+      },
+      "gradientMiddle": {
+        "value": "{color.opacityWhite.500}"
+      },
+      "gradientMaximum": {
+        "value": "{color.grey.0}"
       }
     },
     "icon": {
