@@ -1,10 +1,15 @@
 import { ConfigFormatter } from '../../types'
 import { registerTypographyPxOnlyTransform } from '../transformers/sizeTypographyPxOnly'
 
-import { designTokenFilter, ensureThemeEsModuleTypingsFormat } from './utils'
+import {
+  designTokenFilter,
+  getBrandMobileTypings,
+} from './utils'
 
 export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
-  ensureThemeEsModuleTypingsFormat(sd)
+  const { ensure, formatName } = getBrandMobileTypings(brand)
+
+  ensure(sd)
   registerTypographyPxOnlyTransform(sd)
 
   const destination = `${theme}.mobile.ts`
@@ -18,7 +23,7 @@ export const getMobileTsConfig: ConfigFormatter = (sd, brand, theme) => {
         files: [
           {
             destination,
-            format: 'typings/es6',
+            format: formatName,
             filter: designTokenFilter,
           },
         ],
