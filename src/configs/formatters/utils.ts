@@ -31,3 +31,66 @@ export function ensureThemeEsModuleTypingsFormat(sd: StyleDictionary) {
     },
   })
 }
+
+type BrandTypingsConfig = {
+  ensure: (sd: StyleDictionary) => void
+  formatName: string
+}
+
+const defaultBrandTypings: BrandTypingsConfig = {
+  ensure: ensureThemeEsModuleTypingsFormat,
+  formatName: 'typings/es6',
+}
+
+const brandTypingsByBrand: Record<string, BrandTypingsConfig> = {
+  jeune: {
+    ensure: ensureThemeEsModuleTypingsMobileItalicFormat,
+    formatName: 'typings/es6-mobile-italic',
+  },
+}
+
+export function getBrandMobileTypings(brand?: string): BrandTypingsConfig {
+  return brand ? brandTypingsByBrand[brand] ?? defaultBrandTypings : defaultBrandTypings
+}
+
+function mapItalicTypographyWeights(tokens: TransformedTokens) {
+  const typography = tokens.typography
+  if (!typography || typeof typography !== 'object' || 'value' in typography) return
+
+  const italicWeights: Record<string, string> = {
+    'Montserrat-MediumItalic': '500',
+    'Montserrat-SemiBoldItalic': '600',
+  }
+
+  Object.values(typography).forEach((token) => {
+    if (!token || typeof token !== 'object') return
+    const fontFamily = token.fontFamily
+    const fontWeight = fontFamily ? italicWeights[fontFamily] : undefined
+    if (!fontWeight) return
+
+    token.fontFamily = 'Montserrat'
+    token.fontWeight = fontWeight
+    token.fontStyle = 'italic'
+  })
+}
+
+export function ensureThemeEsModuleTypingsMobileItalicFormat(sd: StyleDictionary) {
+  sd.registerFormat({
+    name: 'typings/es6-mobile-italic',
+    format: async ({ dictionary, file }) => {
+      const tokens: TransformedTokens = minifyDictionary(dictionary.tokens)
+      const tokensClone: TransformedTokens = JSON.parse(JSON.stringify(tokens))
+
+      mapItalicTypographyWeights(tokensClone)
+
+      const tokensJson = JSON.stringify(tokensClone, null, 2)
+      const avoidDuplicateColors = Array.from(new Set(getTokensColors(dictionary.tokens)))
+      const colorsType = avoidDuplicateColors.map((c) => `"${c}"`).join(' | ')
+
+      return `${await fileHeader({
+        file,
+        formatting: { fileHeaderTimestamp: true },
+      })}export const theme = ${tokensJson} as const;\n\nexport type ColorsType = ${colorsType};\n`
+    },
+  })
+}

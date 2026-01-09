@@ -76,6 +76,10 @@ Les _theme tokens_ sont regroupés dans des fichiers spécifiques pour chaque th
 
 Les _brand tokens_ sont regroupés dans des fichiers spécifiques pour chaque plateforme et chaque thème possible (tel que `pro-dark.json` pour la surcharge du thème sombre sur l'application pro).
 
+### Output mobile (React Native)
+
+Les fichiers `lib/<brand>/<theme>.mobile.ts` sont destinés à React Native. Pour la brand `jeune`, les tokens typography en *Italic* sont exportés avec `fontFamily: "Montserrat"` + `fontWeight` + `fontStyle: "italic"` afin d'assurer le rendu iOS. Les outputs web ne sont pas modifiés.
+
 ### Comment ajouter une brand ?
 
 - Ajouter à `src/configs/brands` une config de plateformes et de thèmes pour la nouvelle brand
