@@ -27,6 +27,14 @@
     "xxxl": {
       "value": 44.8,
       "type": "dimension"
+    },
+    "button": {
+      "value": 24,
+      "type": "dimension"
+    },
+    "buttonS": {
+      "value": 16,
+      "type": "dimension"
     }
   },
   "fontWeight": {
