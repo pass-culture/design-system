@@ -134,13 +134,24 @@
     },
     "button": {
       "fontFamily": {
-        "value": "{fontFamily.bold.name}"
+        "value": "{fontFamily.semiBold.name}"
       },
       "fontSize": {
         "value": "{fontSize.m}"
       },
       "lineHeight": {
-        "value": "{lineHeight.m}"
+        "value": "{lineHeight.button}"
+      }
+    },
+    "buttonS": {
+      "fontFamily": {
+        "value": "{fontFamily.semiBold.name}"
+      },
+      "fontSize": {
+        "value": "{fontSize.s}"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.buttonS}"
       }
     }
   }
