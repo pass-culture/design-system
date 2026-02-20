@@ -39,6 +39,12 @@
       },
       "locked": {
         "value": "{color.grey.600}"
+      },
+      "buttonDanger": {
+        "value": "{color.red.500}"
+      },
+      "buttonDangerHover": {
+        "value": "{color.red.600}"
       }
     },
     "border": {
@@ -92,6 +98,12 @@
       },
       "decorative05": {
         "value": "{color.pink.500}"
+      },
+      "buttonDanger": {
+        "value": "{color.red.500}"
+      },
+      "buttonDangerHover": {
+        "value": "{color.red.600}"
       }
     },
     "outline": {
@@ -204,6 +216,12 @@
       },
       "gradientMaximum": {
         "value": "{color.grey.0}"
+      },
+      "buttonDanger": {
+        "value": "{color.red.500}"
+      },
+      "buttonDangerHover": {
+        "value": "{color.red.600}"
       }
     },
     "icon": {
@@ -257,6 +275,12 @@
       },
       "cineclub": {
         "value": "{color.pink.600}"
+      },
+      "buttonDanger": {
+        "value": "{color.red.500}"
+      },
+      "buttonDangerHover": {
+        "value": "{color.red.600}"
       }
     }
   },
@@ -267,16 +291,6 @@
       },
       "subtle": {
         "value": "{color.grey.200}"
-      }
-    }
-  },
-  "button": {
-    "color": {
-      "danger": {
-        "value": "{color.red.500}"
-      },
-      "dangerHover": {
-        "value": "{color.red.600}"
       }
     }
   }
