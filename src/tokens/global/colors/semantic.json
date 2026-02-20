@@ -269,5 +269,15 @@
         "value": "{color.grey.200}"
       }
     }
+  },
+  "button": {
+    "color": {
+      "danger": {
+        "value": "{color.red.500}"
+      },
+      "dangerHover": {
+        "value": "{color.red.600}"
+      }
+    }
   }
 }
