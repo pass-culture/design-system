@@ -40,11 +40,11 @@
       "locked": {
         "value": "{color.grey.600}"
       },
-      "buttonDanger": {
-        "value": "{color.red.300}"
+      "danger": {
+        "value": "{color.red.400}"
       },
-      "buttonDangerHover": {
-        "value": "{color.red.200}"
+      "dangerHover": {
+        "value": "{color.red.300}"
       }
     },
     "border": {
@@ -99,11 +99,11 @@
       "decorative05": {
         "value": "{color.pink.300}"
       },
-      "buttonDanger": {
-        "value": "{color.red.300}"
+      "danger": {
+        "value": "{color.red.400}"
       },
-      "buttonDangerHover": {
-        "value": "{color.red.200}"
+      "dangerHover": {
+        "value": "{color.red.300}"
       }
     },
     "background": {
@@ -206,10 +206,13 @@
       "gradientMaximum": {
         "value": "{color.grey.600}"
       },
-      "buttonDanger": {
+      "dangerSubtle": {
+        "value": "{color.red.600}"
+      },
+      "danger": {
         "value": "{color.red.300}"
       },
-      "buttonDangerHover": {
+      "dangerHover": {
         "value": "{color.red.200}"
       }
     },
@@ -276,11 +279,11 @@
       "cineclub": {
         "value": "{color.pink.500}"
       },
-      "buttonDanger": {
-        "value": "{color.red.300}"
+      "danger": {
+        "value": "{color.red.400}"
       },
-      "buttonDangerHover": {
-        "value": "{color.red.200}"
+      "dangerHover": {
+        "value": "{color.red.300}"
       }
     }
   },
