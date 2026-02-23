@@ -40,10 +40,10 @@
       "locked": {
         "value": "{color.grey.600}"
       },
-      "buttonDanger": {
+      "danger": {
         "value": "{color.red.500}"
       },
-      "buttonDangerHover": {
+      "dangerHover": {
         "value": "{color.red.600}"
       }
     },
@@ -99,10 +99,10 @@
       "decorative05": {
         "value": "{color.pink.500}"
       },
-      "buttonDanger": {
+      "danger": {
         "value": "{color.red.500}"
       },
-      "buttonDangerHover": {
+      "dangerHover": {
         "value": "{color.red.600}"
       }
     },
@@ -217,10 +217,13 @@
       "gradientMaximum": {
         "value": "{color.grey.0}"
       },
-      "buttonDanger": {
+      "dangerSubtle": {
+        "value": "{color.red.200}"
+      },
+      "danger": {
         "value": "{color.red.500}"
       },
-      "buttonDangerHover": {
+      "dangerHover": {
         "value": "{color.red.600}"
       }
     },
@@ -276,10 +279,10 @@
       "cineclub": {
         "value": "{color.pink.600}"
       },
-      "buttonDanger": {
+      "danger": {
         "value": "{color.red.500}"
       },
-      "buttonDangerHover": {
+      "dangerHover": {
         "value": "{color.red.600}"
       }
     }
