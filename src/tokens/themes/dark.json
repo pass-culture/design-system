@@ -185,6 +185,9 @@
       "cineclub": {
         "value": "{color.pink.600}"
       },
+      "proEdito": {
+        "value": "{color.orange.600}"
+      },
       "overlay": {
         "value": "{color.opacityGrey.700}"
       },
@@ -278,6 +281,9 @@
       },
       "cineclub": {
         "value": "{color.pink.500}"
+      },
+      "proEdito": {
+        "value": "{color.orange.500}"
       },
       "danger": {
         "value": "{color.red.400}"

@@ -176,7 +176,7 @@
         "value": "{color.orange.300}"
       },
       "decorative02": {
-        "value": "{color.blue.400}"
+        "value": "{color.blue.300}"
       },
       "decorative03": {
         "value": "{color.mintgreen.400}"
@@ -195,6 +195,9 @@
       },
       "cineclub": {
         "value": "{color.pink.200}"
+      },
+      "proEdito": {
+        "value": "{color.orange.300}"
       },
       "overlay": {
         "value": "{color.opacityGrey.300}"
@@ -278,6 +281,9 @@
       },
       "cineclub": {
         "value": "{color.pink.600}"
+      },
+      "proEdito": {
+        "value": "{color.orange.600}"
       },
       "danger": {
         "value": "{color.red.500}"
