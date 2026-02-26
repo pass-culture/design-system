@@ -35,7 +35,7 @@ jobs:
       - name: Update npm version and create tag
         env:
           VERSION: ${{ inputs.version }}
-        run: echo "NEW_VERSION=$(npm version $VERSION | tail -n1)" >> "$GITHUB_ENV"
+        run: echo "NEW_VERSION=$(npm version "$VERSION" | tail -n1)" >> "$GITHUB_ENV"
       - name: Push tag
         run: |
           git push origin
