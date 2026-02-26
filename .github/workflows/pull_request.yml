@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+      - uses: pass-culture/common-workflows/actions/actionlint-check@f4db7db202ff3cddc97fcbf08c3821ebc78b10fb
       - name: Enable Corepack
         run: corepack enable
       - name: setup node
