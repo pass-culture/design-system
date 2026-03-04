@@ -23,13 +23,13 @@
         "value": "{color.purple.300}"
       },
       "brandPrimaryHover": {
-        "value": "{color.purple.400}"
+        "value": "{color.purple.200}"
       },
       "brandSecondary": {
         "value": "{color.purple.300}"
       },
       "brandSecondaryHover": {
-        "value": "{color.purple.400}"
+        "value": "{color.purple.200}"
       },
       "inverted": {
         "value": "{color.grey.600}"
@@ -70,13 +70,13 @@
         "value": "{color.purple.300}"
       },
       "brandPrimaryHover": {
-        "value": "{color.purple.400}"
+        "value": "{color.purple.200}"
       },
       "brandSecondary": {
         "value": "{color.purple.300}"
       },
       "brandSecondaryHover": {
-        "value": "{color.purple.400}"
+        "value": "{color.purple.200}"
       },
       "selected": {
         "value": "{color.grey.0}"
@@ -256,13 +256,13 @@
         "value": "{color.purple.300}"
       },
       "brandPrimaryHover": {
-        "value": "{color.purple.400}"
+        "value": "{color.purple.200}"
       },
       "brandSecondary": {
         "value": "{color.purple.300}"
       },
       "brandSecondaryHover": {
-        "value": "{color.purple.400}"
+        "value": "{color.purple.200}"
       },
       "inverted": {
         "value": "{color.grey.600}"
