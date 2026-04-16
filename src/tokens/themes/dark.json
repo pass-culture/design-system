@@ -291,6 +291,38 @@
       "dangerHover": {
         "value": "{color.red.200}"
       }
+    },
+    "illustration": {
+      "positive01": {
+        "value": "{color.mintgreen.600}"
+      },
+      "positive02": {
+        "value": "{color.mintgreen.500}"
+      },
+      "negative01": {
+        "value": "{color.pink.600}"
+      },
+      "negative02": {
+        "value": "{color.pink.400}"
+      },
+      "pending01": {
+        "value": "{color.orange.600}"
+      },
+      "information01": {
+        "value": "{color.purple.600}"
+      },
+      "information02": {
+        "value": "{color.purple.500}"
+      },
+      "information03": {
+        "value": "{color.purple.400}"
+      },
+      "information04": {
+        "value": "{color.blue.600}"
+      },
+      "information05": {
+        "value": "{color.blue.500}"
+      }
     }
   },
   "separator": {
