@@ -44,8 +44,28 @@
       "value": 64,
       "type": "dimension"
     },
+    "1200": {
+      "value": 72,
+      "type": "dimension"
+    },
+    "2800": {
+      "value": 200,
+      "type": "dimension"
+    },
+    "4300": {
+      "value": 320,
+      "type": "dimension"
+    },
     "infinity": {
       "value": 999,
+      "type": "dimension"
+    },
+    "buttonS": {
+      "value": 14,
+      "type": "dimension"
+    },
+    "button": {
+      "value": 22,
       "type": "dimension"
     }
   }
