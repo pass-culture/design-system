@@ -1,53 +1,89 @@
 {
-    "size": {
-        "borderRadius": {
-            "s": {
-                "value": "{size.200}"
-            },
-            "m": {
-                "value": "{size.300}"
-            },
-            "l": {
-                "value": "{size.500}"
-            },
-            "xl": {
-                "value": "{size.600}"
-            },
-            "xxl": {
-                "value": "{size.700}"
-            },
-            "pill": {
-                "value": "{size.infinity}"
-            }
-        },
-        "spacing": {
-            "xxs": {
-                "value": "{size.100}"
-            },
-            "xs": {
-                "value": "{size.200}"
-            },
-            "s": {
-                "value": "{size.300}"
-            },
-            "m": {
-                "value": "{size.400}"
-            },
-            "l": {
-                "value": "{size.500}"
-            },
-            "xl": {
-                "value": "{size.600}"
-            },
-            "xxl": {
-                "value": "{size.700}"
-            },
-            "xxxl": {
-                "value": "{size.800}"
-            },
-            "xxxxl": {
-                "value": "{size.900}"
-            }
-        }
+  "size": {
+    "borderRadius": {
+      "s": {
+        "value": "{size.200}"
+      },
+      "m": {
+        "value": "{size.300}"
+      },
+      "l": {
+        "value": "{size.500}"
+      },
+      "xl": {
+        "value": "{size.600}"
+      },
+      "xxl": {
+        "value": "{size.700}"
+      },
+      "pill": {
+        "value": "{size.infinity}"
+      }
+    },
+    "spacing": {
+      "xxs": {
+        "value": "{size.100}"
+      },
+      "xs": {
+        "value": "{size.200}"
+      },
+      "s": {
+        "value": "{size.300}"
+      },
+      "m": {
+        "value": "{size.400}"
+      },
+      "l": {
+        "value": "{size.500}"
+      },
+      "xl": {
+        "value": "{size.600}"
+      },
+      "xxl": {
+        "value": "{size.700}"
+      },
+      "xxxl": {
+        "value": "{size.800}"
+      },
+      "xxxxl": {
+        "value": "{size.900}"
+      }
+    },
+    "icon": {
+      "s": {
+        "value": "{size.500}"
+      },
+      "m": {
+        "value": "{size.600}"
+      },
+      "l": {
+        "value": "{size.700}"
+      },
+      "buttonS": {
+        "value": "{size.buttonS}"
+      },
+      "button": {
+        "value": "{size.button}"
+      }
+    },
+    "image": {
+      "s": {
+        "value": "{size.1000}"
+      },
+      "m": {
+        "value": "{size.1200}"
+      }
+    },
+    "illustration": {
+      "xs": {
+        "value": "{size.1200}"
+      },
+      "m": {
+        "value": "{size.2800}"
+      },
+      "xl": {
+        "value": "{size.4300}"
+      }
     }
+  }
 }
