@@ -153,6 +153,28 @@
       "lineHeight": {
         "value": "{lineHeight.buttonS}"
       }
+    },
+    "link": {
+      "fontFamily": {
+        "value": "{fontFamily.semiBold.name}"
+      },
+      "fontSize": {
+        "value": "{fontSize.m}"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.m}"
+      }
+    },
+    "linkS": {
+      "fontFamily": {
+        "value": "{fontFamily.semiBold.name}"
+      },
+      "fontSize": {
+        "value": "{fontSize.s}"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.s}"
+      }
     }
   }
 }
