@@ -175,6 +175,17 @@
       "lineHeight": {
         "value": "{lineHeight.s}"
       }
+    },
+    "linkXs": {
+      "fontFamily": {
+        "value": "{fontFamily.semiBold.name}"
+      },
+      "fontSize": {
+        "value": "{fontSize.xs}"
+      },
+      "lineHeight": {
+        "value": "{lineHeight.xs}"
+      }
     }
   }
 }
