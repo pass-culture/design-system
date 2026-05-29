@@ -48,6 +48,10 @@
       "value": 72,
       "type": "dimension"
     },
+    "1500": {
+      "value": 96,
+      "type": "dimension"
+    },
     "2800": {
       "value": 200,
       "type": "dimension"

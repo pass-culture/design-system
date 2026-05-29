@@ -78,10 +78,13 @@
       "xs": {
         "value": "{size.1200}"
       },
-      "m": {
-        "value": "{size.2800}"
+      "s": {
+        "value": "{size.1500}"
       },
       "xl": {
+        "value": "{size.2800}"
+      },
+      "xxxl": {
         "value": "{size.4300}"
       }
     }
