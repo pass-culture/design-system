@@ -67,11 +67,23 @@
       }
     },
     "image": {
-      "s": {
+      "xxs": {
         "value": "{size.1000}"
       },
-      "m": {
+      "xs": {
         "value": "{size.1200}"
+      },
+      "s": {
+        "value": "{size.1300}"
+      },
+      "m": {
+        "value": "{size.1500}"
+      },
+      "l": {
+        "value": "{size.2100}"
+      },
+      "xl": {
+        "value": "{size.2500}"
       }
     },
     "illustration": {
