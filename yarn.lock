@@ -5,12 +5,12 @@ __metadata:
   version: 8
   cacheKey: 10
 
-"@bundled-es-modules/deepmerge@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "@bundled-es-modules/deepmerge@npm:4.3.1"
+"@bundled-es-modules/deepmerge@npm:^4.3.2":
+  version: 4.3.2
+  resolution: "@bundled-es-modules/deepmerge@npm:4.3.2"
   dependencies:
     deepmerge: "npm:^4.3.1"
-  checksum: 10/b96ad879ec052591ea9f3f3570294ee7a808df9f60c7e21977ee8dbdc3156324de7f85a432c9b290c73fec3519ee169a963002ddec9bc00cbca9582aa092910b
+  checksum: 10/9634bf7d28cfb4b9919e8d8d33d88078e35636bb37d6613d27d255206ffae3dc582b1a02685f5eb80dee3409472bde53509f539a2ec7b21775c9805581f29125
   languageName: node
   linkType: hard
 
@@ -534,7 +534,7 @@ __metadata:
   resolution: "@pass-culture/design-system@workspace:."
   dependencies:
     "@types/node": "npm:^20.19.33"
-    style-dictionary: "npm:^5.4.1"
+    style-dictionary: "npm:^5.4.4"
     tsx: "npm:^4.21.0"
     typescript: "npm:^5.9.3"
     vitest: "npm:^4.1.8"
@@ -1999,11 +1999,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-dictionary@npm:^5.4.1":
-  version: 5.4.1
-  resolution: "style-dictionary@npm:5.4.1"
+"style-dictionary@npm:^5.4.4":
+  version: 5.4.4
+  resolution: "style-dictionary@npm:5.4.4"
   dependencies:
-    "@bundled-es-modules/deepmerge": "npm:^4.3.1"
+    "@bundled-es-modules/deepmerge": "npm:^4.3.2"
     "@bundled-es-modules/glob": "npm:^13.0.6"
     "@bundled-es-modules/memfs": "npm:^4.17.0"
     "@zip.js/zip.js": "npm:^2.7.44"
@@ -2018,7 +2018,7 @@ __metadata:
     tinycolor2: "npm:^1.6.0"
   bin:
     style-dictionary: bin/style-dictionary.js
-  checksum: 10/db81b814d232ea7c4adb192b0291d5801dfc8b4b4473325dec325e92cce360ba02a8c18774a813c70d6137fab754a6c760f8e08d4e13ee1b906457b2e33badb5
+  checksum: 10/f8c5814cc1a350d6008d5c01771c9793105fd73700fdda0c8aa170c5ffe09081925084b0c3032195b2164e4afc70632e22edfef6f468a8bd10cf3565115ef677
   languageName: node
   linkType: hard
 
