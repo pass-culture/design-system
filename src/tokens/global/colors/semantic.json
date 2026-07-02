@@ -197,6 +197,9 @@
         "value": "{color.pink.200}"
       },
       "proEdito": {
+        "value": "{color.green.200}"
+      },
+      "sceneClub": {
         "value": "{color.orange.300}"
       },
       "overlay": {
@@ -283,6 +286,9 @@
         "value": "{color.pink.600}"
       },
       "proEdito": {
+        "value": "{color.green.600}"
+      },
+      "sceneClub": {
         "value": "{color.orange.600}"
       },
       "danger": {
