@@ -16,6 +16,12 @@
       "xxl": {
         "value": "{size.700}"
       },
+      "5xl": {
+        "value": "{size.1000}"
+      },
+      "10xl": {
+        "value": "{size.1500}"
+      },
       "pill": {
         "value": "{size.infinity}"
       }
