@@ -534,7 +534,7 @@ __metadata:
   resolution: "@pass-culture/design-system@workspace:."
   dependencies:
     "@types/node": "npm:^20.19.33"
-    style-dictionary: "npm:^5.4.4"
+    style-dictionary: "npm:^5.5.0"
     tsx: "npm:^4.22.4"
     typescript: "npm:^5.9.3"
     vitest: "npm:^4.1.8"
@@ -1983,9 +1983,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-dictionary@npm:^5.4.4":
-  version: 5.4.4
-  resolution: "style-dictionary@npm:5.4.4"
+"style-dictionary@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "style-dictionary@npm:5.5.0"
   dependencies:
     "@bundled-es-modules/deepmerge": "npm:^4.3.2"
     "@bundled-es-modules/glob": "npm:^13.0.6"
@@ -2002,7 +2002,7 @@ __metadata:
     tinycolor2: "npm:^1.6.0"
   bin:
     style-dictionary: bin/style-dictionary.js
-  checksum: 10/f8c5814cc1a350d6008d5c01771c9793105fd73700fdda0c8aa170c5ffe09081925084b0c3032195b2164e4afc70632e22edfef6f468a8bd10cf3565115ef677
+  checksum: 10/1ca09592d7bd8b0fdd9bde0e61133ea756eaefab2f773485aa9b9e53cef16191fd1faa2181043ee022ca004315a933cadb2d0dd612b955337e105aeb486245e4
   languageName: node
   linkType: hard
 
