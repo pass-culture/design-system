@@ -60,6 +60,9 @@
       "error": {
         "value": "{color.red.500}"
       },
+      "warning": {
+        "value": "{color.yellow.500}"
+      },
       "success": {
         "value": "{color.green.500}"
       },
@@ -306,7 +309,7 @@
         "value": "{color.mintgreen.400}"
       },
       "negative01": {
-        "value": "{color.pink.400}"
+        "value": "{color.pink.500}"
       },
       "negative02": {
         "value": "{color.pink.300}"
