@@ -16,6 +16,12 @@
       "xxl": {
         "value": "{size.700}"
       },
+      "3xl": {
+        "value": "{size.800}"
+      },
+      "4xl": {
+        "value": "{size.900}"
+      },
       "5xl": {
         "value": "{size.1000}"
       },
@@ -104,6 +110,20 @@
       },
       "xxxl": {
         "value": "{size.4300}"
+      }
+    },
+    "stroke": {
+      "s": {
+        "value": "{size.50}"
+      },
+      "m": {
+        "value": "{size.100}"
+      },
+      "l": {
+        "value": "{size.200}"
+      },
+      "xl": {
+        "value": "{size.300}"
       }
     }
   }
