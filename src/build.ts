@@ -1,7 +1,6 @@
 import StyleDictionary from 'style-dictionary'
 import { getBrandConfigs } from './configs/brands'
 import { getTypoConfig } from './configs/formatters/getTypoConfig'
-import { registerCustomTransforms } from './configs/transformers/sizeTransform'
 
 const sd = new StyleDictionary()
 
