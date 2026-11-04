@@ -60,6 +60,9 @@
       "error": {
         "value": "{color.red.400}"
       },
+      "warning": {
+        "value": "{color.yellow.400}"
+      },
       "success": {
         "value": "{color.green.400}"
       },
@@ -186,6 +189,9 @@
         "value": "{color.pink.600}"
       },
       "proEdito": {
+        "value": "{color.green.600}"
+      },
+      "sceneClub": {
         "value": "{color.orange.600}"
       },
       "overlay": {
@@ -283,6 +289,9 @@
         "value": "{color.pink.500}"
       },
       "proEdito": {
+        "value": "{color.green.500}"
+      },
+      "sceneClub": {
         "value": "{color.orange.500}"
       },
       "danger": {

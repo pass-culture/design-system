@@ -60,6 +60,9 @@
       "error": {
         "value": "{color.red.500}"
       },
+      "warning": {
+        "value": "{color.yellow.500}"
+      },
       "success": {
         "value": "{color.green.500}"
       },
@@ -197,6 +200,9 @@
         "value": "{color.pink.200}"
       },
       "proEdito": {
+        "value": "{color.green.200}"
+      },
+      "sceneClub": {
         "value": "{color.orange.300}"
       },
       "overlay": {
@@ -283,6 +289,9 @@
         "value": "{color.pink.600}"
       },
       "proEdito": {
+        "value": "{color.green.600}"
+      },
+      "sceneClub": {
         "value": "{color.orange.600}"
       },
       "danger": {
@@ -300,7 +309,7 @@
         "value": "{color.mintgreen.400}"
       },
       "negative01": {
-        "value": "{color.pink.400}"
+        "value": "{color.pink.500}"
       },
       "negative02": {
         "value": "{color.pink.300}"
