@@ -7,16 +7,18 @@ jobs:
     name: Build & Test
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: pass-culture/common-workflows/actions/actionlint-check@f4db7db202ff3cddc97fcbf08c3821ebc78b10fb
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: pass-culture/common-workflows/actions/actionlint-check@547f3df463509ca831922b667e6dc2d29f74e4e0 # actionlint/v0.3
       - name: Enable Corepack
         run: corepack enable
       - name: setup node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '22.x'
           cache: 'yarn'
-      - uses: pass-culture/common-workflows/actions/setup-safe-chain@main
+      - uses: pass-culture/common-workflows/actions/setup-safe-chain@5715b432e91814bc6ab6725ff10abf3b81d5f8d1 # safe-chain-setup/v1.3.3
       - name: Install dependencies
         run: yarn install
       - name: Build project
